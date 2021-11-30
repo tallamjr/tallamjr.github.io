@@ -43,11 +43,11 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2">
              <img
-             src="https://media-exp1.licdn.com/dms/image/C560BAQHtHsvUbC5v7g/company-logo_200_200/0/1593614233947?e=1645660800&v=beta&t=goG6nBgYupvChTIrTulL0leCzB57__y8b6o0SVxUBfA" width="500px">
+             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
     </td>
-    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
-    <br>The Alan Turing Institute, London.</td>
-    <td align="right"> 05.2021 - present</td>
+    <td><strong>Ph.D Applied Machine Learning [Astrophysics]</strong>
+    <br>University College London (UCL)</td>
+    <td align="right"> 09.2017 - present</td>
  </tr>
  <tr>
     <td colspan = "3">
@@ -59,11 +59,27 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2">
              <img
-             src="https://media-exp1.licdn.com/dms/image/C560BAQHtHsvUbC5v7g/company-logo_200_200/0/1593614233947?e=1645660800&v=beta&t=goG6nBgYupvChTIrTulL0leCzB57__y8b6o0SVxUBfA" width="500px">
+             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
     </td>
-    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
-    <br>The Alan Turing Institute, London.</td>
-    <td align="right"> 05.2021 - present</td>
+    <td><strong>MSc Computer Science</strong>
+    <br>University College London (UCL)</td>
+    <td align="right"> 09.2014 - 09.2016</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
+    </td>
+ </tr>
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/863019488756867072/jfSAkjvI_400x400.jpg" width="500px">
+    </td>
+    <td><strong>MSci Astrophysics</strong>
+    <br>Royal Holloway, University of London (RHUL)</td>
+    <td align="right"> 09.2007 - 07.2011</td>
  </tr>
  <tr>
     <td colspan = "3">
@@ -75,13 +91,13 @@ Below is an overview of some of my profession and technical experience.
 </table>
 
 
-## Résumé
+## Technical Work Experience
 
 <table border = "0" width = "100%">
  <tr>
     <td rowspan = "2">
              <img
-             src="https://media-exp1.licdn.com/dms/image/C560BAQHtHsvUbC5v7g/company-logo_200_200/0/1593614233947?e=1645660800&v=beta&t=goG6nBgYupvChTIrTulL0leCzB57__y8b6o0SVxUBfA" width="500px">
+             src="https://pbs.twimg.com/profile_images/1410283678647922693/ko45s63W_400x400.jpg" width="500px">
     </td>
     <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
     <br>The Alan Turing Institute, London.</td>
@@ -94,10 +110,113 @@ Below is an overview of some of my profession and technical experience.
     data and model compression techniques for deep neural networks.
     </td>
  </tr>
+<!-- ########################################################################################## -->
  <tr>
     <td rowspan = "2">
              <img
-             src="https://media-exp1.licdn.com/dms/image/C560BAQHtHsvUbC5v7g/company-logo_200_200/0/1593614233947?e=1645660800&v=beta&t=goG6nBgYupvChTIrTulL0leCzB57__y8b6o0SVxUBfA" width="500px">
+             src="https://pbs.twimg.com/profile_images/467335134648086528/BM5uS_Ip_400x400.png" width="500px">
+    </td>
+    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 05.2021 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
+    </td>
+    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 05.2021 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" width="500px">
+    </td>
+    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 05.2021 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/1410283678647922693/ko45s63W_400x400.jpg" width="500px">
+    </td>
+    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 05.2021 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/1462761692526489610/laImAs5T_400x400.jpg" width="500px">
+    </td>
+    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 05.2021 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/1413028367058804739/u62edTls_400x400.jpg" width="500px">
+    </td>
+    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 05.2021 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
     </td>
     <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong>
     <br>The Alan Turing Institute, London.</td>
