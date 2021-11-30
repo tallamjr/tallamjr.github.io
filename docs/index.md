@@ -22,16 +22,21 @@ processing and probabilistic machine learning can be used for **Learned Image Re
 📱.
 
 Find me online `@tallamjr` trying to contribute to open-source whereever possible, retweeting and
-rambling things, and professional insights here:
-
-<center>
-<a class="github-button" href="https://github.com/tallamjr"
-data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:</a>
+rambling, and providing professional insights here <a class="github-button" href="https://github.com/tallamjr"
+data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:, </a>
 <a class="twitter-button" href="https://twitter.com/tallamjr"
-data-icon="octicon-mark-github" aria-label="@tallamjr on Twitter">:fontawesome-brands-twitter:</a>
+data-icon="octicon-mark-github" aria-label="@tallamjr on Twitter">:fontawesome-brands-twitter:, </a>
 <a class="github-button" href="https://github.com/tallamjr"
 data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:fontawesome-brands-linkedin:</a>
-</center>
+
+<!-- <center> -->
+<!-- <a class="github-button" href="https://github.com/tallamjr" -->
+<!-- data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:</a> -->
+<!-- <a class="twitter-button" href="https://twitter.com/tallamjr" -->
+<!-- data-icon="octicon-mark-github" aria-label="@tallamjr on Twitter">:fontawesome-brands-twitter:</a> -->
+<!-- <a class="github-button" href="https://github.com/tallamjr" -->
+<!-- data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:fontawesome-brands-linkedin:</a> -->
+<!-- </center> -->
 
 # Curriculum Vitae
 
