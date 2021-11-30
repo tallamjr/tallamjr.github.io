@@ -1,22 +1,41 @@
 ---
 template: overrides/main.html
-title: Homepage
+title: About Me
 ---
 ## Bio
 
 <img src="./assets/images/profile-crop.png" style='border:0px solid #000000' alt="profile pic" align="right" width="300" height="300">
 
-I am currently a PhD student at the Centre for Doctral Training in Data Intensive Science at the Mullard Space Science Laboratory, UCL, supervised by Professor Jason McEwen, Professor Ofer Lahav and Dr. Denise Gorse. My PhD is in the emerging field of Astroinformatics, which is an interdisciplinary field of study involving the combination of astrophysics, astronomy, data science and machine learning.
+Hello! _Ola!_ _Oi!_ , my name is Tarek
 
-My research focus centres around applying Machine Learning methods for Photometric Supernova classification. For a further overview of my research interests and specific research topics I am involved with, see my research page.
+I am a fourth year PhD student at the Centre for Data Intensive Science at University College London
+(UCL). My research focus is on the application of **Deep Learning** algorithms for real-time
+classification of Astronomical transient events.
 
-I am a polyglot-programmer whose current languages of choice are Scala, Rust and Python See my blog for a more personal look into my world.
+I am also a Research Software Engineering Fellow at the [Software Sustainability
+Institute](https://www.software.ac.uk/), where I help academics leverage tools and software
+engineering best practises for better research software engineering: #bettersoftwarebetterscience
 
-[Send :fontawesome-solid-cog:](#){ .md-button .md-button--primary }
-[Download :fontawesome-solid-cog:](#){ .md-button .md-button--primary }
+Besides my doctoral research, I enjoy exploring how latest techniques in statistical signal
+processing and probabilistic machine learning can be used for **Learned Image Reconstruction** and
+**Learned Image Compression** 🗜️ in **Embedded Systems** for **Embedded Machine Learning (#TinyML)**
+📱.
 
-:octicons-heart-fill-24:{ .heart } <a class="github-button" href="https://github.com/sponsors/tallamjr" data-icon="octicon-heart" aria-label="Sponsor @tallamjr on GitHub">Sponsor</a>
+Find me online `@tallamjr` trying to contribute to open-source whereever possible, retweeting and
+rambling things, and professional insights here:
 
+<center>
+<a class="github-button" href="https://github.com/tallamjr"
+data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:</a>
+<a class="twitter-button" href="https://twitter.com/tallamjr"
+data-icon="octicon-mark-github" aria-label="@tallamjr on Twitter">:fontawesome-brands-twitter:</a>
+<a class="github-button" href="https://github.com/tallamjr"
+data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:fontawesome-brands-linkedin:</a>
+</center>
+
+# Curriculum Vitae
+
+Below is an overview of some of my profession and technical experience.
 
 ## Education
 
@@ -92,4 +111,8 @@ I am a polyglot-programmer whose current languages of choice are Scala, Rust and
     </td>
  </tr>
 </table>
+
+<center>
+[Download C.V. :fontawesome-solid-arrow-alt-circle-down:](#){ .md-button .md-button--primary }
+</center>
 

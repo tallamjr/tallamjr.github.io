@@ -6,7 +6,7 @@
 }
 
 .md-typeset .md-button {
-    border: 0.1rem solid;
+    border: 0.1rem;
     border-radius: 2rem;
 
 @keyframes heart {
@@ -20,3 +20,17 @@
 .heart {
   animation: heart 1000ms infinite;
 }
+
+.medium {
+  color: #00AB6C;
+}
+.twitter {
+  color: #1DA1F2;
+}
+.facebook {
+  color: #4267B2;
+}
+/* .linkedin { */
+/*   color: #0072B1; */
+/* } */
+
