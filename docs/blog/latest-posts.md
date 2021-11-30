@@ -12,8 +12,8 @@ search:
 
 # Latest Posts
 
-<!-- Here are a handful of recent blog posts. Look out for updates and new posts by following me on -->
-<!-- Twitter :fontawesome-brands-twitter:{ .twitter } or Medium :fontawesome-brands-medium:{ .medium } -->
+Latest blog posts are published here, look out for updates on my
+[Twitter :fontawesome-brands-twitter:{ .twitter }](https://twitter.com/tallamjr) or [Medium :fontawesome-brands-medium:{ .medium }](https://medium.com/@t.allam.jr)
 
 <!-- ########################################################################################## -->
 
@@ -86,3 +86,4 @@ what's about to come.
 
   [Search: better, faster, smaller]: 2021/search-better-faster-smaller.md
   [insiders-3.0.0]: ../insiders/changelog.md#3.0.0
+
