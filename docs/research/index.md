@@ -2,6 +2,7 @@
 template: overrides/main.html
 search:
   exclude: true
+title: Research
 ---
 
 <style>
