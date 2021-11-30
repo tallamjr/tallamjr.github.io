@@ -12,6 +12,11 @@ search:
 
 # Latest Posts
 
+<!-- Here are a handful of recent blog posts. Look out for updates and new posts by following me on -->
+<!-- Twitter :fontawesome-brands-twitter:{ .twitter } or Medium :fontawesome-brands-medium:{ .medium } -->
+
+<!-- ########################################################################################## -->
+
 ## [Excluding content from search]
 
 __The latest Insiders release brings three new simple ways to exclude dedicated
@@ -45,6 +50,8 @@ by the built-in search functionality.
 
   [Excluding content from search]: 2021/excluding-content-from-search.md
   [insiders-3.1.1]: ../insiders/changelog.md#3.1.1
+
+<!-- ########################################################################################## -->
 
 ## [Search: better, faster, smaller]
 
