@@ -237,6 +237,6 @@ Below is an overview of some of my profession and technical experience.
 </table>
 
 <center>
-[Download C.V. :fontawesome-solid-arrow-alt-circle-down:](#){ .md-button .md-button--primary }
+<a class="md-button md-button--primary" href="./assets/tarekallam-cv.pdf">Download C.V. :fontawesome-solid-arrow-alt-circle-down:</a>
 </center>
 
