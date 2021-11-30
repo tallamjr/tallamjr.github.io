@@ -154,8 +154,11 @@ nav:
     - blog/latest-posts.md
     - 2021:
       - blog/2021/paying-attention.md
-      # - blog/2021/excluding-content-from-search.md
-      # - blog/2021/search-better-faster-smaller.md
+    - 2020:
+      - blog/2020/public-private-repos.md
+      - blog/2020/datum-2005.md
+      - blog/2020/sbt-native-packaging.md
+      - blog/2020/pyspark-by-example.md
     - 2016:
       - blog/2016/matlab-r-julia-notebooks.md
     - templates:

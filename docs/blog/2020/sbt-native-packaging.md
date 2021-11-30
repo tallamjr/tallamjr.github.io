@@ -1,19 +1,34 @@
 ---
-draft: false
-title: "Packaging Scala Applications"
-author: "Tarek Allam Jr"
-date: 2020-02-10
-category: tutorials
-tags: [reproducibility, programming]
-cover: "/img/posts/2020-02-10-SBT-native-packaging/cover.jpg"
+template: overrides/main.html
+description: >
+    Scala compiles down to Java byte code, which can then be run on any system running the JVM. It
+    would be nice if one could extend this to native system binaries that can be run anywhere. Here I
+    walk through the steps of getting SBT-Native-Packager to create a native binary as well as a docker
+    image that can run my 'Hello World' application.
 ---
 
-Scala compiles down to Java byte code, which can then be run on any system running the JVM. It
+# Packaging Scala Applications
+
+__Scala compiles down to Java byte code, which can then be run on any system running the JVM. It
 would be nice if one could extend this to native system binaries that can be run anywhere. Here I
 walk through the steps of getting SBT-Native-Packager to create a native binary as well as a docker
-image that can run my 'Hello World' application.
+image that can run my 'Hello World' application.__
 
-<!--more-->
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: February 10, 2020 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
 
 For this short post, I have created a "simpleApp" which is a simple "Hello, World!" application in
 Scala. The example code for this post is in the standard maven directory layout, i.e:

@@ -1,19 +1,34 @@
 ---
-draft: false
-title: "PySpark by Example"
-author: "Tarek Allam Jr"
-date: 2020-05-14
-categories: [tutorials]
-tags: [spark, visualisation]
-cover: "/img/posts/2020-05-14-PySpark-by-Example/pyspark.jpeg"
+template: overrides/main.html
+description: >
+    "Here are my worked examples from the very useful LinkedIn Learning course: PySpark by Example by
+    Jonathan Fernandes : https://www.linkedin.com/learning/apache-pyspark-by-example"
 ---
 
-Here are my worked examples from the very useful LinkedIn Learning course: PySpark by Example by
-Jonathan Fernandes : https://www.linkedin.com/learning/apache-pyspark-by-example
+# PySpark by Example
 
-<!--more-->
+__Here are my worked examples from the very useful LinkedIn Learning course: PySpark by Example by
+    Jonathan Fernandes : https://www.linkedin.com/learning/apache-pyspark-by-example__
 
-# Learning PySpark by Example
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: May 14, 2020 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
+<head>
+               <script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
+</head>
+## Learning PySpark by Example
 
 Over the past 12 months or so I have been learning and playing with Apache Spark. I went through the
 brilliant book by Bill Chambers and Matei Zaharia, *Spark: The Definitive Guide*, that covers Spark
