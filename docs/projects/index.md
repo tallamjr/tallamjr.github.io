@@ -5,7 +5,9 @@ comments: false
 
 # Recent Projects
 
-Below is a collection of open-source personal projects I am working on, as well as some very interesting projects I am lucky enough to be involved with. If you like the work here and would like to support more me, you can help sponsor more contributions
+Below is a collection of open-source personal projects I am working on, as well as some very
+interesting projects I am lucky enough to be involved with. If you like the work here and would like
+to support more from me, you can help sponsor contributions
 <a class="mdx-insiders" href="https://github.com/sponsors/tallamjr" data-icon="octicon-heart" aria-label="Sponsor @tallamjr on GitHub">here :octicons-heart-fill-24:{ .heart }</a>
 
 ---
