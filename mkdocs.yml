@@ -85,13 +85,13 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/allam-labs
+      link: https://github.com/tallamjr
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/allamlabs
+      link: https://twitter.com/tallamjr
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/allam-labs/
+      link: https://linkedin.com/in/tallamjr
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/allam-labs
+      link: https://instagram.com/tallamjr
 
 # Extensions
 markdown_extensions:
