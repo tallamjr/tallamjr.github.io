@@ -73,7 +73,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td colspan = "3">
     Department of Computer Science, Engineering<br>
-    Supervised by: Prof. Jason McEwen, Prof. Denise Gorse<br>
+    <em>Supervised by</em>: Prof. Jason McEwen, Prof. Denise Gorse<br>
     Project: <strong>Radio Interferometric Image Reconstruction for the SKA: A Deep Learning Approach</strong>
     </td>
  </tr>
@@ -89,7 +89,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td colspan = "3">
     Department of Physics<br>
-    Supervised by: Prof. Stuart Boogert<br>
+    <em>Supervised by</em>: Prof. Stuart Boogert<br>
     Project: <strong>Analytical Methods of Stellar Spectra: Stellar Spectroscopy</strong>
     </td>
  </tr>
