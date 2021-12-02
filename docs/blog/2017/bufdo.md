@@ -1,26 +1,39 @@
 ---
-draft: false
-layout: post
-title: "Ah bufdo; That'll do.."
-author: "Tarek Allam Jr"
-date: 2020-05-18
-categories: [misc]
-tags: [vim, processing, unix]
-cover: "/img/posts/2020-05-18-Bufdo-Will-Do/cover.png"
+template: overrides/main.html
+description: >
+    "# Ah `bufdo`; That'll do"
 ---
-A while ago I worked on a method to allow local writing of development logs in markdown, which I
-could then upload to Github where my supervisor could take a look. Here are the steps..
 
-<!--more-->
+# Ah `bufdo`; That'll do
 
-<!-- {{< figure src="/img/posts/2020-04-08-FINK/fink-architecture-20200206.png">}} -->
-<!-- Testing [cardinality](/posts/glossary#cardinality) -->
+__A while ago I worked on a method to allow local writing of development logs in markdown, which I
+could then upload to Github where my supervisor could take a look. Here are the steps..__
+
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: November 06, 2017 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
 
 # `:bufdo`
 
-*Originally authored 2017-11-06*
-
-{{< figure src="https://imgs.xkcd.com/comics/real_programmers.png">}}
+<!-- Place images inside folder with same name as post -->
+<figure markdown>
+![](https://imgs.xkcd.com/comics/real_programmers.png){ width=100% }
+<figcaption markdown>
+"Real programmers use vim.."
+</figcaption>
+</figure>
 
 In true vim-fan-boy fashion, I write my development logs in `vim` and then
 like to have them render from within `vim`. To do this I use a plugin called

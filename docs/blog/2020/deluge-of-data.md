@@ -1,15 +1,29 @@
 ---
-draft: true
-title: "Compression in the Information Age"
-author: "Tarek Allam Jr"
-date: 2020-12-31
-category: tutorials
-tags: [reproducibility, programming]
+template: overrides/main.html
+description: >
+    "A Deluge of Data"
 ---
 
-Overview here..
+# A Deluge of Data
 
-<!--more-->
+__A datum of news from the Open Source, Data Science and Data Engineering circles. May 2020
+edition__
+
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: December 31, 2020 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
 
 * Apache Arrow
 * Databases
@@ -39,11 +53,23 @@ $$
 \end{equation}
 $$
 
-$$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
+$$
+\begin{equation}
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi
+\end{equation}
+$$
 
 $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
 
-{{< figure src="/blog/img/posts/2016-11-12-Matlab-R-Julia-Notebooks/newprojectlist.png" class="alignright">}}
+In equation $\eqref{eq:sample}$, we find the value of an
+interesting integral:
+
+$$
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+  \label{eq:sample}
+\end{equation}
+$$
 
 - [Scala and SBT Introduction](#scala)
 - [SBT-Native-Packager](#native)

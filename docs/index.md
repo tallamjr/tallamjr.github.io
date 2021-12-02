@@ -57,7 +57,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td colspan = "3">
     Centre for Doctoral Training in Data Intensive Science<br>
-    <em>Supervised by</em>: Prof. Jason McEwen (Primary Advisor), Prof. Denise Gorse<br>
+    <em>Supervised by</em>: <a href="http://www.jasonmcewen.org/">Prof. Jason McEwen</a> (Primary Advisor), Prof. Denise Gorse<br>
     Thesis: <strong>Multivariate Time-Series Classification of Astrophysical Transients with Deep Learning</strong>
     </td>
  </tr>

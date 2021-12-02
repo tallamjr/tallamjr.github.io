@@ -6,7 +6,7 @@ search:
   exclude: true
 ---
 
-# Public and Private Repo's on Github
+# Mirroring Public Repositories on Github, Privately
 
 __This post walks through the steps involved if you want to fork a public Github repository,
 privately. It will show how to have an open public repository and how to mirror it in a private
