@@ -1,6 +1,5 @@
 arviz
 funsor
-jaxlib>=0.1.65
 jupyter
 matplotlib
 mkdocs-bibtex
@@ -8,6 +7,6 @@ mkdocs-jupyter
 mkdocs-minify-plugin
 mkdocs-redirects
 numpy
-numpyro
+numpyro==0.8.0
 pandas
 seaborn
