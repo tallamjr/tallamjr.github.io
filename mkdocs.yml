@@ -1,6 +1,7 @@
 # Project information
 site_name: Tarek Allam Jr.
 site_url: https://www.tarekallamjr.com/
+site_dir: "docs"
 site_author: Tarek Allam Jr.
 site_description: >-
   Create a branded static site from a set of Markdown files to host the
@@ -9,6 +10,7 @@ site_description: >-
 # repo_name: tallamjr.github.io
 # repo_url: https://github.com/tallamjr
 # edit_uri: ""
+docs_dir: "src"
 
 # Copyright
 copyright: Copyright &copy; 2021 - 2022 Tarek Allam Jr.
