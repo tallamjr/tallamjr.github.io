@@ -21,12 +21,12 @@ image that can run my 'Hello World' application.__
 <span>
 :octicons-calendar-24: February 10, 2020 ·
 :octicons-clock-24: 15 min read ·
-[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 

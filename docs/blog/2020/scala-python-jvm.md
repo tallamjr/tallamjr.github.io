@@ -1,13 +1,12 @@
 ---
 template: overrides/main.html
 description: >
-  How we rebuilt client-side search, delivering a better user experience while
-  making it faster and smaller at the same time
+    Calling compiled Scala code inside the JVM from Python using PySpark
 ---
 
 # Calling Compiled Scala Code from Python using PySpark
 
-__This is the story about a template post__
+__Calling compiled Scala code inside the JVM from Python using PySpark__
 
 <aside class="mdx-author" markdown>
 ![@tallamjr][@tallamjr avatar]
@@ -16,24 +15,15 @@ __This is the story about a template post__
 <span>
 :octicons-calendar-24: May 27, 2020 ·
 :octicons-clock-24: 15 min read ·
-[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 
-<!-- Place images inside folder with same name as post -->
-<figure markdown>
-![](triangle.jpg){ width=100% }
-<figcaption markdown>
-I'm a figure caption...
-</figcaption>
-</figure>
-
-Calling compiled Scala code inside the JVM from Python using PySpark
 
 There is no doubt that Java and Scala are the de-facto languages for Data Engineering, whilst Python
 is certainly the front runner for language of choice with Data Scientists. Spark; a framework for

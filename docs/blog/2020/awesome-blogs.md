@@ -1,41 +1,29 @@
 ---
 template: overrides/main.html
 description: >
-  How we rebuilt client-side search, delivering a better user experience while
-  making it faster and smaller at the same time
-# hide:
-# - navigation
+    Awesome engineering blogs inspired by awesome.re
 ---
 
 # Awesome Engineering Blogs
 
-__This is the story about a template post__
+__This post was inspired by David Zhang's [awesome-engineering-blogs](https://github.com/crispgm/awesome-engineering-blogs) and the general ![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) movement, www.awesome.re__
 
 <aside class="mdx-author" markdown>
 ![@tallamjr][@tallamjr avatar]
 
 <span>__Tarek Allam Jr.__· @tallamjr</span>
 <span>
-:octicons-calendar-24: May 27, 2020 ·
-:octicons-clock-24: 15 min read ·
-[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+:octicons-calendar-24: February 9, 2020 ·
+:octicons-clock-24: 2 min read ·
+<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 
-<!-- Place images inside folder with same name as post -->
-<figure markdown>
-![](triangle.jpg){ width=100% }
-<figcaption markdown>
-I'm a figure caption...
-</figcaption>
-</figure>
-
-This post was inspired by David Zhang's [awesome-engineering-blogs](https://github.com/crispgm/awesome-engineering-blogs) and the general ![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) movement, www.awesome.re
 
 The idea is that this list will grow (and possibly shrink) over time as I discover more engineering
 blogs, and I will use this list as a reference for myself.

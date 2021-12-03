@@ -158,14 +158,14 @@ nav:
     #   - blog/2021/bap-numpyro.md
     #   - blog/2021/paying-attention.md
     - 2020:
+      - blog/2020/pyspark-by-example.md
+      - blog/2020/scala-python-jvm.md
+      - blog/2020/public-private-repos.md
+      - blog/2020/sbt-native-packaging.md
       - blog/2020/awesome-blogs.md
       # - blog/2020/datum-2005.md
       # - blog/2020/deluge-of-data.md
-      - blog/2020/public-private-repos.md
-      - blog/2020/pyspark-by-example.md
       # - blog/2020/rabbit-hole.md
-      - blog/2020/sbt-native-packaging.md
-      - blog/2020/scala-python-jvm.md
     - 2017:
       - blog/2017/bufdo.md
     - 2016:

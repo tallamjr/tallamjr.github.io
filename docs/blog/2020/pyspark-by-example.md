@@ -15,14 +15,14 @@ __Here are my worked examples from the very useful LinkedIn Learning course: PyS
 
 <span>__Tarek Allam Jr.__· @tallamjr</span>
 <span>
-:octicons-calendar-24: May 14, 2020 ·
-:octicons-clock-24: 15 min read ·
-[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+:octicons-calendar-24: May 28, 2020 ·
+:octicons-clock-24: 30 min read ·
+<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 <head>
