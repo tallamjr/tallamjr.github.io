@@ -1,7 +1,8 @@
-arviz
-funsor
-jax[cpu]
-jupyter
+arviz==0.11.2
+causalgraphicalmodels==0.0.4
+daft==0.1.2
+funsor==0.4.1
+jupyter==1.0.0
 matplotlib
 mkdocs-bibtex
 mkdocs-jupyter
@@ -10,4 +11,4 @@ mkdocs-redirects
 numpy
 numpyro==0.8.0
 pandas
-seaborn
+seaborn==0.11.2
