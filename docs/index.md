@@ -208,39 +208,61 @@ Below is an overview of some of my profession and technical experience.
     </td>
  </tr>
 <!-- ########################################################################################## -->
- <!-- <tr> -->
- <!--    <td rowspan = "2"> -->
- <!--             <img -->
- <!--             src="https://pbs.twimg.com/profile_images/1413028367058804739/u62edTls_400x400.jpg" width="500px"> -->
- <!--    </td> -->
- <!--    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong> -->
- <!--    <br>The Alan Turing Institute, London.</td> -->
- <!--    <td align="right"> 05.2021 - present</td> -->
- <!-- </tr> -->
- <!-- <tr> -->
- <!--    <td colspan = "3"> -->
- <!--    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric -->
- <!--    inference techniques for sequential latent factor modelling. Work collaboratively to investigate -->
- <!--    data and model compression techniques for deep neural networks. -->
- <!--    </td> -->
- <!-- </tr> -->
-<!-- <!-1- ########################################################################################## -1-> -->
- <!-- <tr> -->
- <!--    <td rowspan = "2"> -->
- <!--             <img -->
- <!--             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px"> -->
- <!--    </td> -->
- <!--    <td><strong>Machine Learning Researcher <a href="https://www.w3schools.com">[TIN Internship]</a></strong> -->
- <!--    <br>The Alan Turing Institute, London.</td> -->
- <!--    <td align="right"> 05.2021 - present</td> -->
- <!-- </tr> -->
- <!-- <tr> -->
- <!--    <td colspan = "3"> -->
- <!--    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric -->
- <!--    inference techniques for sequential latent factor modelling. Work collaboratively to investigate -->
- <!--    data and model compression techniques for deep neural networks. -->
- <!--    </td> -->
- <!-- </tr> -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
+    </td>
+    <td><strong>Graduate Teaching Assistant</strong>
+    <br>University College London (UCL).</td>
+    <td align="right"> 11.2015 - 09.2017 </td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Provided teaching support to students and staff participating in I.T training courses given by UCL
+    Information Services. A selection of training courses include Python Programming, R, UNIX and
+    MATLAB.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/1413028367058804739/u62edTls_400x400.jpg" width="500px">
+    </td>
+    <td><strong>Back End Developer</strong>
+    <br><a href="https://www.atositchallenge.net/edition-2015/">ATOS International IT Challenge Finalist [3rd Place]</a></td>
+    <td align="right"> 10.2014 - 09.2015 </td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Working in a team of 5 and as part of the Atos international IT competition we were set a task
+    to develop a product that would integrate a user with IoT technologies. Our idea was to create
+    an internet connected intercom system that would allow a user to answer their door/sign for a
+    package remotely with an application on their smartphone. My role was to develop effective Bash
+    and Python scripts that would automate configuration of the product upon start up. In addition,
+    working collectively as part of the sub-hardware team, was to integrate modern web technologies
+    such as WebRTC with the hardware.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="https://pbs.twimg.com/profile_images/2562464179/mk8jck45g2k4l2s1cg3n_400x400.jpeg" width="500px">
+    </td>
+    <td><strong>Computational Physics Modeller <a href="#">[Research Internship]</a></strong>
+    <br>John Adams Institute, Dept. Physics, RHUL</td>
+    <td align="right"> 06.2010- 08.2010</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    The aim of this internship was to develop visual representations using Python of TM & TE modes that
+    occur within cylindrical accelerator cavities. These were represented in 2-dimensions using Python’s
+    Matplotlib and in 3- dimensions using Python codes embedded in Paraview.
+    </td>
+ </tr>
+
 </table>
 
 <center>
