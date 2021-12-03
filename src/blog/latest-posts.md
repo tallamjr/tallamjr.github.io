@@ -17,7 +17,7 @@ Latest blog posts are published here, look out for updates on my
 
 <!-- ########################################################################################## -->
 
-## PySpark by Example
+## [PySpark by Example]
 
 __Here are my worked examples from the very useful LinkedIn Learning course: PySpark by Example by
     Jonathan Fernandes : https://www.linkedin.com/learning/apache-pyspark-by-example__
@@ -52,7 +52,7 @@ Streaming examples).
 
 <!-- ########################################################################################## -->
 
-## Calling Compiled Scala Code from Python using PySpark
+## [Calling Compiled Scala Code from Python using PySpark]
 
 __Calling compiled Scala code inside the JVM from Python using PySpark__
 
