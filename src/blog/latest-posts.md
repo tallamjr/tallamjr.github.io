@@ -47,7 +47,7 @@ Streaming examples).
 
 [:octicons-arrow-right-24: Continue reading][PySpark by Example]
 
-  [Excluding content from search]: 2020/pyspark-by-example.md
+  [PySpark by Example]: 2020/pyspark-by-example.md
   <!-- [insiders-3.1.1]: ../insiders/changelog.md#3.1.1 -->
 
 <!-- ########################################################################################## -->
