@@ -1,15 +1,29 @@
 ---
-draft: true
-title: "Branching Models"
-author: "Tarek Allam Jr"
-date: 2020-06-16
-category: tutorials
-tags: [reproducibility, programming]
+template: overrides/main.html
+description: >
+    "# Ah `bufdo`; That'll do"
 ---
 
-Starting a new project requires setting out some guidelines, choosing branching model.
+# Branching Models
 
-<!--more-->
+__Starting a new project requires setting out some guidelines, choosing branching model.__
+
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: November 06, 2017 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
+
 
 Other forms of software engineering branching models such as ["trunk based development"](https://trunkbaseddevelopment.com/)
 

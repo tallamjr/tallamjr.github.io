@@ -1,15 +1,31 @@
 ---
-draft: true
-title: "Databases and Distributed Systems Deep Dive"
-author: "Tarek Allam Jr"
-date: 2020-05-19
-category: tutorials
-tags: [reproducibility, programming]
+template: overrides/main.html
+description: >
+    "# Ah `bufdo`; That'll do"
 ---
 
-2020 became the year for me to learn Databases and Distributed Systems, properly!
+# Databases and Distributed Systems Deep Dive
 
-<!--more-->
+__Starting a new project requires setting out some guidelines, choosing branching model.__
+
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: November 06, 2017 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
+
+
+2020 became the year for me to learn Databases and Distributed Systems, properly!
 
 During my Master in Computer Science a few years ago, my favourite courses were Systems Architecture
 (Operating Systems, Compilers etc) and Architecture and Hardware. Another course I took was Database

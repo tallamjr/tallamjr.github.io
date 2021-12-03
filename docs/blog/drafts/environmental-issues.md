@@ -1,45 +1,36 @@
 ---
-draft: true
-title: "Release Versioning with git tags"
-author: "Tarek Allam Jr"
-date: 2020-06-10
-category: tutorials
-tags: [reproducibility, programming]
+template: overrides/main.html
+description: >
+    "# Ah `bufdo`; That'll do"
 ---
 
-In this post I walk through the steps of how one can set up a standalone Python
-project to have it's version set by git tags alone. I will also walk through how one can achieve
-this with a Scala project within the same repository.
+# Data Science Environments with Anaconda
 
-<!--more-->
+__In this post I walk through the steps of how one can set up a standalone Python
+project to have it's version set by git tags alone. I will also walk through how one can achieve
+this with a Scala project within the same repository.__
+
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: November 06, 2017 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
 
 Releasing software, whether it be a MAJOR, MINOR or PATCH update, often requires one to bump
 versions in several files. This can cause files/packages to be out of sync if there are a few files that
 need updating.
 
 ## Why?
-
-
-```python
-from setuptools import setup, find_packages
-
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
-
-__FALLBACK_VERSION__ = "0.1"
-
-setup(
-    name="option3",
-    use_scm_version={
-        "root": ".",
-        "relative_to": __file__,
-        "fallback_version": __FALLBACK_VERSION__},
-    setup_requires=['setuptools_scm>=3.5.0'],
-    packages=find_packages(),
-    install_requires=requirements
-)
-
-```
 
 {{< figure src="/blog/img/posts/2016-11-12-Matlab-R-Julia-Notebooks/newprojectlist.png" class="alignright">}}
 

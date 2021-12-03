@@ -1,11 +1,29 @@
 ---
-draft: true
-title: "Git in the Habbit"
-author: "Tarek Allam Jr"
-date: 2020-06-12
-category: tutorials
-tags: [reproducibility, programming]
+template: overrides/main.html
+description: >
+    "# Ah `bufdo`; That'll do"
 ---
+
+# Git in the habit
+
+__Starting a new project requires setting out some guidelines, choosing branching model.__
+
+<aside class="mdx-author" markdown>
+![@tallamjr][@tallamjr avatar]
+
+<span>__Tarek Allam Jr.__· @tallamjr</span>
+<span>
+:octicons-calendar-24: November 06, 2017 ·
+:octicons-clock-24: 15 min read ·
+[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
+</span>
+</aside>
+
+  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
+  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
+
+---
+
 
 Some years ago, I decided to make a couple changes to how I write my commits and organise my git
 logs. This post goes over how breaking a couple habits has vastly improved my software development
