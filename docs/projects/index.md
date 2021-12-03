@@ -1,5 +1,6 @@
 ---
 title: Projects
+template: overrides/main.html
 comments: false
 ---
 

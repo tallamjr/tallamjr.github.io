@@ -16,7 +16,7 @@ copyright: Copyright &copy; 2021 - 2022 Tarek Allam Jr.
 # Configuration
 theme:
   name: material
-  custom_dir: material/overrides
+  custom_dir: material
   features:
     - navigation.tabs
 
