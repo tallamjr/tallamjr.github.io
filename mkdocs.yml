@@ -150,10 +150,17 @@ extra_javascript:
 # Page tree
 nav:
   - About Me: index.md
+
   - Research:
     - research/index.md
+
   - Projects:
-    - projects/index.md
+    - projects/recent-projects.md
+    - ML Engineering:
+      - projects/mle/mle-projects.md
+    - Online Books:
+      - projects/online-books/online-books.md
+
   - Blog:
     - blog/latest-posts.md
     # - 2021:

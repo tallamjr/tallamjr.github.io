@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Recent Projects
 template: overrides/main.html
 comments: false
 ---
@@ -16,7 +16,7 @@ to support more from me, you can help sponsor contributions
 ##### [simurgh](https://github.com/alan-turing-institute/simurgh)
 
 <center>
-![](./index/simurgh-wiki.jpg)
+![](./assets/simurgh-wiki.jpg)
 </center>
 
 `simurgh` (pronounced Seymour) is an open source platform that supports developing and evaluating
@@ -38,7 +38,7 @@ approaches to ATC
 ##### www.astroinformatics.xyz
 
 <center>
-![](./index/logo_transparent_resize.png){ width=400 }
+![](./assets/logo_transparent_resize.png){ width=400 }
 </center>
 
 `astroinformatics.xyz` is a online book inspired by the OpenAI book
@@ -59,7 +59,7 @@ production system design.
 ##### [option3](https://github.com/tallamjr/option3)
 
 <center>
-![](./index/option3.png){ width=400 }
+![](./assets/option3.png){ width=400 }
 </center>
 
 `option3` is a proof of concept application that is being used to improve my understanding of
@@ -75,7 +75,7 @@ visualise, in real-time, the processed data.
 Follow me on [Github](https://www.github.com/tallamjr/) and check out more of my projects.
 
 <center>
-![](./index/contributions-dark.png){ width=800 }
+![](./assets/contributions-dark.png){ width=800 }
 </center>
 <!-- {{< projects >}} -->
 
