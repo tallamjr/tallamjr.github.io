@@ -368,7 +368,7 @@ time exploring `plotly`. I've put a few points on things I learned whilst writin
 Overall, I have learned at lot and look forward to exploring more "big-data"-sets with `pyspark`
 and `plotly`
 
-## *Things-I-Learned* [TIL]
+### Things I Learned Along the Way
 
 1. A few key _things-I-learned_ during this post was how to embed interactive `plotly` figures into
 markdown such that they can be rendered into the blog with ease.
