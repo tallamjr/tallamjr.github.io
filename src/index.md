@@ -21,13 +21,12 @@ processing and probabilistic machine learning can be used for **Learned Image Re
 **Learned Image Compression** :compression: in **Embedded Systems** :octicons-cpu-24: for **Embedded
 Machine Learning (#TinyML)** :mobile_phone:
 
-Find me online `@tallamjr` trying to contribute to open-source whereever possible, retweeting and
-rambling, and providing professional insights here <a class="github-button" href="https://github.com/tallamjr"
+Find me online `@tallamjr` $\in \{$ <a class="github-button" href="https://github.com/tallamjr"
 data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:, </a>
 <a class="twitter-button" href="https://twitter.com/tallamjr"
 data-icon="octicon-mark-github" aria-label="@tallamjr on Twitter">:fontawesome-brands-twitter:, </a>
 <a class="github-button" href="https://github.com/tallamjr"
-data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:fontawesome-brands-linkedin:</a>
+data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:fontawesome-brands-linkedin:</a> $\}$
 
 <!-- <center> -->
 <!-- <a class="github-button" href="https://github.com/tallamjr" -->
@@ -58,7 +57,7 @@ Below is an overview of some of my profession and technical experience.
     <td colspan = "3">
     Centre for Doctoral Training in Data Intensive Science<br>
     <em>Supervised by</em>: <a href="http://www.jasonmcewen.org/">Prof. Jason McEwen</a> (Primary Advisor), Prof. Denise Gorse<br>
-    Thesis: <strong>Multivariate Time-Series Classification of Astrophysical Transients with Deep Learning</strong>
+    Thesis: <strong>Real-time Classification of Astrophysical Transients using Deep Learning</strong>
     </td>
  </tr>
  <tr>
