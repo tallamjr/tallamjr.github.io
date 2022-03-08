@@ -4,7 +4,7 @@ description: >
     Review of the Xception network and the Depthwise-Separable Convolution
 ---
 
-# Xception and the Depthwise-Separable Convolution
+# XceptionTime: Depthwise-Separable Convolutions for Efficient Time-Series Classification
 
 __Review of the Xception network and the Depthwise-Separable Convolution__
 
