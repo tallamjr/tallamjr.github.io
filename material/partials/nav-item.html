@@ -15,15 +15,15 @@
     <li class="{{ class }} md-nav__item--nested">
       {% set checked = "checked" if nav_item.active %}
       {% if "navigation.expand" in features and not checked %}
-        <input class="md-nav__toggle md-toggle" data-md-toggle="{{ path }}" data-md-state="indeterminate" type="checkbox" id="{{ path }}" checked>
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="{{ path }}" type="checkbox" id="{{ path }}" checked>
       {% else %}
         <input class="md-nav__toggle md-toggle" data-md-toggle="{{ path }}" type="checkbox" id="{{ path }}" {{ checked }}>
       {% endif %}
       {% set indexes = [] %}
       {% if "navigation.indexes" in features %}
-        {% for item in nav_item.children %}
-          {% if item.is_index and not index is defined %}
-            {% set _ = indexes.append(item) %}
+        {% for nav_item in nav_item.children %}
+          {% if nav_item.is_index and not index is defined %}
+            {% set _ = indexes.append(nav_item) %}
           {% endif %}
         {% endfor %}
       {% endif %}
@@ -51,8 +51,7 @@
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           {% for nav_item in nav_item.children %}
-            {% if "navigation.indexes" in features and nav_item.is_index %}
-            {% else %}
+            {% if not indexes or nav_item != indexes | first %}
               {{ render(nav_item, path ~ "_" ~ loop.index, level + 1) }}
             {% endif %}
           {% endfor %}
