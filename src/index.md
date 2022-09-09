@@ -101,7 +101,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2" width=20% >
              <img
-             src="https://pbs.twimg.com/profile_images/1410283678647922693/ko45s63W_400x400.jpg" width="500px">
+             src="https://pbs.twimg.com/profile_images/1546829818020462593/1p0cFOMF_400x400.jpg" width="500px">
     </td>
     <td><strong>Machine Learning Researcher <a href="https://www.turing.ac.uk/collaborate-turing/internships">[TIN Internship]</a></strong>
     <br>The Alan Turing Institute, London.</td>
@@ -171,7 +171,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2">
              <img
-             src="https://pbs.twimg.com/profile_images/1410283678647922693/ko45s63W_400x400.jpg" width="500px">
+             src="https://pbs.twimg.com/profile_images/1546829818020462593/1p0cFOMF_400x400.jpg" width="500px">
     </td>
     <td><strong>Research Software Engineer <a href="#">[Ph.D Internship]</a></strong>
     <br>The Alan Turing Institute, London.</td>
@@ -192,7 +192,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2">
              <img
-             src="https://pbs.twimg.com/profile_images/1462761692526489610/laImAs5T_400x400.jpg" width="500px">
+             src="https://pbs.twimg.com/profile_images/1567970287664173059/UC4sUkZm_400x400.jpg" width="500px">
     </td>
     <td><strong>Data Scientist <a href="#">[Ph.D Internship]</a></strong>
     <br>Transport for London (TfL).</td>
