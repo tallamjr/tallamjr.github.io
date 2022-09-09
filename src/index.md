@@ -58,7 +58,7 @@ Below is an overview of some of my profession and technical experience.
     <td colspan = "3">
     Centre for Doctoral Training in Data Intensive Science<br>
     <em>Supervised by</em>: <a href="http://www.jasonmcewen.org/">Prof. Jason McEwen</a> (Primary Advisor), Prof. Denise Gorse<br>
-    Thesis: <strong>Multivariate Time-Series Classification of Astrophysical Transients with Deep Learning</strong>
+    Thesis: <strong>Efficient Deep Learning for Real-time Classification of Astronomical Transients</strong>
     </td>
  </tr>
  <tr>
@@ -74,7 +74,7 @@ Below is an overview of some of my profession and technical experience.
     <td colspan = "3">
     Department of Computer Science, Engineering<br>
     <em>Supervised by</em>: Prof. Jason McEwen, Prof. Denise Gorse<br>
-    Project: <strong>Radio Interferometric Image Reconstruction for the SKA: A Deep Learning Approach</strong>
+    Project: <a href="./assets/tarekallam-msc-thesis.pdf"><strong>Radio Interferometric Image Reconstruction for the SKA: A Deep Learning Approach</strong></a>
     </td>
  </tr>
  <tr>
