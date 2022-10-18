@@ -156,9 +156,11 @@ nav:
     - projects/index.md
   - Blog:
     - blog/latest-posts.md
-    # - 2021:
-    #   - blog/2021/bap-numpyro.md
-    #   - blog/2021/paying-attention.md
+    - 2022:
+      - blog/2022/polars-by-example.md
+    - 2021:
+      - blog/2021/bap-numpyro.md
+      - blog/2021/paying-attention.md
     - 2020:
       - blog/2020/pyspark-by-example.md
       - blog/2020/scala-python-jvm.md

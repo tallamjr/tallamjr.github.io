@@ -21,8 +21,7 @@ processing and probabilistic machine learning can be used for **Learned Image Re
 **Learned Image Compression** :compression: in **Embedded Systems** :octicons-cpu-24: for **Embedded
 Machine Learning (#TinyML)** :mobile_phone:
 
-Find me online `@tallamjr` trying to contribute to open-source whereever possible, retweeting and
-rambling, and providing professional insights here <a class="github-button" href="https://github.com/tallamjr"
+Find me online `@tallamjr` <a class="github-button" href="https://github.com/tallamjr"
 data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:, </a>
 <a class="twitter-button" href="https://twitter.com/tallamjr"
 data-icon="octicon-mark-github" aria-label="@tallamjr on Twitter">:fontawesome-brands-twitter:, </a>
@@ -48,9 +47,9 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2" width=20% >
              <img
-             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
+             src="./assets/logos/ucl-logo.png" width="500px">
     </td>
-    <td><strong>Ph.D Applied Machine Learning [Astrophysics]</strong>
+    <td><strong>Ph.D Applied Machine Learning [<a href="https://en.wikipedia.org/wiki/Astroinformatics">Astroinformatics</a>]</strong>
     <br>University College London (UCL)</td>
     <td align="right"> 09.2017 - present</td>
  </tr>
@@ -64,7 +63,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2" width=20% >
              <img
-             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
+             src="./assets/logos/ucl-logo.png" width="500px">
     </td>
     <td><strong>MSc Computer Science</strong>
     <br>University College London (UCL)</td>
@@ -80,7 +79,7 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2" width=20% >
              <img
-             src="https://pbs.twimg.com/profile_images/863019488756867072/jfSAkjvI_400x400.jpg" width="500px">
+             src="./assets/logos/rhul-logo.png" width="500px">
     </td>
     <td><strong>MSci Astrophysics</strong>
     <br>Royal Holloway, University of London (RHUL)</td>
@@ -95,30 +94,51 @@ Below is an overview of some of my profession and technical experience.
  </tr>
 </table>
 
-## Technical Work Experience
+## Recent Technical Experience
 
 <table border = "0" width = "100%">
+
  <tr>
     <td rowspan = "2" width=20% >
              <img
-             src="https://pbs.twimg.com/profile_images/1546829818020462593/1p0cFOMF_400x400.jpg" width="500px">
+             src="./assets/logos/ati-logo.png" width="500px">
     </td>
-    <td><strong>Machine Learning Researcher <a href="https://www.turing.ac.uk/collaborate-turing/internships">[TIN Internship]</a></strong>
+    <td><strong>Machine Learning Researcher </strong>
     <br>The Alan Turing Institute, London.</td>
-    <td align="right"> 05.2021 - present</td>
+    <td align="right"> 10.2022 - present</td>
  </tr>
  <tr>
     <td colspan = "3">
-    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
-    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
-    data and model compression techniques for deep neural networks.
+    Conduct research into deep learning and probabilistic machine learning methods for solving
+    inverse problems such as image reconstruction, image generation, and data compression.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2" width=20% >
+             <img
+             src="./assets/logos/allam-labs-logo.jpeg" width="500px">
+    </td>
+    <td><strong>Machine Learning Engineer</strong>
+    <br>Allam Labs., London.</td>
+    <td align="right"> 09.2021 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Machine Learning Operations (MLOps) and Research Software Engineering (RSE) consulting for
+    large-scale cloud and embedded systems deployment of deep learning applications. Providing
+    hands-on implementation of bespoke architectures using <code>tensorflow.keras</code>,
+    <code>tflite</code>, <code>jax</code> and <code>pytorch</code>, as well as specialist machine
+    learning data pipelines that leverage <code>polars</code> and <code>pyspark</code>. In-depth
+    advisory services relating to the wider data engineering mission with OLAP database and model
+    serving guidance. See <a href="www.allam-labs.com">allam-labs.com</a> for further details.
     </td>
  </tr>
 <!-- ########################################################################################## -->
  <tr>
     <td rowspan = "2">
              <img
-             src="https://pbs.twimg.com/profile_images/467335134648086528/BM5uS_Ip_400x400.png" width="500px">
+             src="./assets/logos/ssi-logo.png" width="500px">
     </td>
     <td><strong>Research Software Engineering Fellow</strong>
     <br>Software Sustainability Institute (SSI)</td>
@@ -134,45 +154,45 @@ Below is an overview of some of my profession and technical experience.
  </tr>
 <!-- ########################################################################################## -->
  <tr>
-    <td rowspan = "2">
+    <td rowspan = "2" width=20% >
              <img
-             src="https://pbs.twimg.com/profile_images/1318547560248823810/G_3bH6w1_400x400.jpg" width="500px">
+             src="./assets/logos/cdt-logo.jpeg" width="500px">
     </td>
-    <td><strong>Graduate Teaching Assistant</strong>
-    <br>University College London (UCL)</td>
-    <td align="right"> 09.2020 - 09.2021</td>
+    <td><strong>Machine Learning Researcher and Engineer</strong>
+    <br>Centre for Doctoral Training in Data Intensive Science & Industry, UCL, London.</td>
+    <td align="right"> 09.2017 - present</td>
  </tr>
  <tr>
     <td colspan = "3">
-    Assisting with grading and lesson planning for <a
-    href="https://www.ucl.ac.uk/module-catalogue/modules/machine-learning-with-big-data-SPCE0038">SPCE038:
-    Machine Learning with Big Data.</a> Lead the migration of <code>TensorFlow 1.x</code> to
-    <code>TensorFlow 2.x API</code>.  Coordinated infrastructure setup for delivery of course
-    through Jupyter Book
+    Contributed to numerous collaborative projects including preparatory work for a large-scale
+    community machine learning kaggle competition. Led the design and development of astronet, an
+    open-source scientific research software package introduces novel efficient deep learning
+    architectures for low-latency high-throughput multivariate time-series classification. It also
+    contains a machine learning pipeline which uses Apache Spark and polars for big-data processing, as
+    well as tensorflow.datasets and tensorflow.distributed for efficient distributed model training. The
+    lightweight architectures currently implemented in astronet have been deployed into live production
+    machine learning systems by way modern model compression techniques for real-time classification of
+    astronomical alerts.
     </td>
  </tr>
 <!-- ########################################################################################## -->
  <tr>
-    <td rowspan = "2">
+ <tr>
+    <td rowspan = "4" width=20% >
              <img
-             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" width="500px">
+             src="./assets/logos/ati-logo.png" width="500px">
     </td>
-    <td><strong>Graduate Teaching Assistant</strong>
-    <br>London Business School (LBS)</td>
-    <td align="right"> 03.2020 - 06.2020</td>
+    <td><strong>Machine Learning Researcher <a href="https://www.turing.ac.uk/collaborate-turing/internships">[TIN Internship]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 05.2021 - 11.2021</td>
  </tr>
  <tr>
     <td colspan = "3">
-    Assisting with grading and support for: E517: Python for Finance, QDE-APP: Applied Python Program-
-    ming and CA22: Basic Python.
+    Conduct research into unsupervised probabilistic machine learning and scalable non-parametric
+    inference techniques for sequential latent factor modelling. Work collaboratively to investigate
+    data and model compression techniques for deep neural networks.
     </td>
  </tr>
-<!-- ########################################################################################## -->
- <tr>
-    <td rowspan = "2">
-             <img
-             src="https://pbs.twimg.com/profile_images/1546829818020462593/1p0cFOMF_400x400.jpg" width="500px">
-    </td>
     <td><strong>Research Software Engineer <a href="#">[Ph.D Internship]</a></strong>
     <br>The Alan Turing Institute, London.</td>
     <td align="right"> 08.2019 - 03.2020</td>
@@ -192,7 +212,63 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td rowspan = "2">
              <img
-             src="https://pbs.twimg.com/profile_images/1567970287664173059/UC4sUkZm_400x400.jpg" width="500px">
+             src="./assets/logos/sensat-logo.jpeg" width="500px">
+    </td>
+    <td><strong>Machine Learning Research Engineer <a href="https://www.turing.ac.uk/collaborate-turing/data-study-groups">[DSG Participant]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 12.2019 - 12.2019</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Invited to explore point cloud segmentation techniques as part of the <a
+    href="https://www.turing.ac.uk/research/publications/data-study-group-final-report-sensat">SenSat - Semantic and
+    Instance Segmentation of 3D Point Clouds Project</a>. Investigating both semantic and instance
+    segmentation in order to recognise objects such as roads, buildings, cars, etc. in a large 3D
+    urban environment to enable safer autonomous vehicles on the road, automated asset management in
+    urban planning, and accurate digital twin simulations. Benchmark deep learning methods
+    implemented using <code>pytorch</code>.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="./assets/logos/ucl-logo.png" width="500px">
+    </td>
+    <td><strong>Graduate Teaching Assistant</strong>
+    <br>University College London (UCL)</td>
+    <td align="right"> 09.2020 - 09.2021</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Assisting with grading and lesson planning for <a
+    href="https://www.ucl.ac.uk/module-catalogue/modules/machine-learning-with-big-data-SPCE0038">SPCE038:
+    Machine Learning with Big Data.</a> Lead the migration of <code>tensorFlow 1.x</code> to
+    <code>tensorFlow 2.x</code>.  Coordinated infrastructure setup for delivery of course
+    through Jupyter Book
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="./assets/logos/lbs-logo.png" width="500px">
+    </td>
+    <td><strong>Graduate Teaching Assistant</strong>
+    <br>London Business School (LBS)</td>
+    <td align="right"> 03.2020 - 06.2020</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Assisting with grading and support for: E517: Python for Finance, QDE-APP: Applied Python Program-
+    ming and CA22: Basic Python.
+    </td>
+ </tr>
+<!-- ########################################################################################## -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="./assets/logos/tfl-logo.png" width="500px">
     </td>
     <td><strong>Data Scientist <a href="#">[Ph.D Internship]</a></strong>
     <br>Transport for London (TfL).</td>
