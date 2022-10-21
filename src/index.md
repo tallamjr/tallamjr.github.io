@@ -39,7 +39,8 @@ data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:fontawesome-br
 
 # Curriculum Vitae
 
-Below is an overview of some of my profession and technical experience.
+Below is an overview of some of my profession and technical experience. You can download a more
+extensive version of my C.V below.
 
 ## Education
 
@@ -57,7 +58,7 @@ Below is an overview of some of my profession and technical experience.
     <td colspan = "3">
     Centre for Doctoral Training in Data Intensive Science<br>
     <em>Supervised by</em>: <a href="http://www.jasonmcewen.org/">Prof. Jason McEwen</a> (Primary Advisor), Prof. Denise Gorse<br>
-    Thesis: <strong>Real-time Classification of Astrophysical Transients using Deep Learning</strong>
+    Thesis: <strong>Efficient Deep Learning for Real-time Classification of Astronomical Transients</strong>
     </td>
  </tr>
  <tr>
@@ -94,64 +95,64 @@ Below is an overview of some of my profession and technical experience.
  </tr>
 </table>
 
-## Recent Technical Experience
+## Selected Recent Technical Experience
 
 <table border = "0" width = "100%">
 
- <tr>
-    <td rowspan = "2" width=20% >
-             <img
-             src="./assets/logos/ati-logo.png" width="500px">
-    </td>
-    <td><strong>Machine Learning Researcher </strong>
-    <br>The Alan Turing Institute, London.</td>
-    <td align="right"> 10.2022 - present</td>
- </tr>
- <tr>
-    <td colspan = "3">
-    Conduct research into deep learning and probabilistic machine learning methods for solving
-    inverse problems such as image reconstruction, image generation, and data compression.
-    </td>
- </tr>
+ <!-- <tr> -->
+ <!--    <td rowspan = "2" width=20% > -->
+ <!--             <img -->
+ <!--             src="./assets/logos/ati-logo.png" width="500px"> -->
+ <!--    </td> -->
+ <!--    <td><strong>Machine Learning Researcher </strong> -->
+ <!--    <br>The Alan Turing Institute, London.</td> -->
+ <!--    <td align="right"> 10.2022 - present</td> -->
+ <!-- </tr> -->
+ <!-- <tr> -->
+ <!--    <td colspan = "3"> -->
+ <!--    Conduct research into deep learning and probabilistic machine learning methods for solving -->
+ <!--    inverse problems such as image reconstruction, image generation, and data compression. -->
+ <!--    </td> -->
+ <!-- </tr> -->
+<!-- <!-1- ########################################################################################## -1-> -->
+ <!-- <tr> -->
+ <!--    <td rowspan = "2" width=20% > -->
+ <!--             <img -->
+ <!--             src="./assets/logos/allam-labs-logo.jpeg" width="500px"> -->
+ <!--    </td> -->
+ <!--    <td><strong>Machine Learning Engineer</strong> -->
+ <!--    <br>Allam Labs., London.</td> -->
+ <!--    <td align="right"> 09.2021 - present</td> -->
+ <!-- </tr> -->
+ <!-- <tr> -->
+ <!--    <td colspan = "3"> -->
+ <!--    Machine Learning Operations (MLOps) and Research Software Engineering (RSE) consulting for -->
+ <!--    large-scale cloud and embedded systems deployment of deep learning applications. Providing -->
+ <!--    hands-on implementation of bespoke architectures using <code>tensorflow.keras</code>, -->
+ <!--    <code>tflite</code>, <code>jax</code> and <code>pytorch</code>, as well as specialist machine -->
+ <!--    learning data pipelines that leverage <code>polars</code> and <code>pyspark</code>. In-depth -->
+ <!--    advisory services relating to the wider data engineering mission with OLAP database and model -->
+ <!--    serving guidance. See <a href="www.allam-labs.com">allam-labs.com</a> for further details. -->
+ <!--    </td> -->
+ <!-- </tr> -->
 <!-- ########################################################################################## -->
- <tr>
-    <td rowspan = "2" width=20% >
-             <img
-             src="./assets/logos/allam-labs-logo.jpeg" width="500px">
-    </td>
-    <td><strong>Machine Learning Engineer</strong>
-    <br>Allam Labs., London.</td>
-    <td align="right"> 09.2021 - present</td>
- </tr>
- <tr>
-    <td colspan = "3">
-    Machine Learning Operations (MLOps) and Research Software Engineering (RSE) consulting for
-    large-scale cloud and embedded systems deployment of deep learning applications. Providing
-    hands-on implementation of bespoke architectures using <code>tensorflow.keras</code>,
-    <code>tflite</code>, <code>jax</code> and <code>pytorch</code>, as well as specialist machine
-    learning data pipelines that leverage <code>polars</code> and <code>pyspark</code>. In-depth
-    advisory services relating to the wider data engineering mission with OLAP database and model
-    serving guidance. See <a href="www.allam-labs.com">allam-labs.com</a> for further details.
-    </td>
- </tr>
-<!-- ########################################################################################## -->
- <tr>
-    <td rowspan = "2">
-             <img
-             src="./assets/logos/ssi-logo.png" width="500px">
-    </td>
-    <td><strong>Research Software Engineering Fellow</strong>
-    <br>Software Sustainability Institute (SSI)</td>
-    <td align="right"> 05.2021 - present</td>
- </tr>
- <tr>
-    <td colspan = "3">
-    Advocating for software engineering best practises in the research community by providing
-    version control and testing training to academics. My <a
-    href="https://software.ac.uk/about">SSI</a> mission is prepare and up-skill academics for
-    working with large scientific research code-bases, that can scale to many contributors.
-    </td>
- </tr>
+ <!-- <tr> -->
+ <!--    <td rowspan = "2"> -->
+ <!--             <img -->
+ <!--             src="./assets/logos/ssi-logo.png" width="500px"> -->
+ <!--    </td> -->
+ <!--    <td><strong>Research Software Engineering Fellow</strong> -->
+ <!--    <br>Software Sustainability Institute (SSI)</td> -->
+ <!--    <td align="right"> 01.2020 - present</td> -->
+ <!-- </tr> -->
+ <!-- <tr> -->
+ <!--    <td colspan = "3"> -->
+ <!--    Advocating for software engineering best practises in the research community by providing -->
+ <!--    version control and testing training to academics. Specifically using <code>git</code> and -->
+ <!--    <code>pytest</code> in preparation for working with large scientific research codebases, that -->
+ <!--    can scale to many contributors. -->
+ <!--    </td> -->
+ <!-- </tr> -->
 <!-- ########################################################################################## -->
  <tr>
     <td rowspan = "2" width=20% >
@@ -165,14 +166,19 @@ Below is an overview of some of my profession and technical experience.
  <tr>
     <td colspan = "3">
     Contributed to numerous collaborative projects including preparatory work for a large-scale
-    community machine learning kaggle competition. Led the design and development of astronet, an
-    open-source scientific research software package introduces novel efficient deep learning
-    architectures for low-latency high-throughput multivariate time-series classification. It also
-    contains a machine learning pipeline which uses Apache Spark and polars for big-data processing, as
-    well as tensorflow.datasets and tensorflow.distributed for efficient distributed model training. The
-    lightweight architectures currently implemented in astronet have been deployed into live production
-    machine learning systems by way modern model compression techniques for real-time classification of
-    astronomical alerts.
+    community machine learning <a href="https://www.kaggle.com/c/PLAsTiCC-2018">kaggle
+    competition</a>.
+    <br>
+    <br>
+    Led the design and development of <a
+    href="https://github.com/tallamjr/astronet/"><code>astronet</code></a>, an open-source
+    scientific research software package introduces novel efficient deep learning architectures for
+    low-latency high-throughput multivariate time-series classification. It also contains a machine
+    learning pipeline which uses <code>pyspark</code> and <code>polars</code> for big-data
+    processing, as well as <code>tensorflow.datasets</code> and <code>tensorflow.distributed</code>
+    for efficient distributed model training. The lightweight architectures currently implemented in
+    <code>astronet</code> have been deployed into live production machine learning systems by way
+    modern model compression techniques for real-time classification of astronomical alerts.
     </td>
  </tr>
 <!-- ########################################################################################## -->
@@ -209,26 +215,26 @@ Below is an overview of some of my profession and technical experience.
     </td>
  </tr>
 <!-- ########################################################################################## -->
- <tr>
-    <td rowspan = "2">
-             <img
-             src="./assets/logos/sensat-logo.jpeg" width="500px">
-    </td>
-    <td><strong>Machine Learning Research Engineer <a href="https://www.turing.ac.uk/collaborate-turing/data-study-groups">[DSG Participant]</a></strong>
-    <br>The Alan Turing Institute, London.</td>
-    <td align="right"> 12.2019 - 12.2019</td>
- </tr>
- <tr>
-    <td colspan = "3">
-    Invited to explore point cloud segmentation techniques as part of the <a
-    href="https://www.turing.ac.uk/research/publications/data-study-group-final-report-sensat">SenSat - Semantic and
-    Instance Segmentation of 3D Point Clouds Project</a>. Investigating both semantic and instance
-    segmentation in order to recognise objects such as roads, buildings, cars, etc. in a large 3D
-    urban environment to enable safer autonomous vehicles on the road, automated asset management in
-    urban planning, and accurate digital twin simulations. Benchmark deep learning methods
-    implemented using <code>pytorch</code>.
-    </td>
- </tr>
+ <!-- <tr> -->
+ <!--    <td rowspan = "2"> -->
+ <!--             <img -->
+ <!--             src="./assets/logos/sensat-logo.jpeg" width="500px"> -->
+ <!--    </td> -->
+ <!--    <td><strong>Machine Learning Research Engineer <a href="https://www.turing.ac.uk/collaborate-turing/data-study-groups">[DSG Participant]</a></strong> -->
+ <!--    <br>The Alan Turing Institute, London.</td> -->
+ <!--    <td align="right"> 12.2019 - 12.2019</td> -->
+ <!-- </tr> -->
+ <!-- <tr> -->
+ <!--    <td colspan = "3"> -->
+ <!--    Invited to explore point cloud segmentation techniques as part of the <a -->
+ <!--    href="https://www.turing.ac.uk/research/publications/data-study-group-final-report-sensat">SenSat - Semantic and -->
+ <!--    Instance Segmentation of 3D Point Clouds Project</a>. Investigating both semantic and instance -->
+ <!--    segmentation in order to recognise objects such as roads, buildings, cars, etc. in a large 3D -->
+ <!--    urban environment to enable safer autonomous vehicles on the road, automated asset management in -->
+ <!--    urban planning, and accurate digital twin simulations. Benchmark deep learning methods -->
+ <!--    implemented using <code>pytorch</code>. -->
+ <!--    </td> -->
+ <!-- </tr> -->
 <!-- ########################################################################################## -->
  <tr>
     <td rowspan = "2">
