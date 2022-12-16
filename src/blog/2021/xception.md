@@ -29,6 +29,12 @@ Something something xception
 
 ## Z
 
+Something [@shannon:1949;@rumelhart1986learning]
+
+Something else [@rumelhart1986learning]
+
+Another thing [@riess1998observational]
+
 ### Testing another font
 $$
 \vec{\nabla} \times \vec{F} =
