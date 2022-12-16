@@ -27,21 +27,20 @@ ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
 
 TOKEN=$GHACCESSTOKEN
 REPO="tallamjr/curriculum-vitae"
-FILE="tarekallam-cv.pdf"               # the name of your release asset file, e.g. build.tar.gz
+FILENAME="tarekallam-cv.pdf"    # the name of your release asset file, e.g. build.tar.gz
 VERSION="latest"                # tag name or the word "latest"
 GITHUB="https://api.github.com"
 
+# assets list you want to download
+AseertsList=(
+ $FILENAME
+)
 
 function gh_curl() {
   curl -H "Authorization: token $TOKEN" \
        -H "Accept: application/vnd.github.v3+json" \
        $@
 }
-
-# assets list you want to download
-AseertsList=(
- $FILE
-)
 
 assets=$(gh_curl -s $GITHUB/repos/$REPO/releases/tags/$VERSION)
 
