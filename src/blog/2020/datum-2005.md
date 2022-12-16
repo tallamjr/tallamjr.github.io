@@ -1,5 +1,5 @@
 ---
-template: overrides/main.html
+template: .overrides/main.html
 description: >
     A datum of news from the Open Source, Data Science and Data Engineering circles. May 2020 edition
 search:

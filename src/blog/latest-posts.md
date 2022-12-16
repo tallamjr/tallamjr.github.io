@@ -1,5 +1,5 @@
 ---
-template: overrides/main.html
+template: .overrides/main.html
 search:
   exclude: true
 ---

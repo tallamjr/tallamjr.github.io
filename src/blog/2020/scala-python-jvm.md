@@ -1,5 +1,5 @@
 ---
-template: overrides/main.html
+template: .overrides/main.html
 description: >
     Calling compiled Scala code inside the JVM from Python using PySpark
 ---
