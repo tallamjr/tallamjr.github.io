@@ -4,12 +4,6 @@ search:
   exclude: true
 ---
 
-<style>
-  .md-sidebar--secondary:not([hidden]) {
-    visibility: hidden;
-  }
-</style>
-
 # Latest Posts
 
 Latest blog posts are published here, look out for updates on my

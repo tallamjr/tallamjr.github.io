@@ -24,47 +24,15 @@ __Review of the Xception network and the Depthwise-Separable Convolution__
 
 ---
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime">
-
-
-<!-- <style> -->
-<!-- .md-typeset h1, -->
-<!-- .md-typeset h2 { -->
-<!--   color: #fd49a0; -->
-<!--   font-weight: bold; -->
-<!--   font-family: 'Press Start 2P', serif; -->
-<!-- } -->
-<!-- </style> -->
-
-<style>
-.md-typeset h1 {
-  <!-- color: var(--md-default-fg-color--light); -->
-  color: var(--md-typeset-color);
-  font-weight: bold;
-  <!-- font-family: 'Abril Fatface', serif; -->
-}
-</style>
-
-<!-- <style> -->
-<!-- .md-typeset h3 { -->
-<!--   color: blue; -->
-<!--   font-weight: bold; -->
-<!--   font-family: 'Abril Fatface', serif; -->
-<!-- } -->
-<!-- </style> -->
-
-<!-- <style> -->
-<!-- .md-typeset p { -->
-<!--   font-weight: bold; -->
-<!--   font-family: 'Courier Prime', serif; -->
-<!-- } -->
-<!-- </style> -->
 
 Something something xception
 
 ## Z
 
 ### Testing another font
+$$
+\vec{\nabla} \times \vec{F} =
+            \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i}
+          + \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) \mathbf{j}
+          + \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right) \mathbf{k}
+$$
