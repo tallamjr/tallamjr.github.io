@@ -3,11 +3,11 @@
 -#}
 {% extends "base.html" %}
 {% block extrahead %}
-  <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.80c832e2.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.9097afc2.min.css' | url }}">
 {% endblock %}
 {% block announce %}
-  <a href="https://twitter.com/tallamjr">
-    For updates follow <strong>@tallamjr</strong> on
+<a href="https://twitter.com/tallamjr">
+  For updates follow <strong>@tallamjr</strong> on
     <span class="twemoji twitter">
       {% include ".icons/fontawesome/brands/twitter.svg" %}
     </span>
@@ -16,7 +16,7 @@
 {% endblock %}
 {% block scripts %}
   {{ super() }}
-  <script src="{{ 'overrides/assets/javascripts/bundle.a08d04cf.min.js' | url }}"></script>
+  <script src="{{ 'assets/javascripts/custom.bb97d007.min.js' | url }}"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
   <style>
     body {
