@@ -62,7 +62,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
   font:
-    text: Poppins
+    text: Space Mono
     code: Roboto Mono
   favicon: assets/images/rocket-icon.png
   logo: assets/images/profile-crop.png
