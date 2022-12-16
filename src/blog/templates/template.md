@@ -25,6 +25,10 @@ __This is the story about a template post__
 
 ---
 
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/atom-one-dark-reasonable.min.css"> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script> -->
+<!-- <script>hljs.highlightAll();</script> -->
+
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P"> -->
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface"> -->
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo"> -->
