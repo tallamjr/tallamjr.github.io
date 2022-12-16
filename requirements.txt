@@ -9,4 +9,4 @@ mkdocs-minify-plugin
 mkdocs-redirects
 numpy
 pandas
-seaborn==0.11.2
+seaborn==0.12.1
