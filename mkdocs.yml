@@ -80,7 +80,9 @@ plugins:
       minify_html: true
   - bibtex:
       bib_file: "refs.bib"
-      cite_style: "pandoc"
+      cite_inline: true
+      csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
+      # cite_style: "pandoc"
 
 # Customization
 extra:
