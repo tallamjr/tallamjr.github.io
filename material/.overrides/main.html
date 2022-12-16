@@ -17,6 +17,11 @@
 {% block scripts %}
   {{ super() }}
   <script src="{{ 'assets/javascripts/custom.bb97d007.min.js' | url }}"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/gruvbox-dark-pale.min.css"> <!-- atom-one-dark-reasonable.min.css"-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
   <style>
     body {
@@ -35,4 +40,11 @@
     font-weight: bold;
   }
   </style>
+
+  <!-- <style> -->
+  <!-- .md-typeset code { -->
+  <!--   color: #f5f5f5; -->
+  <!--   background-color: #36464e; -->
+  <!-- } -->
+  <!-- </style> -->
 {% endblock %}
