@@ -6,4 +6,4 @@ rsync \
   -avzh \
   --progress \
   --stats \
-  $ROOT/mkdocs-material/material $ROOT/material
+  $ROOT/mkdocs-material/material/ $ROOT/material/
