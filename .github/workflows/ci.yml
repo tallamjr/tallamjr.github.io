@@ -16,7 +16,6 @@ jobs:
         with:
           activate-environment: web
           environment-file: environment.yml
-          python-version: 3.x
           auto-activate-base: false
 
       - shell: bash -l {0}
