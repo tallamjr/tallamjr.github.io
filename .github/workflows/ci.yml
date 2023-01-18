@@ -15,7 +15,9 @@ jobs:
         env:
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
+          sudo apt-get update
           sudo apt-get install pandoc
+          sudo apt-get install pandoc-citeproc
           pip install -U pip
           pip install -r requirements.txt
           pip install mkdocs-material
