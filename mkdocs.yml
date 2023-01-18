@@ -81,7 +81,8 @@ plugins:
   - bibtex:
       bib_file: "refs.bib"
       cite_inline: true
-      csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
+      csl_file: "bin/sage-harvard.csl"
+      # csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
       # cite_style: "pandoc"
 
 # Customization
