@@ -28,6 +28,7 @@ jobs:
         env:
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
+          PATH="/usr/share/miniconda/condabin:$PATH"
           conda env update --file ${{ github.workspace }}/environment.yml
           PATH="/usr/share/miniconda/envs/web/bin:$PATH"
           pip install -U pip
