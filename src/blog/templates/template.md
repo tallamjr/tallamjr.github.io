@@ -1,5 +1,5 @@
 ---
-template: overrides/main.html
+template: .overrides/main.html
 description: >
   How we rebuilt client-side search, delivering a better user experience while
   making it faster and smaller at the same time
@@ -24,6 +24,52 @@ __This is the story about a template post__
   [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
 
 ---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/base16/gruvbox-dark-pale.css"> <!-- atom-one-dark-reasonable.min.css"-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo"> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime"> -->
+
+<!-- <style> -->
+<!-- .md-typeset h1, -->
+<!-- .md-typeset h2 { -->
+<!--   color: var(--md-typeset-color); -->
+<!--   font-weight: bold; -->
+<!--   <!-1- font-family: 'Press Start 2P', serif; -1-> -->
+<!--   <!-1- font-family: 'Courier Prime', serif; -1-> -->
+<!--   <!-1- font-family: 'Abril Fatface', serif; -1-> -->
+<!-- } -->
+<!--   <!-1- color: #fd49a0; -1-> -->
+<!--   <!-1- color: #fd4973; -1-> -->
+<!-- </style> -->
+
+<!-- <style> -->
+<!-- .md-typeset h1 { -->
+<!--   <!-1- color: var(--md-default-fg-color--light); -1-> -->
+<!--   color: var(--md-typeset-color); -->
+<!--   font-weight: bold; -->
+<!--   font-family: 'Abril Fatface', serif; -->
+<!-- } -->
+<!-- </style> -->
+
+<!-- <style> -->
+<!-- .md-typeset h3 { -->
+<!--   color: blue; -->
+<!--   font-weight: bold; -->
+<!--   font-family: 'Abril Fatface', serif; -->
+<!-- } -->
+<!-- </style> -->
+
+<!-- <style> -->
+<!-- .md-typeset p { -->
+<!--   font-weight: bold; -->
+<!--   font-family: 'Courier Prime', serif; -->
+<!-- } -->
+<!-- </style> -->
 
 <!-- Place images inside folder with same name as post -->
 <figure markdown>

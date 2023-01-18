@@ -1,5 +1,5 @@
 
-name: tarekallamjr.com
+name: web
 channels:
   - conda-forge
   - defaults

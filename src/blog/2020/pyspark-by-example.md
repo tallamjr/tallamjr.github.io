@@ -1,5 +1,5 @@
 ---
-template: overrides/main.html
+template: .overrides/main.html
 description: >
     "Here are my worked examples from the very useful LinkedIn Learning course: PySpark by Example by
     Jonathan Fernandes : https://www.linkedin.com/learning/apache-pyspark-by-example"
