@@ -3,6 +3,7 @@ causalgraphicalmodels==0.0.4
 daft==0.1.2
 jupyter==1.0.0
 matplotlib
+mkdocs
 mkdocs-bibtex
 mkdocs-jupyter
 mkdocs-minify-plugin
