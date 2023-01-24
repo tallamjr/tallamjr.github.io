@@ -13,7 +13,7 @@ site_description: >-
 docs_dir: "src"
 
 # Copyright
-copyright: Copyright &copy; 2021 - 2022 Tarek Allam Jr.
+copyright: Copyright &copy; 2021 - 2023 Tarek Allam Jr.
 
 # Configuration
 theme:
@@ -62,7 +62,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
   font:
-    text: Space Mono
+    # text: Space Mono
     code: Roboto Mono
   favicon: assets/images/rocket-icon.png
   logo: assets/images/profile-crop.png
@@ -159,13 +159,16 @@ nav:
     - projects/index.md
   - Blog:
     - blog/latest-posts.md
+    # - 2023:
+    #   - blog/2023/einstein-blunder.md
     # - 2022:
+    #   - blog/2022/big-telescope-tinyml.md
       # - blog/2022/learning-programming.md
-    # - 2021:
+    - 2021:
       # - blog/2021/xception.md
       # - blog/2021/bap-numpyro.md
       # - blog/2021/paying-attention.md
-      # - blog/2021/time-series-transformer.md
+      - blog/2021/time-series-transformer.md
     - 2020:
       - blog/2020/pyspark-by-example.md
       - blog/2020/scala-python-jvm.md
