@@ -168,7 +168,7 @@ nav:
       # - blog/2021/xception.md
       # - blog/2021/bap-numpyro.md
       # - blog/2021/paying-attention.md
-      - blog/2021/time-series-transformer.md
+      # - blog/2021/time-series-transformer.md
     - 2020:
       - blog/2020/pyspark-by-example.md
       - blog/2020/scala-python-jvm.md
