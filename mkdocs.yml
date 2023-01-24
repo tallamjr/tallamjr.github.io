@@ -164,7 +164,7 @@ nav:
     # - 2022:
     #   - blog/2022/big-telescope-tinyml.md
       # - blog/2022/learning-programming.md
-    - 2021:
+    # - 2021:
       # - blog/2021/xception.md
       # - blog/2021/bap-numpyro.md
       # - blog/2021/paying-attention.md
