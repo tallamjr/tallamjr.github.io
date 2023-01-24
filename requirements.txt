@@ -11,4 +11,4 @@ mkdocs-redirects
 numpy
 pandas
 pypandoc
-seaborn==0.12.1
+seaborn==0.12.2
