@@ -1,5 +1,5 @@
 ---
-template: .overrides/main.html
+template: main.html
 description: >
     How to have an open public repository as well as a mirrored private repository on Github
 ---

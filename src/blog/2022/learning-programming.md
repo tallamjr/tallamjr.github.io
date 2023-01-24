@@ -1,5 +1,5 @@
 ---
-template: .overrides/main.html
+template: main.html
 description: >
     So you want to learning programming in 2022...
 ---

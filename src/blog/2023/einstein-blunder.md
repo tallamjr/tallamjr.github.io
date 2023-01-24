@@ -1,5 +1,5 @@
 ---
-template: .overrides/main.html
+template: main.html
 description: >
   How's Einstein's "biggest blunder" turned out to be the very thing every* cosmologist is looking
   for

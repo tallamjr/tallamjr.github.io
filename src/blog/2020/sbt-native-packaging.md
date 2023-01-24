@@ -1,5 +1,5 @@
 ---
-template: .overrides/main.html
+template: main.html
 description: >
     Scala compiles down to Java byte code, which can then be run on any system running the JVM. It
     would be nice if one could extend this to native system binaries that can be run anywhere. Here I

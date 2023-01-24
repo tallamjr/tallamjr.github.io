@@ -1,5 +1,5 @@
 ---
-template: .overrides/main.html
+template: main.html
 description: >
   How and why tinyML is at the heart of the largest photometric telescope on Earth
 ---

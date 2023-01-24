@@ -1,5 +1,5 @@
 ---
-template: .overrides/main.html
+template: main.html
 description: >
     Review of the Xception network and the Depthwise-Separable Convolution
 ---
