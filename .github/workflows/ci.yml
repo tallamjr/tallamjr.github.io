@@ -16,7 +16,6 @@ jobs:
           pwd
           ls -la ${{ github.workspace }}/material
           ls -la ${{ github.workspace }}/mkdocs-material
-          mv ${{ github.workspace }}/mkdocs-material/material ${{ github.workspace }}
 
       - uses: actions/setup-python@v2
         with:
@@ -41,6 +40,6 @@ jobs:
           PATH="/usr/share/miniconda/envs/web/bin:$PATH"
           pip install -U pip
           pip install -r requirements.txt
-          pip install mkdocs-material
+          pip install -e mkdocs-material
           pwd
           mkdocs gh-deploy --config-file ${{ github.workspace }}/mkdocs.yml --force
