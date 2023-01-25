@@ -347,6 +347,6 @@ extensive version of my C.V below.
 </table>
 
 <center>
-<a class="md-button md-button--primary" href="./assets/tarekallam-cv.pdf">Download C.V. :fontawesome-solid-arrow-circle-down:</a>
+<a class="md-button md-button--primary" href="./assets/tarekallam-cv.pdf">Download C.V. :fontawesome-solid-circle-arrow-down:</a>
 </center>
 
