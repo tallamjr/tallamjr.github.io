@@ -23,12 +23,10 @@ __Here are my worked examples from the very useful LinkedIn Learning course: PyS
 <span>
 :octicons-calendar-24: May 14, 2020 ·
 :octicons-clock-24: 15 min read ·
-<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 
@@ -42,7 +40,6 @@ Streaming examples).
 [:octicons-arrow-right-24: Continue reading][PySpark by Example]
 
   [PySpark by Example]: 2020/pyspark-by-example.md
-  <!-- [insiders-3.1.1]: ../insiders/changelog.md#3.1.1 -->
 
 <!-- ########################################################################################## -->
 
@@ -57,12 +54,10 @@ __Calling compiled Scala code inside the JVM from Python using PySpark__
 <span>
 :octicons-calendar-24: May 27, 2020 ·
 :octicons-clock-24: 15 min read ·
-<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 
@@ -75,7 +70,6 @@ but call Scala from Python is a little more involved, but the process is very si
 [:octicons-arrow-right-24: Continue reading][Calling Compiled Scala Code from Python using PySpark]
 
   [Calling Compiled Scala Code from Python using PySpark]: 2020/scala-python-jvm.md
-  <!-- [insiders-3.1.1]: ../insiders/changelog.md#3.1.1 -->
 
 <!-- ########################################################################################## -->
 
@@ -92,12 +86,10 @@ repository on Github__
 <span>
 :octicons-calendar-24: February 10, 2020 ·
 :octicons-clock-24: 15 min read ·
-<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 
@@ -107,7 +99,6 @@ repository'](https://help.github.com/en/github/creating-cloning-and-archiving-re
 [:octicons-arrow-right-24: Continue reading][Mirroring Public Repositories on Github, Privately]
 
   [Mirroring Public Repositories on Github, Privately]: 2020/public-private-repos.md
-  <!-- [insiders-3.1.1]: ../insiders/changelog.md#3.1.1 -->
 
 <!-- ########################################################################################## -->
 
@@ -124,7 +115,6 @@ repository'](https://help.github.com/en/github/creating-cloning-and-archiving-re
 <!-- <span> -->
 <!-- :octicons-calendar-24: September 26, 2021 · -->
 <!-- :octicons-clock-24: 5 min read · -->
-<!-- [:octicons-tag-24: 7.3.0+insiders-3.1.1][insiders-3.1.1] -->
 <!-- </span> -->
 <!-- </aside> -->
 
@@ -143,7 +133,6 @@ repository'](https://help.github.com/en/github/creating-cloning-and-archiving-re
 <!-- [:octicons-arrow-right-24: Continue reading][Excluding content from search] -->
 
 <!--   [Excluding content from search]: 2021/excluding-content-from-search.md -->
-<!--   [insiders-3.1.1]: ../insiders/changelog.md#3.1.1 -->
 
 <!-- <!-1- ########################################################################################## -1-> -->
 
@@ -179,5 +168,4 @@ repository'](https://help.github.com/en/github/creating-cloning-and-archiving-re
 <!-- [:octicons-arrow-right-24: Continue reading][Search: better, faster, smaller] -->
 
 <!--   [Search: better, faster, smaller]: 2021/search-better-faster-smaller.md -->
-<!--   [insiders-3.0.0]: ../insiders/changelog.md#3.0.0 -->
 

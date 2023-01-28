@@ -15,12 +15,10 @@ __How and why tinyML is at the heart of the largest photometric telescope on Ear
 <span>
 :octicons-calendar-24: January 22, 2023·
 :octicons-clock-24: 15 min read ·
-[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
 
 ---
 

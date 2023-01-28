@@ -17,12 +17,10 @@ this with a Scala project within the same repository.__
 <span>
 :octicons-calendar-24: November 06, 2017 ·
 :octicons-clock-24: 15 min read ·
-[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
 
 ---
 

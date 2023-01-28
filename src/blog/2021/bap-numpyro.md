@@ -16,18 +16,16 @@ __This is the story about a template post__
 <span>
 :octicons-calendar-24: September 13, 2021 ·
 :octicons-clock-24: 15 min read ·
-[:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0]
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0
 
 ---
 
 <!-- Place images inside folder with same name as post -->
 <figure markdown>
-![](triangle.jpg){ width=100% }
+![](../templates/template/shooting-stars.jpg){ width=100% }
 <figcaption markdown>
 I'm a figure caption...
 </figcaption>

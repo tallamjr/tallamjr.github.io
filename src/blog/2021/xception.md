@@ -15,12 +15,10 @@ __Review of the Xception network and the Depthwise-Separable Convolution__
 <span>
 :octicons-calendar-24: December 10, 2021 ·
 :octicons-clock-24: 15 min read ·
-<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 

@@ -19,12 +19,10 @@ smaller at the same time.__
 <span>
 :octicons-calendar-24: September 13, 2021 ·
 :octicons-clock-24: 15 min read ·
-<!-- [:octicons-tag-24: 7.2.6+insiders-3.0.0][insiders-3.0.0] -->
 </span>
 </aside>
 
   [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-  <!-- [insiders-3.0.0]: ../../insiders/changelog.md#3.0.0 -->
 
 ---
 
@@ -32,7 +30,7 @@ smaller at the same time.__
 *Here I walk through the steps of installing the MATLAB, R and Julia kernels for Jupyter
 notebooks. Also discussed are some of the gotchas I encountered along the way.*
 
-![](newprojectlist.png){ align=left width=300}
+![](matlab-r-julia-notebooks/newprojectlist.png){ align=left width=300}
 
 <!-- <figure markdown> -->
 <!-- <figcaption markdown> -->
@@ -132,7 +130,7 @@ jupyter console --kernel matlab
 ```
 
 <figure markdown>
-![](matlabkernel.png){ width=100% }
+![](matlab-r-julia-notebooks/matlabkernel.png){ width=100% }
 <figcaption markdown>
 MATLAB kernel
 </figcaption>
@@ -228,7 +226,7 @@ When this is linked you should be off and away and read to use **R** in Jupyter
 notebooks.
 
 <figure markdown>
-![](rkernel.png){ width=100% }
+![](matlab-r-julia-notebooks/rkernel.png){ width=100% }
 <figcaption markdown>
 R kernel
 </figcaption>
@@ -273,7 +271,7 @@ pip install pyzmq
 
 
 <figure markdown>
-![](juliakernel.png){ width=100% }
+![](matlab-r-julia-notebooks/juliakernel.png){ width=100% }
 <figcaption markdown>
 Julia kernel
 </figcaption>
