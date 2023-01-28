@@ -1,10 +1,10 @@
 ---
 template: main.html
 description: >
-    "# Ah `bufdo`; That'll do"
+    "# Ah `bufdo`, that'll do"
 ---
 
-# Ah `bufdo`; That'll do
+# Ah `bufdo`, that'll do!
 
 __A while ago I worked on a method to allow local writing of development logs in markdown, which I
 could then upload to Github where my supervisor could take a look. Here are the steps..__

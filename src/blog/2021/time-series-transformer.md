@@ -4,7 +4,7 @@ description: >
     Time for Transformers to take on TSC
 ---
 
-# Transformers take on Time-series Classification
+# Taking on Time-series Classification with Transformers
 
 __Time for Transformers to take on TSC__
 

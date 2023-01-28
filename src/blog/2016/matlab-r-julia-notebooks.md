@@ -6,7 +6,7 @@ description: >
 
 ---
 
-# Multilingual Notebooks: A Polyglot's Playground"
+# Multilingual Notebooks: A Polyglot's Playground
 
 __This is the story of how we managed to completely rebuild client-side search,
 delivering a significantly better user experience while making it faster and
@@ -17,8 +17,9 @@ smaller at the same time.__
 
 <span>__Tarek Allam Jr.__· @tallamjr</span>
 <span>
-:octicons-calendar-24: September 13, 2021 ·
+:octicons-calendar-24: November 14, 2016 ·
 :octicons-clock-24: 15 min read ·
+<!-- :octicons-pencil-24: updated January 28, 2023 -->
 </span>
 </aside>
 
@@ -56,7 +57,7 @@ This post will talk though the steps involved to install the MATLAB, R and Julia
 - [Julia](#julia)
 
 
-## MATLAB<a name="matlab"></a>
+## **MATLAB**<a name="matlab"></a>
 
 MATLAB (matrix laboratory) is ubiquitous in the world of scientific computing and is a many
 engineering and physics students only connection to programming. The brilliant
@@ -136,7 +137,7 @@ MATLAB kernel
 </figcaption>
 </figure>
 
-## <a name="r"></a>R
+## <a name="r"></a>**R**
 
 R, the successor to S, is a statical programming language. Unlike MATLAB, R is
 an open source language that has now been around for over 20 years. Over that
