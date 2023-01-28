@@ -6,7 +6,9 @@ title: About Me
 
 <img src="./assets/images/profile-crop.png" style='border:0px solid #000000' alt="profile pic" align="right" width="300" height="300">
 
-Hello! _Ola!_ _Oi!_ , my name is Tarek
+Hello!, my name is Tarek
+
+<!-- _Ola!_ _Oi!_ -->
 
 I am a fourth year PhD student at the Centre for Data Intensive Science at University College London
 (UCL). My research focus is on the application of **Deep Learning** algorithms for real-time
