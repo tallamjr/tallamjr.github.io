@@ -97,8 +97,6 @@ extra:
       link: https://twitter.com/tallamjr
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/tallamjr
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/tallamjr
 
 # Extensions
 markdown_extensions:
@@ -152,7 +150,8 @@ extra_javascript:
 
 # Page tree
 nav:
-  - About Me: index.md
+  - About Me:
+    - index.md
   - Research:
     - research/index.md
   - Projects:
@@ -167,7 +166,7 @@ nav:
       # - blog/2021/bap-numpyro.md
       # - blog/2021/paying-attention.md
       # - blog/2021/time-series-transformer.md
-    - 2020:
+    - Deep Generative Modelling:
       - blog/2020/pyspark-by-example.md
       - blog/2020/scala-python-jvm.md
       - blog/2020/public-private-repos.md
