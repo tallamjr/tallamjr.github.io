@@ -60,7 +60,7 @@ extensive version of my C.V below.
     <td colspan = "3">
     Centre for Doctoral Training in Data Intensive Science<br>
     <em>Supervised by</em>: <a href="http://www.jasonmcewen.org/">Prof. Jason McEwen</a> (Primary Advisor), Prof. Denise Gorse<br>
-    Thesis: <strong>Efficient Deep Learning for Real-time Classification of Astronomical Transients</strong>
+    Thesis: <a href="./assets/phd-thesis.pdf"><strong>Efficient Deep Learning for Real-time Classification of Astronomical Transients</strong>
     </td>
  </tr>
  <tr>
