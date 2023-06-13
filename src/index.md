@@ -10,18 +10,30 @@ Hello!, my name is Tarek
 
 <!-- _Ola!_ _Oi!_ -->
 
-I am a fourth year PhD student at the Centre for Data Intensive Science at University College London
-(UCL). My research focus is on the application of **Deep Learning** algorithms for real-time
-classification of Astronomical transient events.
+I am a Machine Learning Research Engineer at the Alan Turing Institute.     The
+Alan Turing Institute is the United Kingdom's national institute for data
+science and artificial intelligence, founded in 2015 and largely funded by the
+UK government. It is named after Alan Turing, the British mathematician and
+computing pioneer.
+
+I did my PhD in Applied Machine Learning at the Centre for Data Intensive
+Science at University College London (UCL). My PhD research focused on the
+application of **Deep Learning** and **Model Compression** algorithms for
+real-time classification of Astronomical transient events.
+
+My thesis, for which I won the Perren prize for best CDT thesis 2022, can be freely
+downloaded [**here**](https://discovery.ucl.ac.uk/id/eprint/10168921).
+
+I am now continuing my applied research by investigating how the latest
+techniques in statistical signal processing and probabilistic machine learning
+can be used for **Neural Compression** :compression: to better enable
+low-latency energy efficient inference of machine learning models in resource
+constrained **Embedded Systems** :octicons-cpu-24: -- a.k.a #tinyML
 
 I am also a Research Software Engineering Fellow at the [Software Sustainability
-Institute](https://www.software.ac.uk/), where I help academics leverage tools and software
-engineering best practises for better research software : [#bettersoftwarebetterscience](#)
-
-Besides my doctoral research, I enjoy exploring how latest techniques in statistical signal
-processing and probabilistic machine learning can be used for **Learned Image Reconstruction** and
-**Learned Image Compression** :compression: in **Embedded Systems** :octicons-cpu-24: for **Embedded
-Machine Learning (#TinyML)** :mobile_phone:
+Institute](https://www.software.ac.uk/), where I help academics leverage tools
+and software engineering best practises for better research software :
+[#bettersoftwarebetterscience](#)
 
 Find me online `@tallamjr` $\in \{$ <a class="github-button" href="https://github.com/tallamjr"
 data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:, </a>
@@ -54,13 +66,14 @@ extensive version of my C.V below.
     </td>
     <td><strong>Ph.D Applied Machine Learning [<a href="https://en.wikipedia.org/wiki/Astroinformatics">Astroinformatics</a>]</strong>
     <br>University College London (UCL)</td>
-    <td align="right"> 09.2017 - present</td>
+    <td align="right"> 09.2017 - 09.2022</td>
  </tr>
  <tr>
     <td colspan = "3">
     Centre for Doctoral Training in Data Intensive Science<br>
     <em>Supervised by</em>: <a href="http://www.jasonmcewen.org/">Prof. Jason McEwen</a> (Primary Advisor), Prof. Denise Gorse<br>
-    Thesis: <a href="https://discovery.ucl.ac.uk/id/eprint/10168921/2/thesis.pdf"><strong>Efficient Deep Learning for Real-time Classification of Astronomical Transients</strong>
+    Thesis: <a href="https://discovery.ucl.ac.uk/id/eprint/10168921/2/thesis.pdf"><strong>Efficient Deep Learning for Real-time Classification of Astronomical Transients</strong></a>
+    **Awarded Perren Prize for best thesis 2022**
     </td>
  </tr>
  <tr>
@@ -101,19 +114,43 @@ extensive version of my C.V below.
 
 <table border = "0" width = "100%">
 
+ <tr>
+    <td rowspan = "2" width=20% >
+             <img
+             src="./assets/logos/ati-logo.png" width="500px">
+    </td>
+    <td><strong>Machine Learning Research Engineer </strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 10.2022 - present</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Investigating efficient machine learning and on-device deep learning
+    (tinyML) for deployment of models in resource constrained settings.
+    Researching neural data compression methods applied to deep networks.
+    Building energy efficient machine learning prototypes and products through
+    development of custom firmware/software.
+    </td>
+ </tr>
+<!-- <!-1- ########################################################################################## -1-> -->
  <!-- <tr> -->
  <!--    <td rowspan = "2" width=20% > -->
  <!--             <img -->
- <!--             src="./assets/logos/ati-logo.png" width="500px"> -->
+ <!--             src="./assets/logos/allam-labs-logo.jpeg" width="500px"> -->
  <!--    </td> -->
- <!--    <td><strong>Machine Learning Researcher </strong> -->
- <!--    <br>The Alan Turing Institute, London.</td> -->
- <!--    <td align="right"> 10.2022 - present</td> -->
+ <!--    <td><strong>Machine Learning Engineer</strong> -->
+ <!--    <br>Allam Labs., London.</td> -->
+ <!--    <td align="right"> 09.2021 - present</td> -->
  <!-- </tr> -->
  <!-- <tr> -->
  <!--    <td colspan = "3"> -->
- <!--    Conduct research into deep learning and probabilistic machine learning methods for solving -->
- <!--    inverse problems such as image reconstruction, image generation, and data compression. -->
+ <!--    Machine Learning Operations (MLOps) and Research Software Engineering (RSE) consulting for -->
+ <!--    large-scale cloud and embedded systems deployment of deep learning applications. Providing -->
+ <!--    hands-on implementation of bespoke architectures using <code>tensorflow.keras</code>, -->
+ <!--    <code>tflite</code>, <code>jax</code> and <code>pytorch</code>, as well as specialist machine -->
+ <!--    learning data pipelines that leverage <code>polars</code> and <code>pyspark</code>. In-depth -->
+ <!--    advisory services relating to the wider data engineering mission with OLAP database and model -->
+ <!--    serving guidance. See <a href="www.allam-labs.com">allam-labs.com</a> for further details. -->
  <!--    </td> -->
  <!-- </tr> -->
 <!-- <!-1- ########################################################################################## -1-> -->
@@ -163,7 +200,7 @@ extensive version of my C.V below.
     </td>
     <td><strong>Machine Learning Researcher and Engineer</strong>
     <br>Centre for Doctoral Training in Data Intensive Science & Industry, UCL, London.</td>
-    <td align="right"> 09.2017 - present</td>
+    <td align="right"> 09.2017 - 09.2022 </td>
  </tr>
  <tr>
     <td colspan = "3">
@@ -217,26 +254,26 @@ extensive version of my C.V below.
     </td>
  </tr>
 <!-- ########################################################################################## -->
- <!-- <tr> -->
- <!--    <td rowspan = "2"> -->
- <!--             <img -->
- <!--             src="./assets/logos/sensat-logo.jpeg" width="500px"> -->
- <!--    </td> -->
- <!--    <td><strong>Machine Learning Research Engineer <a href="https://www.turing.ac.uk/collaborate-turing/data-study-groups">[DSG Participant]</a></strong> -->
- <!--    <br>The Alan Turing Institute, London.</td> -->
- <!--    <td align="right"> 12.2019 - 12.2019</td> -->
- <!-- </tr> -->
- <!-- <tr> -->
- <!--    <td colspan = "3"> -->
- <!--    Invited to explore point cloud segmentation techniques as part of the <a -->
- <!--    href="https://www.turing.ac.uk/research/publications/data-study-group-final-report-sensat">SenSat - Semantic and -->
- <!--    Instance Segmentation of 3D Point Clouds Project</a>. Investigating both semantic and instance -->
- <!--    segmentation in order to recognise objects such as roads, buildings, cars, etc. in a large 3D -->
- <!--    urban environment to enable safer autonomous vehicles on the road, automated asset management in -->
- <!--    urban planning, and accurate digital twin simulations. Benchmark deep learning methods -->
- <!--    implemented using <code>pytorch</code>. -->
- <!--    </td> -->
- <!-- </tr> -->
+ <tr>
+    <td rowspan = "2">
+             <img
+             src="./assets/logos/sensat-logo.jpeg" width="500px">
+    </td>
+    <td><strong>Machine Learning Research Engineer <a href="https://www.turing.ac.uk/collaborate-turing/data-study-groups">[DSG Participant]</a></strong>
+    <br>The Alan Turing Institute, London.</td>
+    <td align="right"> 12.2019 - 12.2019</td>
+ </tr>
+ <tr>
+    <td colspan = "3">
+    Invited to explore point cloud segmentation techniques as part of the <a
+    href="https://www.turing.ac.uk/research/publications/data-study-group-final-report-sensat">SenSat - Semantic and
+    Instance Segmentation of 3D Point Clouds Project</a>. Investigating both semantic and instance
+    segmentation in order to recognise objects such as roads, buildings, cars, etc. in a large 3D
+    urban environment to enable safer autonomous vehicles on the road, automated asset management in
+    urban planning, and accurate digital twin simulations. Benchmark deep learning methods
+    implemented using <code>pytorch</code>.
+    </td>
+ </tr>
 <!-- ########################################################################################## -->
  <tr>
     <td rowspan = "2">
