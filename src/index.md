@@ -10,10 +10,10 @@ Hello!, my name is Tarek
 
 <!-- _Ola!_ _Oi!_ -->
 
-I am a Machine Learning Research Engineer at the Alan Turing Institute.     The
-Alan Turing Institute is the United Kingdom's national institute for data
-science and artificial intelligence, founded in 2015 and largely funded by the
-UK government. It is named after Alan Turing, the British mathematician and
+I am a Machine Learning Research Engineer at the Alan Turing Institute. The Alan
+Turing Institute is the United Kingdom's national institute for data science and
+artificial intelligence, founded in 2015 and largely funded by the UK
+government. It is named after Alan Turing, the British mathematician and
 computing pioneer.
 
 I did my PhD in Applied Machine Learning at the Centre for Data Intensive
@@ -24,7 +24,12 @@ real-time classification of Astronomical transient events.
 My thesis, for which I won the Perren prize for best CDT thesis 2022, can be freely
 downloaded [**here**](https://discovery.ucl.ac.uk/id/eprint/10168921).
 
-I am now continuing my applied research by investigating how the latest
+Towards the end of my PhD I was one of the 7 research students that were
+nominated by UCL to apply for the Schmidt Science Fellowship. While I was
+ultimately unsuccessful, my research proposal on ["Efficient Learned Image Reconstruction and Compression Algorithms for Real-time Medical Image Analysis"](./assets/ssf-proposal.pdf)
+is a good reflection of some of the areas of research I find most interesting.
+
+Through my role at the ATI, I get to continue my applied research by investigating how the latest
 techniques in statistical signal processing and probabilistic machine learning
 can be used for **Neural Compression** :compression: to better enable
 low-latency energy efficient inference of machine learning models in resource
