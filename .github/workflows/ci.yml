@@ -3,43 +3,33 @@ on:
   push:
     branches:
       - master
+
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
         with:
-          submodules: true
-
-      - shell: bash -l {0}
+          environment-file: ${{ github.workspace }}/environment.yml
+          miniforge-version: latest
+      - name: Configure Git Credentials
         run: |
-          pwd
-          ls -la ${{ github.workspace }}/material
-          ls -la ${{ github.workspace }}/mkdocs-material
-
-      - uses: actions/setup-python@v2
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
         with:
-          python-version: 3.11
-
-      - uses: conda-incubator/setup-miniconda@v2
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - uses: actions/cache@v4
         with:
-          activate-environment: web
-          environment-file: environment.yml
-          auto-activate-base: false
-
-      - shell: bash -l {0}
-        run: |
-          conda info
-          conda list
-
-      - name: Deploy documentation
-        env:
-          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
-        run: |
-          conda env update --file ${{ github.workspace }}/environment.yml
-          PATH="/usr/share/miniconda/envs/web/bin:$PATH"
-          pip install -U pip
-          pip install -r requirements.txt
-          pip install -e mkdocs-material
-          pwd
-          mkdocs gh-deploy --config-file ${{ github.workspace }}/mkdocs.yml --force
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      - run: |
+        conda env update --file ${{ github.workspace }}/environment.yml
+        mkdocs gh-deploy --config-file ${{ github.workspace }}/mkdocs.yml --force
