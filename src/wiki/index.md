@@ -1,7 +1,7 @@
 ---
 search:
   exclude: true
-title: Research
+title: Tech Wiki
 ---
 
 <style>
@@ -10,10 +10,10 @@ title: Research
   }
 </style>
 
-# Publications
+# 📝 My Technology Wiki
+
+A some-what structured brain dump of things in tech and machine learning.
 
 <center>
 🚧 Page Under Construction 🚧
 </center>
-
-For now see my [Google Scholar](https://scholar.google.com/citations?user=a_gFi3MAAAAJ&hl=en)
