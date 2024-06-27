@@ -1,24 +1,22 @@
 # Project information
-site_name: Tarek Allam Jr.
+site_name: Dr Tarek Allam Jr
 site_url: https://www.tarekallamjr.com/
 site_dir: "docs"
-site_author: Tarek Allam Jr.
+site_author: Dr Tarek Allam Jr
 site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project
+  Documenting the conversion of coffee --> code over the years ..
 # Repository
 repo_name: tallamjr.github.io
 repo_url: https://github.com/tallamjr
-# edit_uri: ""
 docs_dir: "src"
 
 # Copyright
-copyright: Copyright &copy; 2021 - 2023 Tarek Allam Jr.
+copyright: Copyright &copy; 2016 - 2024 Tarek Allam
 
 # Configuration
 theme:
   name: material
-  custom_dir: material/.overrides
+  custom_dir: overrides
   features:
     - content.code.annotate
     - content.tabs.link
@@ -59,18 +57,14 @@ theme:
   font:
     # text: Space Mono
     code: Roboto Mono
-  favicon: assets/images/rocket-icon.png
-  logo: assets/images/profile-crop.png
+  favicon: assets/imgs/rocket-icon.png
+  logo: assets/imgs/coding.png
+  # logo: assets/imgs/work.gif
 
 # Plugins
 plugins:
   - search
-  # - redirects:
-  #     redirect_maps:
-        # changelog/insiders.md: insiders/changelog.md
-        # upgrading.md: upgrade.md
-        # reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
-        # sponsorship.md: insiders/index.md
+  - blog
   - minify:
       minify_html: true
   - bibtex:
@@ -78,7 +72,7 @@ plugins:
       cite_inline: true
       csl_file: "bin/sage-harvard.csl"
       # csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
-      # cite_style: "pandoc"
+      footnote_format: "ref{number}"
 
 # Customization
 extra:
@@ -95,16 +89,19 @@ extra:
 
 # Extensions
 markdown_extensions:
-  - admonition
+  # Python Markdown
   - abbr
+  - admonition
   - attr_list
   - codehilite
   - def_list
   - footnotes
-  - meta
   - md_in_html
+  - meta
   - toc:
       permalink: true
+
+  # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -112,15 +109,11 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -134,13 +127,17 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-extra_css:
-  - stylesheets/extra.css
-
 extra_javascript:
+  # - javascripts/katex.js
+  # - https://unpkg.com/katex@0/dist/katex.min.js
+  # - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  # - https://unpkg.com/katex@0/dist/katex.min.css
+  - stylesheets/extra.css
 
 # Page tree
 nav:
@@ -151,27 +148,28 @@ nav:
   - Projects:
     - projects/index.md
   - Blog:
-    - blog/latest-posts.md
+    - blog/index.md
+    # - blog/latest-posts.md
     # - 2023:
     #   - blog/2023/einstein-blunder.md
     #   - blog/2022/big-telescope-tinyml.md
     # - 2021:
-      # - blog/2021/xception.md
-      # - blog/2021/bap-numpyro.md
-      # - blog/2021/paying-attention.md
-      # - blog/2021/time-series-transformer.md
-    - 2020:
-      - blog/2020/pyspark-by-example.md
-      - blog/2020/scala-python-jvm.md
-      - blog/2020/public-private-repos.md
-      - blog/2020/sbt-native-packaging.md
-      - blog/2020/awesome-blogs.md
-      # - blog/2020/datum-2005.md
-      # - blog/2020/deluge-of-data.md
-      # - blog/2020/rabbit-hole.md
-    - 2017:
-      - blog/2017/bufdo.md
-    - 2016:
-      - blog/2016/matlab-r-julia-notebooks.md
+    #   - blog/2021/xception.md
+    #   - blog/2021/bap-numpyro.md
+    #   - blog/2021/paying-attention.md
+    #   - blog/2021/time-series-transformer.md
+    # - 2020:
+    #   - blog/2020/pyspark-by-example.md
+    #   - blog/2020/scala-python-jvm.md
+    #   - blog/2020/public-private-repos.md
+    #   - blog/2020/sbt-native-packaging.md
+    #   - blog/2020/awesome-blogs.md
+    #   - blog/2020/datum-2005.md
+    #   - blog/2020/deluge-of-data.md
+    #   - blog/2020/rabbit-hole.md
+    # - 2017:
+    #   - blog/2017/bufdo.md
+    # - 2016:
+    #   - blog/2016/matlab-r-julia-notebooks.md
     # - templates:
     #   - blog/templates/template.md
