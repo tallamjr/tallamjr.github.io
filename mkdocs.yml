@@ -55,7 +55,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
   font:
-    # text: Space Mono
+    text: IBM Plex Mono
     code: Roboto Mono
   favicon: assets/imgs/rocket-icon.png
   logo: assets/imgs/coding.png
