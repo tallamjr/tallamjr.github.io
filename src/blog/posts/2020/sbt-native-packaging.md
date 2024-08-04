@@ -1,39 +1,30 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    Scala compiles down to Java byte code, which can then be run on any system running the JVM. It
-    would be nice if one could extend this to native system binaries that can be run anywhere. Here I
-    walk through the steps of getting SBT-Native-Packager to create a native binary as well as a docker
-    image that can run my 'Hello World' application.
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# Packaging Scala Applications
+# 🎁 **Packaging Scala Applications**
 
-__Scala compiles down to Java byte code, which can then be run on any system running the JVM. It
+Scala compiles down to Java byte code, which can then be run on any system running the JVM. It
 would be nice if one could extend this to native system binaries that can be run anywhere. Here I
 walk through the steps of getting SBT-Native-Packager to create a native binary as well as a docker
-image that can run my 'Hello World' application.__
+image that can run my 'Hello World' application.
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: February 10, 2020 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
+<!-- more -->
 
 For this short post, I have created a "simpleApp" which is a simple "Hello, World!" application in
 Scala. The example code for this post is in the standard maven directory layout, i.e:

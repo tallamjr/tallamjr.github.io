@@ -1,37 +1,34 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-description: >
-    "Here are my worked examples from the very useful LinkedIn Learning course: PySpark by Example by
-    Jonathan Fernandes : https://www.linkedin.com/learning/apache-pyspark-by-example"
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# PySpark by Example
+# ⚡️ **PySpark by Example**
 
-__Here are my worked examples from the very useful LinkedIn Learning course: PySpark by Example by
-    Jonathan Fernandes : https://www.linkedin.com/learning/apache-pyspark-by-example__
+Here are my worked examples from the very useful LinkedIn Learning course:
+PySpark by Example by Jonathan Fernandes :
+https://www.linkedin.com/learning/apache-pyspark-by-example
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
+<!-- more -->
 
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: May 28, 2020 ·
-:octicons-clock-24: 30 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
 <head>
                <script src="https://cdn.plot.ly/plotly-2.6.3.min.js"></script>
 </head>
+
 ## Learning PySpark by Example
 
 Over the past 12 months or so I have been learning and playing with Apache Spark. I went through the

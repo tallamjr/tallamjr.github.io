@@ -1,33 +1,27 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2021-12-31
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    Time for Transformers to take on TSC
+  - RSW Engineering
 ---
 
-# Taking on Time-series Classification with Transformers
+# 🕰️ **Taking on Time-series Classification with Transformers**
 
-__Time for Transformers to take on TSC__
+This post gives an overview of the concepts in our recent paper: [Paying
+Attention to Astronomical Transients: Photometric Classification with the
+Time-Series Transformer](https://arxiv.org/pdf/2105.06178.pdf) and gives an
+overview of transformers for TSC.
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
+<!-- more -->
 
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: December 10, 2021 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
+```bash
+#!/bin/bash
 
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
+export GILE="name"
+```
 
 ## Introduction
 

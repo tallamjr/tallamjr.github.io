@@ -3,31 +3,17 @@ draft: true
 date: 2024-06-07
 authors: [tallamjr]
 categories:
-  - Conferences
+    - Conferences
+tags:
+    - compilers
+    - edge
 ---
 
-# 🏔️ Sunshine, Mountains and Deep Learning Compilers
+# 🏔️ **Sunshine, Mountains and Deep Learning Compilers**
 
-__This is a round up of the ETH Zürich Future Computer Laboratory's Summer
-School__
-
-<!-- Developing an efficient approach to build documentation in CI workflows is -->
-<!-- essential, especially when working in large repositories with thousands of -->
-<!-- commits, like ours. Of course, we want to build documentation quickly and -->
-<!-- efficiently, ensuring fast and productive workflows. When using both the -->
-<!-- wonderful [`git-committers`][git-committers] and [`git-revision-date-localized`] -->
-<!-- [git-revision-date-localized] plugins to display [document contributors] and -->
-<!-- [dates] at the bottom of each page, we are required to set `fetch-depth: 0`, -->
-<!-- which resulted in checkout times of 20 to 30 seconds on our repository. By -->
-<!-- leveraging [`git sparse-checkout`][git sparse-checkout] within [GitHub Actions], -->
-<!-- check out time was brought down to 2 seconds. -->
-
-<!--   [git sparse-checkout]: https://git-scm.com/docs/git-sparse-checkout -->
-<!--   [GitHub Actions]: ../../publishing-your-site.md#with-github-actions -->
-<!--   [git-revision-date-localized]: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin -->
-<!--   [git-committers]: https://github.com/ojacques/mkdocs-git-committers-plugin-2 -->
-<!--   [document contributors]: ../../setup/adding-a-git-repository.md#document-contributors -->
-<!--   [dates]: ../../setup/adding-a-git-repository.md#document-dates -->
+A round up of the ETH Zürich Future Computer Laboratory's inaugural
+Summer School on modern computer architectures, digital IC design, programming
+of heterogeneous systems and open source hardware.
 
 <!-- more -->
 

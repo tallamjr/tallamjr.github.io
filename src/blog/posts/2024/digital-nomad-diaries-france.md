@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 date:
   created: 2024-06-17
   #  updated: 2024-01-02
@@ -10,7 +10,7 @@ tags:
     - git
 ---
 
-# 🧩 **Maintaining Code Quality with `pre-commit`**
+# 🇫🇷 **Digital Nomad Diaries: France**
 
 Some tips and tools to help keep research software _reproducible, reliable_ and _robust_.
 

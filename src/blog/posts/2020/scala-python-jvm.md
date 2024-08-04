@@ -1,19 +1,27 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    Calling compiled Scala code inside the JVM from Python using PySpark
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# Calling Compiled Scala Code from Python using PySpark
+# 🐍 **Calling Compiled Scala Code from Python using PySpark**
 
-__Calling compiled Scala code inside the JVM from Python using PySpark__
+Calling compiled Scala code inside the JVM from Python using PySpark.
+
+<!-- more -->
 
 <aside class="mdx-author" markdown>
 ![@tallamjr][@tallamjr avatar]

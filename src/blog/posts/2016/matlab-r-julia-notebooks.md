@@ -1,30 +1,27 @@
 ---
-date: 2016-11-14
+draft: false
+date:
+  created: 2016-11-14
+  #  updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-  # template: main.html
+  - Tooling
+tags:
+  - python
+  - matlab
+  - notebooks
 ---
 
-# Multilingual Notebooks: A Polyglot's Playground
+# 📊 **Multilingual Notebooks: A Polyglot's Playground**
 
-__This is the story of how we managed to completely rebuild client-side search,
-delivering a significantly better user experience while making it faster and
-smaller at the same time.__
+A walk through of the steps installing MATLAB, R and Julia kernels for Jupyter
+notebooks, with some _gotchas_ you may encounter along the way.
 
 <!-- more -->
 
-
-*Here I walk through the steps of installing the MATLAB, R and Julia kernels for Jupyter
-notebooks. Also discussed are some of the gotchas I encountered along the way.*
+---
 
 ![](matlab-r-julia-notebooks/newprojectlist.png){ align=left width=300}
-
-<!-- <figure markdown> -->
-<!-- <figcaption markdown> -->
-
-<!-- </figcaption> -->
-<!-- </figure> -->
 
 Jupyter notebooks are an amazing way of keeping track of programming pipelines
 and for learning concepts through programming. It is also a great way to

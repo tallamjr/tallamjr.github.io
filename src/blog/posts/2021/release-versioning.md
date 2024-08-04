@@ -1,35 +1,29 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2021-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    "# Ah `bufdo`; That'll do"
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# Release Versioning with git tags
+# 🏷️ **Release Versioning with git tags**
 
-__In this post I walk through the steps of how one can set up a standalone Python
+In this post I walk through the steps of how one can set up a standalone Python
 project to have it's version set by git tags alone. I will also walk through how one can achieve
-this with a Scala project within the same repository.__
+this with a Scala project within the same repository.
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: November 06, 2017 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
+<!-- more -->
 
 Releasing software, whether it be a MAJOR, MINOR or PATCH update, often requires one to bump
 versions in several files. This can cause files/packages to be out of sync if there are a few files that

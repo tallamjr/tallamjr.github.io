@@ -1,36 +1,28 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    A datum of news from the Open Source, Data Science and Data Engineering circles. May 2020 edition
-search:
-  exclude: true
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# DATUM-2005
+# 📰 **DATUM-2005**
 
-__A datum of news from the Open Source, Data Science and Data Engineering circles. May 2020
-edition__
+A datum of news from the Open Source, Data Science and Data Engineering circles. May 2020
+edition.
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: May 10, 2020 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
+<!-- more -->
 
 1. [KIP-500](#kip500) - The end of Zookeeper dependecy for Kafka
 2. [GTC20](#gtc20) - NVIDIA's Global Technology Conference 2020

@@ -1,16 +1,17 @@
 ---
-draft: false
+draft: true
 date:
-  created: 2024-06-17
-  #  updated: 2024-01-02
+  created: 2023-05-01
+  updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Opinionated
+    - Life
 tags:
-    - git
+    - personal
+    - phd
 ---
 
-# 🧩 **Maintaining Code Quality with `pre-commit`**
+# 🎓 **2 x 10, + 1, PhD Done!**
 
 Some tips and tools to help keep research software _reproducible, reliable_ and _robust_.
 

@@ -64,7 +64,13 @@ theme:
 # Plugins
 plugins:
   - search
-  - blog
+  - blog:
+      archive_date_format: yyyy
+      authors_profiles: true
+      pagination_per_page: 5
+      archive_pagination_per_page: 10
+      categories_pagination_per_page: 10
+      draft_on_serve: true
   - minify:
       minify_html: true
   - bibtex:
@@ -73,6 +79,7 @@ plugins:
       csl_file: "bin/sage-harvard.csl"
       # csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
       footnote_format: "ref{number}"
+  - tags
 
 # Customization
 extra:

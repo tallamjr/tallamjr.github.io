@@ -1,21 +1,23 @@
 ---
-date: 2017-11-06
+draft: false
+date:
+  created: 2017-11-06
+  updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    "# Ah `bufdo`, that'll do"
+  - Tooling
+tags:
+  - unix
+  - vim
 ---
 
-# Ah `bufdo`, that'll do!
+# ⌨️ **Ah `:bufdo`, that'll do!**
 
-__A while ago I worked on a method to allow local writing of development logs in markdown, which I
-could then upload to Github where my supervisor could take a look. Here are the steps..__
+A while ago I worked on a method to allow local writing of development logs in markdown, which I
+could then upload to Github where my supervisor could take a look. Here are the steps..
 
 <!-- more -->
 
-# `:bufdo`
 
 <!-- Place images inside folder with same name as post -->
 <figure markdown>

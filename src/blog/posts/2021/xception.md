@@ -1,34 +1,27 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2021-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    Review of the Xception network and the Depthwise-Separable Convolution
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# XceptionTime: Depthwise-Separable Convolutions for Efficient Time-Series Classification
+# ∿ **XceptionTime: Depthwise-Separable Convolutions for Efficient Time-Series Classification**
 
-__Review of the Xception network and the Depthwise-Separable Convolution__
+Review of the Xception network and the Depthwise-Separable Convolution
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: December 10, 2021 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
-
+<!-- more -->
 
 Something something xception
 

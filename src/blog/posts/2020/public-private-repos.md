@@ -1,35 +1,29 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    How to have an open public repository as well as a mirrored private repository on Github
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# Mirroring Public Repositories on Github, Privately
+# 🪞 **Mirroring Public Repositories on Github, Privately**
 
-__This post walks through the steps involved if you want to fork a public Github repository,
+This post walks through the steps involved if you want to fork a public Github repository,
 privately. It will show how to have an open public repository and how to mirror it in a private
-repository on Github__
+repository on Github.
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: February 10, 2020 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
+<!-- more -->
 
 These steps were inspired from this guide of '[Mirroring a
 repository'](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository#mirroring-a-repository) on Github documentation

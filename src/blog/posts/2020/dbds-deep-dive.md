@@ -1,36 +1,27 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    "# Ah `bufdo`; That'll do"
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# Databases and Distributed Systems Deep Dive
-
-__Starting a new project requires setting out some guidelines, choosing branching model.__
-
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: November 06, 2017 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
-
+# 🤿 **Databases and Distributed Systems Deep Dive**
 
 2020 became the year for me to learn Databases and Distributed Systems, properly!
+
+<!-- more -->
 
 During my Master in Computer Science a few years ago, my favourite courses were Systems Architecture
 (Operating Systems, Compilers etc) and Architecture and Hardware. Another course I took was Database

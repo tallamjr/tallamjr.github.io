@@ -1,37 +1,23 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    Awesome engineering blogs inspired by awesome.re
+    - RSW Engineering
+    - Tooling
+tags:
+    - unix
+    - vim
 ---
 
-# Awesome Engineering Blogs
-
-__This post was inspired by David Zhang's [awesome-engineering-blogs](https://github.com/crispgm/awesome-engineering-blogs) and the general ![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) movement, www.awesome.re__
-
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: February 9, 2020 ·
-:octicons-clock-24: 2 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
-
+# ⚙️ **Awesome Engineering Blogs**
 
 The idea is that this list will grow (and possibly shrink) over time as I discover more engineering
 blogs, and I will use this list as a reference for myself.
+
+<!-- more -->
 
 Much of the list is the same as David's, but I have added a couple, namely Databricks and NVIDIA's
 engineering blog, and removed some to make it more digestible. There is a very substantial list of

@@ -1,40 +1,31 @@
 ---
 draft: true
 date:
-  created: 2023-12-31
+  created: 2020-11-06
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-  - Conferences
-template: main.html
-description: >
-    "# Ah `bufdo`; That'll do"
+    - Conferences
+    - Embedded Systems
+    - Life
+    - Opinionated
+    - RSW Engineering
+    - Tooling
+    - tinyML + Edge A.I.
+tags:
+    - unix
+    - vim
 ---
 
-# Git in the habit
+# 🌊 **Git in the Habit**
 
-__Starting a new project requires setting out some guidelines, choosing branching model.__
+Starting a new project requires setting out some guidelines, choosing branching model.
 
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: November 06, 2017 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
-
+<!--more-->
 
 Some years ago, I decided to make a couple changes to how I write my commits and organise my git
 logs. This post goes over how breaking a couple habits has vastly improved my software development
 and data science workflow.
-
-<!--more-->
 
 # <a name="git-intro"></a>`git`
 
