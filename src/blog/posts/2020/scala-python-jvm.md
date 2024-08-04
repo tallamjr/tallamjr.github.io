@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date:
   created: 2020-11-06
   updated: 2024-01-02
@@ -22,20 +22,6 @@ tags:
 Calling compiled Scala code inside the JVM from Python using PySpark.
 
 <!-- more -->
-
-<aside class="mdx-author" markdown>
-![@tallamjr][@tallamjr avatar]
-
-<span>__Tarek Allam Jr.__· @tallamjr</span>
-<span>
-:octicons-calendar-24: May 27, 2020 ·
-:octicons-clock-24: 15 min read ·
-</span>
-</aside>
-
-  [@tallamjr avatar]: https://avatars.githubusercontent.com/tallamjr
-
----
 
 There is no doubt that Java and Scala are the de-facto languages for Data Engineering, whilst Python
 is certainly the front runner for language of choice with Data Scientists. Spark; a framework for
