@@ -152,13 +152,15 @@ nav:
     - index.md
   - Research:
     - research/index.md
-  - Projects:
-    - projects/index.md
+  # - Projects:
+  #   - projects/index.md
   - Wiki:
     - wiki/index.md
-    # - wiki/embedded-systems.md
-    # - wiki/compilers.md
-    # - wiki/model-compression.md
-    # - wiki/data-compression.md
+    - wiki/embedded-systems.md
+    - wiki/compilers.md
+    - wiki/model-compression.md
+    - wiki/data-compression.md
   - Blog:
     - blog/index.md
+  - Allam Labs.:
+    - allamlabs/index.md
