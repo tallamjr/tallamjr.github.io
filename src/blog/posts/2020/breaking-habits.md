@@ -21,7 +21,7 @@ tags:
 
 Starting a new project requires setting out some guidelines, choosing branching model.
 
-<!--more-->
+<!-- more -->
 
 Some years ago, I decided to make a couple changes to how I write my commits and organise my git
 logs. This post goes over how breaking a couple habits has vastly improved my software development
