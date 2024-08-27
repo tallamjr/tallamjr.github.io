@@ -1,7 +1,7 @@
 ---
 title: About Me
 ---
-## Bio
+<!-- ## Bio -->
 
 <style>
   .md-sidebar--secondary:not([hidden]) {
@@ -15,9 +15,7 @@ title: About Me
 
 <img src="./assets/imgs/profile-crop.png" style='border:0px solid #000000' alt="profile pic" align="right" width="300" height="300">
 
-Hello!, my name is Tarek
-
-<!-- _Ola!_ _Oi!_ -->
+Hello! my name is Tarek
 
 I am a Machine Learning Research Engineer at the Alan Turing Institute. The Alan
 Turing Institute is the United Kingdom's national institute for data science and
