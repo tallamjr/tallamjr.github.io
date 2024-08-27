@@ -8,7 +8,7 @@
 }
 
 .heart {
-  animation: heart 1000ms infinite;
+  animation: heart 2000ms infinite;
 }
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
@@ -31,4 +31,3 @@
 .facebook {
   color: #4267B2;
 }
-
