@@ -29,7 +29,7 @@ image that can run my 'Hello World' application.
 For this short post, I have created a "simpleApp" which is a simple "Hello, World!" application in
 Scala. The example code for this post is in the standard maven directory layout, i.e:
 
-```bash
+```plaintext
 .
 ├── build.sbt
 ├── project
@@ -65,7 +65,7 @@ def main(args: Array[String]): Unit = {
 Assuming you are familiar with `sbt`, one can use the following to compile the program to
 Java byte code and run:
 
-```bash
+```plaintext
 $ cd simpleApp
 $ sbt clean compile run
 [info] Loading settings for project simpleapp-build from plugins.sbt ...

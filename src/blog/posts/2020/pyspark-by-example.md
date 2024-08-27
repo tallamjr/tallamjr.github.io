@@ -38,7 +38,7 @@ indeed very detailed and provides great examples, the datasets that are included
 hands on are on the order of `Mb`'s (with the exception of the `activity-data` dataset used for the
 Streaming examples).
 
-```bash
+```plain
 $ du -sh data/* | sort -rh
 1.2G    data/activity-data
 90M     data/retail-data
@@ -70,7 +70,7 @@ library for plotting data. This dataset had location data combined with distribu
 
 As mentioned, in the course, the City of Chicago, reported crimes data was used.
 
-```bash
+```txt
 $ wget https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD
 $ mv rows.csv\?accessType\=DOWNLOAD data/reported-crimes.csv
 ```
@@ -81,7 +81,7 @@ $ mv rows.csv\?accessType\=DOWNLOAD data/reported-crimes.csv
 >>> rc.show(5)
 ```
 
-```less
+```txt
 +--------+-----------+-------------------+--------------------+----+-------------------+--------------------+--------------------+------+--------+----+--------+----+--------------+--------+------------+------------+----+--------------------+--------+---------+--------+
 |      ID|Case Number|               Date|               Block|IUCR|       Primary Type|         Description|Location Description|Arrest|Domestic|Beat|District|Ward|Community Area|FBI Code|X Coordinate|Y Coordinate|Year|          Updated On|Latitude|Longitude|Location|
 +--------+-----------+-------------------+--------------------+----+-------------------+--------------------+--------------------+------+--------+----+--------+----+--------------+--------+------------+------------+----+--------------------+--------+---------+--------+
