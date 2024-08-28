@@ -37,23 +37,22 @@ We will be calling `simple.SimpleApp.hello()` function to print `"Hello, World!"
 
 The simple Scala we will use is the following:
 
-```bash
-$ cat -n src/main/scala/simple/SimpleApp.scala
+```scala title="src/main/scala/simple/SimpleApp.scala"
 
- 1	package simple;
- 2
- 3	object SimpleApp {
- 4	  def hello(): Unit = {
- 5	    println("Hello, Wolrd")
- 6	  }
- 7	}
+package simple;
+
+object SimpleApp {
+  def hello(): Unit = {
+    println("Hello, Wolrd")
+  }
+}
 
 ```
 
 This will then be compiled and packaged using `sbt` to created a `.jar` file that can be included in
 the running JVM instance when launching Spark. Thus, after running:
 
-```bash
+```console
 $ sbt clean compile package
 
 [info] Loading settings for project simpleapp-build from plugins.sbt ...
@@ -70,7 +69,7 @@ $ sbt clean compile package
 
 We obtain `target/scala-2.12/simpleapp_2.12-1.0.jar` which is supplied to Spark like so:
 
-```bash
+```console
 $ spark-submit --driver-class-path target/scala-2.12/simpleapp_2.12-1.0.jar simpleSpark/main.py
 
 ```
@@ -119,7 +118,7 @@ on but the key lines of code are:
 
 The resulting output after running `spark-submit` is:
 
-```bash
+```console
 $ spark-submit --driver-class-path target/scala-2.12/simpleapp_2.12-1.0.jar simpleSpark/main.py
 
 20/05/21 13:26:02 WARN Utils: Your hostname, Tareks-MacBook-Pro.local resolves to a loopback address: 127.0.0.1; using 192.168.0.178 instead (on interface en0)
