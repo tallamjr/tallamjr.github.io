@@ -80,6 +80,7 @@ plugins:
       # csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
       footnote_format: "ref{number}"
   - tags
+  - glightbox
 
 # Customization
 extra:
@@ -100,7 +101,6 @@ markdown_extensions:
   - abbr
   - admonition
   - attr_list
-  - codehilite
   - def_list
   - footnotes
   - md_in_html
@@ -118,7 +118,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      use_pygments: true
+      noclasses: true
+      pygments_style: "lightbulb"
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
@@ -126,7 +129,7 @@ markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
-          class: mermaid-experimental
+          class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
@@ -152,13 +155,15 @@ nav:
     - index.md
   - Research:
     - research/index.md
-  - Projects:
-    - projects/index.md
+  # - Projects:
+  #   - projects/index.md
   - Wiki:
     - wiki/index.md
-    # - wiki/embedded-systems.md
-    # - wiki/compilers.md
-    # - wiki/model-compression.md
-    # - wiki/data-compression.md
+    - wiki/embedded-systems.md
+    - wiki/compilers.md
+    - wiki/model-compression.md
+    - wiki/data-compression.md
   - Blog:
     - blog/index.md
+  # - Allam Labs.:
+  #   - allamlabs/index.md

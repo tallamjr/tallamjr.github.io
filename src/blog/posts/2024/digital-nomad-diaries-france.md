@@ -14,12 +14,12 @@ tags:
 
 Some tips and tools to help keep research software _reproducible, reliable_ and _robust_.
 
-<!-- more -->
-
 <figure markdown="span">
     ![](https://imgs.xkcd.com/comics/code_quality.png){ width=100% }
   <figcaption>Code quality..</figcaption>
 </figure>
+
+<!-- more -->
 
 In the realm of research software engineering, writing clean, maintainable, and reproducible code is essential. Researchers often develop software that is shared among teams, published at conferences or journals, or used to derive critical results in adjacent fields. Adhering to best practices ensures that your code is not only reliable but understandable and reproducible. This post will hopefully give some motivation with examples and showcase several technologies that can help make putting the best practises into practice easier.
 

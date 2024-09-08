@@ -4,6 +4,7 @@ mkdocs
 mkdocs
 mkdocs-bibtex
 mkdocs-bibtex
+mkdocs-glightbox
 mkdocs-jupyter
 mkdocs-macros-plugin
 mkdocs-material

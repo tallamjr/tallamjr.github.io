@@ -1,7 +1,7 @@
 ---
 title: About Me
 ---
-## Bio
+<!-- ## Bio -->
 
 <style>
   .md-sidebar--secondary:not([hidden]) {
@@ -15,11 +15,10 @@ title: About Me
 
 <img src="./assets/imgs/profile-crop.png" style='border:0px solid #000000' alt="profile pic" align="right" width="300" height="300">
 
-Hello!, my name is Tarek
+Hello! my name is Tarek
 
-<!-- _Ola!_ _Oi!_ -->
-
-I am a Machine Learning Research Engineer at the Alan Turing Institute. The Alan
+I am a Lead Machine Learning Research Engineer at the [Alan Turing
+Institute](https://en.wikipedia.org/wiki/Alan_Turing_Institute).  The Alan
 Turing Institute is the United Kingdom's national institute for data science and
 artificial intelligence, founded in 2015 and largely funded by the UK
 government. It is named after Alan Turing, the British mathematician and
@@ -30,8 +29,10 @@ Science at University College London (UCL). My PhD research focused on the
 application of **Deep Learning** and **Model Compression** algorithms for
 real-time classification of Astronomical transient events.
 
-My thesis, for which I won the Perren prize for best CDT thesis 2022, can be freely
-downloaded [**here**](https://discovery.ucl.ac.uk/id/eprint/10168921).
+My thesis, for which I won the [Perren prize for best CDT thesis
+2022](https://www.linkedin.com/posts/ucl-centre-for-data-intensive-science_cdtdis-phd-dataintensivescience-activity-7074683548539973632-8HPX?utm_source=share&utm_medium=member_desktop),
+can be freely downloaded [from the UCL archives
+here](https://discovery.ucl.ac.uk/id/eprint/10168921).
 
 Towards the end of my PhD I was one of the 7 research students that were
 nominated by UCL to apply for the Schmidt Science Fellowship. While I was

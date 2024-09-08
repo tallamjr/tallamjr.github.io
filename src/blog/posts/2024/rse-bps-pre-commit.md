@@ -2,7 +2,7 @@
 draft: false
 date:
   created: 2024-06-17
-  #  updated: 2024-01-02
+  updated: 2024-08-27
 authors: [tallamjr]
 categories:
     - Opinionated
@@ -14,16 +14,24 @@ tags:
 
 Some tips and tools to help keep research software _reproducible, reliable_ and _robust_.
 
-<!-- more -->
-
 <figure markdown="span">
     ![](https://imgs.xkcd.com/comics/code_quality.png){ width=100% }
   <figcaption>Code quality..</figcaption>
 </figure>
 
-In the realm of research software engineering, writing clean, maintainable, and reproducible code is essential. Researchers often develop software that is shared among teams, published at conferences or journals, or used to derive critical results in adjacent fields. Adhering to best practices ensures that your code is not only reliable but understandable and reproducible. This post will hopefully give some motivation with examples and showcase several technologies that can help make putting the best practises into practice easier.
+<!-- more -->
 
-The post will focus on using `pre-commit` for maintaining (or enforcing, depending how you look at it) code quality, while other posts that will follow will cover `pytest` for testing, and `git` for version control.
+In the realm of research software engineering, writing clean, maintainable, and
+reproducible code is essential. Researchers often develop software that is
+shared among teams, published at conferences or journals, or used to derive
+critical results in adjacent fields. Adhering to best practices ensures that
+your code is not only reliable but understandable and reproducible. This post
+will hopefully give some motivation with examples and showcase several
+technologies that can help make putting the best practises into practice easier.
+
+The post will focus on using `pre-commit` for maintaining (or enforcing,
+depending how you look at it) code quality, while other posts that will follow
+will cover `pytest` for testing, and `git` for version control.
 
 ## ❓Why Best Practices Matter
 
@@ -34,9 +42,21 @@ The post will focus on using `pre-commit` for maintaining (or enforcing, dependi
 
 ## ✅ **Code Quality with `pre-commit`**
 
-Maintaining code quality is critical, and the `pre-commit` framework helps automate this by running checks before code is committed. While some may seen code style or quality a non-issue, having a consistent style or checking for linting errors can relive the mental burden of the programmer significantly. It is also amazingly easy to automate so why not get tools in place so you don't need to even think about it.
+Maintaining code quality is critical, and the `pre-commit` framework helps
+automate this by running checks before code is committed. While some may seen
+code style or quality a non-issue, having a consistent style or checking for
+linting errors can relive the mental burden of the programmer significantly. It
+is also amazingly easy to automate so why not get tools in place so you don't
+need to even think about it.
 
-While other frameworks are out there such as Husky[^1] and Overcommit[^2] `pre-commit` allows developers to define a set of checks (hooks) that run before a commit is made, ensuring code quality and consistency before it enters the repository. These hooks can perform tasks such as code formatting, linting, checking for secrets, or running tests. Originally created by Yelp in 2014, the goal was to provide a common interface for pre-commit hooks across different languages and projects, promoting best practices and code quality from the very start of the development process.
+While other frameworks are out there such as Husky[^1] and Overcommit[^2]
+`pre-commit` allows developers to define a set of checks (hooks) that run before
+a commit is made, ensuring code quality and consistency before it enters the
+repository. These hooks can perform tasks such as code formatting, linting,
+checking for secrets, or running tests. Originally created by Yelp in 2014, the
+goal was to provide a common interface for pre-commit hooks across different
+languages and projects, promoting best practices and code quality from the very
+start of the development process.
 
 [^1]: https://typicode.github.io/husky/
 [^2]: https://github.com/sds/overcommit
@@ -45,14 +65,16 @@ While other frameworks are out there such as Husky[^1] and Overcommit[^2] `pre-c
 
 1. **Installation**:
 
-The easiest way to install is via `pip`, but other options available too such as `conda` etc. Let's put together a minimal repo and install our first pre-commit checks.
+The easiest way to install is via `pip`, but other options available too such as
+`conda` etc. Let's put together a minimal repo and install our first pre-commit
+checks.
 
 ???+ info
     For this demo example I will use other additional technologies but feel free
     to use whichever you are familiar with. This example will feature Hatch.
 
-```bash
-✔ /tmp  :: hatch new hello
+```console
+$ hatch new hello
 hello
 ├── src
 │   └── hello
@@ -94,37 +116,41 @@ Don't worry, we will cover the hooks later on...
 
 3. **Install pre-commit Hooks**:
 
-    ```bash
-    pre-commit install
+    ```console
+    $ pre-commit install
     ```
 
 !!! note
-    This will _only_ install the necessary hooks **_locally_**. It is important to stress that these do not take affect upstream even after a push. So it is encouraged in team development there are guidelines about setting up pre-commit.
+    This will _only_ install the necessary hooks **_locally_**. It is important
+    to stress that these do not take affect upstream even after a push. So it is
+    encouraged in team development there are guidelines about setting up
+    pre-commit.
 
 ???+ warning
-    pre-commit naturally requires there to be a version control system in place to work. Otherwise you see the following error:
-    ```bash
-    ✔ /tmp/hello  :: pre-commit install
-    An error has occurred: FatalError: git failed. Is it installed, and are you in a Git repository directory?
-    Check the log at /Users/tallam/.cache/pre-commit/pre-commit.log
+    pre-commit naturally requires there to be a version control system in place
+    to work. Otherwise you see the following error:
+    ```console
+    $ pre-commit install
+    An error has occurred: FatalError: git failed. Is it installed, and are you
+    in a Git repository directory?  Check the log at
+    /Users/tallam/.cache/pre-commit/pre-commit.log
     ```
 
-```bash
-✔ /tmp/hello (master) :: pre-commit install
+```console
+$ pre-commit install
 pre-commit installed at .git/hooks/pre-commit
 ```
-
 
 4. **Run pre-commit**:
 
     You can manually run all hooks on all files:
 
-    ```bash
-    pre-commit run --all-files
+    ```console
+    $ pre-commit run --all-files
     ```
 
-```bash
-✔ /tmp/hello (master) :: pre-commit run --all-files
+```console
+$ pre-commit run --all-files
 [INFO] Initializing environment for https://github.com/astral-sh/ruff-pre-commit.
 [INFO] Installing environment for https://github.com/psf/black.
 [INFO] Once installed this environment will be reused.
@@ -140,7 +166,8 @@ black....................................................................Passed
 ruff.....................................................................Passed
 ```
 
-You may have noticed above that pre-commit has some built in checkers that are very useful and have been highlighted below.
+You may have noticed above that pre-commit has some built in checkers that are
+very useful and have been highlighted below.
 
 ``` yaml hl_lines="3-9"
 # .pre-commit-config.yml
@@ -162,10 +189,11 @@ repos:
       - id: ruff
 ```
 
-One simple example is `trailing-whitespace` which will fail on extra white space. Let's add some to the `main.py` file to see what happens.
+One simple example is `trailing-whitespace` which will fail on extra white
+space. Let's add some to the `main.py` file to see what happens.
 
-```bash
-✔ /tmp/hello (master) :: echo "     " >> src/hello/main.py
+```console
+$ echo "     " >> src/hello/main.py
 ```
 ```diff
 diff --git a/src/hello/main.py b/src/hello/main.py
@@ -178,8 +206,8 @@ index 7df869a..3c8ba12 100644
 
 ```
 
-```bash
-✔ /tmp/hello (master) :: git add . && git commit -m "whitespace test"
+```console
+$ git add . && git commit -m "whitespace test"
 Trim Trailing Whitespace.................................................Failed
 - hook id: trailing-whitespace
 - exit code: 1
@@ -204,8 +232,8 @@ ruff.....................................................................Passed
 Fail. But pre-commit can automatically apply the fix for you. So when we have another look we see it has already been removed:
 
 
-```bash
-✔ /tmp/hello (master) :: git status
+```console
+$ git status
 On branch master
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
@@ -240,17 +268,31 @@ index 7df869a..3c8ba12 100644
 
 ```
 
-This may seem annoying, "it's only whitespace...🙄", but as you can see above, having the slightest change to what is expected can cause unnecessary diffs in the git logs. This means it makes it that much harder for your team members trying to get their head around complex code changes when there are random changes that do not change the logic of the code and just becomes a distraction.  And trust me, when combing through 1000's of lines of code looking for a bug, the less distractions and diff content the better!
+This may seem annoying, "it's only whitespace...🙄", but as you can see above,
+having the slightest change to what is expected can cause unnecessary diffs in
+the git logs. This means it makes it that much harder for your team members
+trying to get their head around complex code changes when there are random
+changes that do not change the logic of the code and just becomes a distraction.
+And trust me, when combing through 1000's of lines of code looking for a bug,
+the less distractions and diff content the better!
 
-As programmers we spend way more time reading code that writing it and so enforcing code quality not only applies to silly examples like whitespace, but even the consistency of indentation, or style of `if;else` blocks to name a few.  I'd encourage at this point to look at the built in hooks found here: https://pre-commit.com/hooks.html
+As programmers we spend way more time reading code that writing it and so
+enforcing code quality not only applies to silly examples like whitespace, but
+even the consistency of indentation, or style of `if;else` blocks to name a few.
+I'd encourage at this point to look at the built in hooks found here:
+https://pre-commit.com/hooks.html
 
-All can make a difference and having a strict enforcement of style will make reading code far easier.
+All can make a difference and having a strict enforcement of style will make
+reading code far easier.
 
-Some particularly useful ones are `black`: the "opinionated python formatter", `ruff`: a blazingly fast linter for python and `mypy` for pseudo-type checking of python code.
+Some particularly useful ones are `black`: the "opinionated python formatter",
+`ruff`: a blazingly fast linter for python and `mypy` for pseudo-type checking
+of python code.
 
 ### Custom Hooks
 
-The awesome thing about pre-commit is you can also create custom hooks to enforce specific project requirements.
+The awesome thing about pre-commit is you can also create custom hooks to
+enforce specific project requirements.
 
 ```yaml
 # .pre-commit-config.yaml
@@ -264,8 +306,8 @@ repos:
         files: \.py$
 ```
 
-```sh
-# ./scripts/custom-check.sh
+```bash title="./scripts/custom-check.sh"
+
 #!/bin/bash
 # Custom script for checking something specific
 echo "Running custom check"
@@ -273,7 +315,10 @@ echo "Running custom check"
 
 ## Conclusion
 
-Hopefully this has given you some motivation and also pointed you in the direction where you can learn more about enforcing code quality in your projects. Always strive to automate everything and if you can automate code quality checks, why not?!
+Hopefully this has given you some motivation and also pointed you in the
+direction where you can learn more about enforcing code quality in your
+projects. Always strive to automate everything and if you can automate code
+quality checks, why not?!
 
 Happy coding! And be forceful _with style_
 
