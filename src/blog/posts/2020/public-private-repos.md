@@ -15,6 +15,7 @@ categories:
 tags:
     - unix
     - vim
+slug: public-private-repos
 ---
 
 # 🪞 **Mirroring Public Repositories on Github, Privately**
@@ -30,7 +31,7 @@ repository'](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 1. Create a bare clone of the repository.
 
-```bash
+```console
 14:05:04 ✔ ~/Github/origin  :: git clone --bare git@github.com:tallamjr/public.git private
 Cloning into bare repository 'private'...
 remote: Enumerating objects: 5, done.
@@ -42,7 +43,7 @@ Receiving objects: 100% (5/5), 5.47 KiB | 5.47 MiB/s, done.
 
 2. Mirror-push to the new repository.
 
-```bash
+```console
 14:05:45 ✔ ~/Github/origin  :: cd private/
 14:05:48 ✔ ~/Github/origin/private (BARE:master) :: git push --mirror git@github.com:tallamjr/private.git
 Enumerating objects: 5, done.
@@ -57,14 +58,14 @@ To github.com:tallamjr/private.git
 
 3. Remove the temporary local repository you created in step 1.
 
-```bash
+```console
 14:06:13 ✔ ~/Github/origin/private (BARE:master) :: cd ../
 14:06:24 ✔ ~/Github/origin  :: rm -rf private/
 ```
 
 4. Clone newly created 'private' mirrored repository
 
-```bash
+```console
 14:06:30 ✔ ~/Github/origin  :: git clone git@github.com:tallamjr/private.git
 Cloning into 'private'...
 remote: Enumerating objects: 5, done.
@@ -80,7 +81,7 @@ origin  git@github.com:tallamjr/private.git (push)
 
 5. Allow private repository to 'see' public repository by adding public repository to remote upstream
 
-```bash
+```console
 14:08:04 ✘ ~/Github/origin/private (master) :: git remote add upstream git@github.com:tallamjr/public.git
 14:09:22 ✔ ~/Github/origin/private (master) :: git remote -v
 origin  git@github.com:tallamjr/private.git (fetch)
@@ -94,7 +95,7 @@ sanity checks to ensure everything has indeed worked, having said that, step 9 i
 
 6. Clone public repository alongside private to test set-up by editing the public README.md (OPTIONAL)
 
-```bash
+```console
 14:10:25 ✔ ~/Github/origin/private (master) :: cd ../
 14:10:41 ✔ ~/Github/origin  :: git clone git@github.com:tallamjr/public.git
 Cloning into 'public'...
@@ -119,7 +120,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 7. Add, commit and push recent changes to the public README.md (OPTIONAL)
 
-```bash
+```console
 14:19:13 ✔ ~/Github/origin/public (master) :: git add README.md
 14:19:42 ✔ ~/Github/origin/public (master) :: git commit
 [master 881d666] Updating README with instructions
@@ -146,7 +147,7 @@ To github.com:tallamjr/public.git
 8. Go into the private repository and check 'status' (OPTIONAL). Notice with `git log` we only see a
    single commit from when the private repository was instantiated.
 
-```bash
+```console
 14:22:41 ✔ ~/Github/origin/public (master) :: cd ../private/
 14:22:45 ✔ ~/Github/origin/private (master) :: git status
 On branch master
@@ -167,11 +168,11 @@ Date:   Tue Feb 25 14:03:20 2020 +0000
 
 *NOTE* `git update` is an alias for:
 
-```bash
+```console
 git pull --rebase upstream master --ff-only && git fetch --all
 ```
 
-```bash
+```console
 14:24:00 ✔ ~/Github/origin/private (master) :: git update
 remote: Enumerating objects: 8, done.
 remote: Counting objects: 100% (8/8), done.
@@ -244,7 +245,7 @@ For this situation, one can have a system like so:
 
 public -->
 
-```bash
+```console
 - issue/<number>/short-token-description
 - feature/<number>/short-token-description
 - feature/<number>/issue/<number>/short-token-description
@@ -252,7 +253,7 @@ public -->
 
 private -->
 
-```bash
+```console
 - pv/issue/<number>/short-token-description
 - pv/feature/<number>/short-token-description
 - pv/feature/<number>/issue/<number>/short-token-description
@@ -262,11 +263,11 @@ private -->
     private repository. Again, this is just a system sanity check.
 
 
-```bash
+```console
 14:50:51 ✔ ~/Github/origin/public (master) :: git rebase -i HEAD~3
 ```
 
-```bash
+```console
 pick 881d666 Updating README with instructions
 f 372ebcf [FIXUP]
 pick 848079d Update with final set of instructions
@@ -299,7 +300,7 @@ pick 848079d Update with final set of instructions
 
 ```
 
-```bash
+```console
 Successfully rebased and updated refs/heads/master.
 14:50:59 ✔ ~/Github/origin/public (master) :: git log --oneline
 d1293c2 (HEAD -> master) Update with final set of instructions

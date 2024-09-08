@@ -80,6 +80,7 @@ plugins:
       # csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
       footnote_format: "ref{number}"
   - tags
+  - glightbox
 
 # Customization
 extra:

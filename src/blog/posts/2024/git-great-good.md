@@ -16,19 +16,19 @@ tags:
 
 An opinionated view on `git` flow for effective research engineering.
 
+<figure markdown="span">
+    ![Image title](https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&w=2976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){ width=100% }
+  <figcaption>Image caption</figcaption>
+</figure>
+
+<!-- more -->
+
   [git sparse-checkout]: https://git-scm.com/docs/git-sparse-checkout
   [GitHub Actions]: ../../publishing-your-site.md#with-github-actions
   [git-revision-date-localized]: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
   [git-committers]: https://github.com/ojacques/mkdocs-git-committers-plugin-2
   [document contributors]: ../../setup/adding-a-git-repository.md#document-contributors
   [dates]: ../../setup/adding-a-git-repository.md#document-dates
-
-<!-- more -->
-
-<figure markdown="span">
-    ![Image title](https://imgs.xkcd.com/comics/manuals.png){ width=100% }
-  <figcaption>Image caption</figcaption>
-</figure>
 
 As with any other engineering discipline, research software engineering
 demands that the end result be robust and well-tested. It should also be
