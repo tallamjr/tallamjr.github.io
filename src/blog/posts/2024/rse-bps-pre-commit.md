@@ -5,9 +5,9 @@ date:
   updated: 2024-08-27
 authors: [tallamjr]
 categories:
-    - Opinionated
+  - Opinionated
 tags:
-    - git
+  - git
 ---
 
 # 🧩 **Maintaining Code Quality with `pre-commit`**
@@ -59,19 +59,22 @@ languages and projects, promoting best practices and code quality from the very
 start of the development process.
 
 [^1]: https://typicode.github.io/husky/
+
 [^2]: https://github.com/sds/overcommit
 
 ### Getting Started with pre-commit
 
-1. **Installation**:
+**1. Installation**:
 
 The easiest way to install is via `pip`, but other options available too such as
 `conda` etc. Let's put together a minimal repo and install our first pre-commit
 checks.
 
+<!-- prettier-ignore-start -->
 ???+ info
-    For this demo example I will use other additional technologies but feel free
-    to use whichever you are familiar with. This example will feature Hatch.
+      For this demo example I will use other additional technologies but feel free
+      to use whichever you are familiar with. This example will feature Hatch.
+<!-- prettier-ignore-end -->
 
 ```console
 $ hatch new hello
@@ -88,7 +91,7 @@ hello
 ✔ /tmp/hello (master) :: echo 'print("Hello, World!")' >> src/hello/main.py
 ```
 
-2. **Configuration**:
+**2. Configuration**:
 
 When it is installed, one simply creates a `.pre-commit-config.yml` file in the root of the repo like so:
 
@@ -114,27 +117,31 @@ repos:
 
 Don't worry, we will cover the hooks later on...
 
-3. **Install pre-commit Hooks**:
+**3. Install pre-commit Hooks**:
 
-    ```console
-    $ pre-commit install
-    ```
+```console
+$ pre-commit install
+```
 
+<!-- prettier-ignore-start -->
 !!! note
     This will _only_ install the necessary hooks **_locally_**. It is important
     to stress that these do not take affect upstream even after a push. So it is
     encouraged in team development there are guidelines about setting up
     pre-commit.
+<!-- prettier-ignore-end -->
 
+<!-- prettier-ignore-start -->
 ???+ warning
     pre-commit naturally requires there to be a version control system in place
     to work. Otherwise you see the following error:
-    ```console
-    $ pre-commit install
-    An error has occurred: FatalError: git failed. Is it installed, and are you
-    in a Git repository directory?  Check the log at
-    /Users/tallam/.cache/pre-commit/pre-commit.log
-    ```
+    `console
+        $ pre-commit install
+        An error has occurred: FatalError: git failed. Is it installed, and are you
+        in a Git repository directory?  Check the log at
+        /Users/tallam/.cache/pre-commit/pre-commit.log
+        `
+<!-- prettier-ignore-end -->
 
 ```console
 $ pre-commit install
@@ -143,11 +150,11 @@ pre-commit installed at .git/hooks/pre-commit
 
 4. **Run pre-commit**:
 
-    You can manually run all hooks on all files:
+   You can manually run all hooks on all files:
 
-    ```console
-    $ pre-commit run --all-files
-    ```
+   ```console
+   $ pre-commit run --all-files
+   ```
 
 ```console
 $ pre-commit run --all-files
@@ -169,7 +176,7 @@ ruff.....................................................................Passed
 You may have noticed above that pre-commit has some built in checkers that are
 very useful and have been highlighted below.
 
-``` yaml hl_lines="3-9"
+```yaml hl_lines="3-9"
 # .pre-commit-config.yml
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -195,6 +202,7 @@ space. Let's add some to the `main.py` file to see what happens.
 ```console
 $ echo "     " >> src/hello/main.py
 ```
+
 ```diff
 diff --git a/src/hello/main.py b/src/hello/main.py
 index 7df869a..3c8ba12 100644
@@ -230,7 +238,6 @@ ruff.....................................................................Passed
 ```
 
 Fail. But pre-commit can automatically apply the fix for you. So when we have another look we see it has already been removed:
-
 
 ```console
 $ git status
