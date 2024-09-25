@@ -1,8 +1,12 @@
 @keyframes heart {
-  0%, 40%, 80%, 100% {
+  0%,
+  40%,
+  80%,
+  100% {
     transform: scale(1);
   }
-  20%, 60% {
+  20%,
+  60% {
     transform: scale(1.15);
   }
 }
@@ -11,23 +15,33 @@
   animation: heart 2000ms infinite;
 }
 
-.md-header__button.md-logo img, .md-header__button.md-logo svg {
-    fill: currentColor;
-    display: block;
-    height: 3.2rem;
-    width: 3.2rem;
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  fill: currentColor;
+  display: block;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 .md-typeset .md-button {
-    border: 0.1rem;
-    border-radius: 2rem;
+  border: 0.1rem;
+  border-radius: 2rem;
+}
+
+.md-typeset h2 {
+  font-weight: bold;
+}
+
+.md-typeset p {
+  font-family: "Lato", sans-serif; /* Setting font family to Lato */
+}
 
 .medium {
-  color: #00AB6C;
+  color: #00ab6c;
 }
 .twitter {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 .facebook {
-  color: #4267B2;
+  color: #4267b2;
 }
