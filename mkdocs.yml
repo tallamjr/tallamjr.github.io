@@ -152,18 +152,18 @@ extra_css:
 # Page tree
 nav:
   - About Me:
-    - index.md
+      - index.md
   - Research:
-    - research/index.md
+      - research/index.md
   # - Projects:
   #   - projects/index.md
   - Wiki:
-    - wiki/index.md
-    - wiki/embedded-systems.md
-    - wiki/compilers.md
-    - wiki/model-compression.md
-    - wiki/data-compression.md
+      - wiki/index.md
+      - wiki/embedded-systems.md
+      - wiki/compilers.md
+      - wiki/model-compression.md
+      - wiki/data-compression.md
   - Blog:
-    - blog/index.md
+      - blog/index.md
   # - Allam Labs.:
   #   - allamlabs/index.md
