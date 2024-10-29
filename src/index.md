@@ -1,6 +1,7 @@
 ---
 title: About Me
 ---
+
 <!-- ## Bio -->
 
 <style>
@@ -17,9 +18,10 @@ title: About Me
 
 Hello! my name is Tarek
 
-I am a Lead Machine Learning Research Engineer at the [Alan Turing
-Institute](https://en.wikipedia.org/wiki/Alan_Turing_Institute).  The Alan
-Turing Institute is the United Kingdom's national institute for data science and
+I am a Machine Learning Research Engineer and Technical Lead for Efficient Deep
+Learning, On-device AI and Embedded ML Systems at the [Alan Turing
+Institute](https://en.wikipedia.org/wiki/Alan_Turing_Institute). The Alan Turing
+Institute is the United Kingdom's national institute for data science and
 artificial intelligence, founded in 2015 and largely funded by the UK
 government. It is named after Alan Turing, the British mathematician and
 computing pioneer.
@@ -35,20 +37,21 @@ can be freely downloaded [from the UCL archives
 here](https://discovery.ucl.ac.uk/id/eprint/10168921).
 
 Towards the end of my PhD I was one of the 7 research students that were
-nominated by UCL to apply for the Schmidt Science Fellowship. While I was
-ultimately unsuccessful, my research proposal on ["Efficient Learned Image Reconstruction and Compression Algorithms for Real-time Medical Image Analysis"](./assets/ssf-proposal.pdf)
-is a good reflection of some of the areas of research I find most interesting.
+nominated by UCL to apply for the Schmidt Science Fellowship. My research
+proposal on ["Efficient Learned Image Reconstruction and Compression Algorithms
+for Real-time Medical Image Analysis"](./assets/ssf-proposal.pdf) is a good
+reflection of some of the areas of research I find most interesting.
 
-Through my role at the ATI, I get to continue my applied research by investigating how the latest
-techniques in statistical signal processing and probabilistic machine learning
-can be used for **Neural Compression** :compression: to better enable
-low-latency energy efficient inference of machine learning models in resource
-constrained **Embedded Systems** :octicons-cpu-24: -- a.k.a #tinyML
+Through my role at the ATI, I get to continue my applied research by
+investigating novel **Neural Compression** :compression: techniques combined
+with leveraging cutting-edge **ML Compiler** research to better enable low-latency
+energy efficient inference of machine learning models in resource constrained
+**Embedded Systems** :octicons-cpu-24: -- a.k.a _#tinyML_
 
 I am also a Research Software Engineering Fellow at the [Software Sustainability
 Institute](https://www.software.ac.uk/), where I help academics leverage tools
-and software engineering best practises for better research software :
-[#bettersoftwarebetterscience](#)
+and software engineering best practises for better research software
+_[#bettersoftwarebetterscience](#)_
 
 Find me online `@tallamjr` $\in \{$ <a class="github-button" href="https://github.com/tallamjr"
 data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:octicons-mark-github-16:, </a>
@@ -403,4 +406,3 @@ data-icon="octicon-mark-github" aria-label="@tallamjr on GitHub">:fontawesome-br
 <!-- <center> -->
 <!-- <a class="md-button md-button--primary" href="./assets/tarekallam-cv.pdf">Download C.V. :fontawesome-solid-circle-arrow-down:</a> -->
 <!-- </center> -->
-
