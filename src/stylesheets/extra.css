@@ -41,6 +41,21 @@
   font-family: "Lato", sans-serif; /* Setting font family to Lato */
 }
 
+.md-typeset h1 {
+  color: var(--md-typeset-color);
+  font-weight: bold;
+}
+
+.md-typeset code {
+  color: #0ff1ce;
+  background-color: #36464e;
+}
+
+.md-post__content.md-typeset code {
+  color: #0ff1ce;
+  background-color: #36464e;
+}
+
 .medium {
   color: #00ab6c;
 }
