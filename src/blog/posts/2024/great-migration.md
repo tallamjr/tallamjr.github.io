@@ -49,7 +49,7 @@ of an application Eclipse was, my sad laptop just couldn't hack it -- or would
 essentially sound like a small drone is about to take off at the back of the
 lecture hall. While I had exposure to Java and similar bloated IDEs back in 2008
 for undergrad, I hadn't appreciated the compute power and memory a large IDE
-uses.
+uses until I was running it on my own machine.
 
 Some of my classmates saw the embarrassment when every time I would try to edit a
 file my laptop would either crash or freeze and asked if I had ever heard of
@@ -152,6 +152,15 @@ guide from the first text editor on UNIX `ed` to what we have today.
 <!-- prettier-ignore-end -->
 
 ## 💪🏼**OK, Ok, I'm really doing it this time!**
+
+<!-- https://www.youtube.com/watch?v=6pAG3BHurdM -->
+<!-- https://www.josean.com/posts/how-to-setup-neovim-2024 -->
+<!-- https://docs.astronvim.com/reference/default_plugins/ -->
+
+<!-- NOTE: Vim motions -->
+
+<!-- https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R -->
+<!-- https://www.youtube.com/watch?v=-ybCiHPWKNA&pp=ygUWcHJpbWUgdmltIG1vdGlvbnMgbm9vYg%3D%3D -->
 
 ## 🔌 **Essential Plugins**
 
