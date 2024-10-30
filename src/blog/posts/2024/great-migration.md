@@ -146,9 +146,9 @@ guide from the first text editor on UNIX `ed` to what we have today.
     **Other Noteworthy Mentions:**
     - **Sam (1987):** Developed by Rob Pike, it was another influential Unix editor with a graphical user interface.
     - **Micro (2016):** A modern and intuitive terminal-based text editor, focusing on simplicity and ease of use, often seen as a more advanced alternative to **nano**.
-      
+
     These editors demonstrate the evolution of text editing from simple line editors like **ed** to sophisticated, highly extensible environments like **Neovim**. Each iteration brought new features or philosophies that have shaped how modern developers work with code in the terminal.
-      
+
 <!-- prettier-ignore-end -->
 
 ## 💪🏼**OK, Ok, I'm really doing it this time!**

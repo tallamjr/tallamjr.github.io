@@ -159,10 +159,13 @@ nav:
   #   - projects/index.md
   - Wiki:
       - wiki/index.md
-      - wiki/embedded-systems.md
-      - wiki/compilers.md
-      - wiki/model-compression.md
-      - wiki/data-compression.md
+      - Compilers:
+          - wiki/compilers/index.md
+      - Embedded Systems:
+          - wiki/embedded-systems/embedded-linux.md
+      - Compression:
+          - wiki/compression/model-compression.md
+          - wiki/compression/data-compression.md
   - Blog:
       - blog/index.md
   # - Allam Labs.:

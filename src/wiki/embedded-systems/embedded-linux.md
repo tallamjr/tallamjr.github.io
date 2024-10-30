@@ -1,3 +1,3 @@
-# Embedded Systems
+# Embedded Linux
 
 ### Hardware Emulation
