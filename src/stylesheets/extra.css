@@ -46,14 +46,29 @@
   font-weight: bold;
 }
 
-.md-typeset code {
-  color: #0ff1ce;
-  background-color: #36464e;
+/* Light mode styles for inline code (inside text) */
+[data-md-color-scheme="default"] .md-typeset :not(pre) > code {
+  color: #b73650 !important; /* Reddish-pink text for inline code */
+  background-color: #f8f2f4 !important; /* Light pinkish background */
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
 }
 
-.md-post__content.md-typeset code {
-  color: #0ff1ce;
-  background-color: #36464e;
+/* Dark mode styles for inline code */
+[data-md-color-scheme="slate"] .md-typeset :not(pre) > code {
+  color: #0ff1ce !important; /* Neon blue text */
+  background-color: #36464e !important; /* Dark background */
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* Always apply dark mode styles for code blocks (multiline) */
+.md-typeset pre code {
+  color: #0ff1ce !important; /* Neon blue text */
+  background-color: #36464e !important; /* Dark background */
+  border-radius: 6px;
+  padding: 1em;
+  overflow-x: auto;
 }
 
 .medium {
