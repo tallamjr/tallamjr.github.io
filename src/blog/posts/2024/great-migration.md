@@ -151,7 +151,7 @@ guide from the first text editor on UNIX `ed` to what we have today.
 
 <!-- prettier-ignore-end -->
 
-## 💪🏼**OK, Ok, I'm really doing it this time!**
+## 💪 **OK, Ok, I'm really doing it this time!**
 
 <!-- https://www.youtube.com/watch?v=6pAG3BHurdM -->
 <!-- https://www.josean.com/posts/how-to-setup-neovim-2024 -->
