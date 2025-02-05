@@ -164,7 +164,8 @@ nav:
       - Embedded Systems:
           - wiki/embedded-systems/embedded-linux.md
       - Compression:
-          - wiki/compression/model-compression.md
+          - wiki/compression/index.md
+          - wiki/compression/lossy/lossy.md
           - wiki/compression/data-compression.md
   - Blog:
       - blog/index.md
