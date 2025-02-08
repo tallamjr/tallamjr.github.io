@@ -161,12 +161,24 @@ nav:
       - wiki/index.md
       - Compilers:
           - wiki/compilers/index.md
+          - wiki/compilers/traditional-compilers.md
+          - wiki/compilers/ai-compilers.md
       - Embedded Systems:
+          - wiki/embedded-systems/index.md
           - wiki/embedded-systems/embedded-linux.md
       - Compression:
           - wiki/compression/index.md
           - wiki/compression/lossy/lossy.md
           - wiki/compression/data-compression.md
+      - Digital Signal Processing:
+          - wiki/digital-signal-processing/index.md
+          - wiki/digital-signal-processing/image.md
+          - wiki/digital-signal-processing/video.md
+      - Event-based Vision:
+          - wiki/eb-vision/index.md
+          - wiki/eb-vision/data-representation.md
+          - wiki/eb-vision/e2v.md
+          - wiki/eb-vision/v2e.md
   - Blog:
       - blog/index.md
   # - Allam Labs.:
