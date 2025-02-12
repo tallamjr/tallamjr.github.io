@@ -14,16 +14,27 @@ title: Research
   }
 </style>
 
-My current research focus is on improving on-device AI inference and developing
-machine learning compilers for hardware agnostic AI deployment.
+I have a broad range of research interests with an overarching focus of
+**Efficient Machine Learning**. Within EML I currently focus on 3 main topics:
 
-Below is a list of my academic publications but for more up-to-date musings, you
-might prefer my blog.
+### 1. A.I. Compilers for Optimized A.I. Deployments
+
+### 2. Model and Data Compression
+
+<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQwv7g1smWafRyu9lScSb1d68qsLAkq9b2A&s" alt="" width="400">
+</center>
+
+### 3. Event-based Computer Vision
+
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Event_camera_comparison.jpg" alt="" width="500">
+</center>
 
 ## Publications
 
-<center>
-🚧 Page Under Construction 🚧
-</center>
+<!-- <center> -->
+<!-- 🚧 Page Under Construction 🚧 -->
+<!-- </center> -->
 
-For now see my [Google Scholar](https://scholar.google.com/citations?user=a_gFi3MAAAAJ&hl=en)
+<!-- [@allam2018optimising;@allam2018photometric] -->
