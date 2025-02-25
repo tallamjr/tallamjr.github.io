@@ -18,18 +18,24 @@ title: About Me
 
 Hello! my name is Tarek
 
-I am a Machine Learning Research Engineer and Technical Lead for Efficient Deep
-Learning, On-device AI and Embedded ML Systems at the [Alan Turing
-Institute](https://en.wikipedia.org/wiki/Alan_Turing_Institute). The Alan Turing
-Institute is the United Kingdom's national institute for data science and
-artificial intelligence, founded in 2015 and largely funded by the UK
-government. It is named after Alan Turing, the British mathematician and
-computing pioneer.
+I am a Machine Learning Research Engineer and Technical Lead for Efficient
+Machine Learning and Intelligent Embedded Systems at the [**Alan Turing
+Institute (ATI)**](https://en.wikipedia.org/wiki/Alan_Turing_Institute) ⎯ the
+United Kingdom's national institute for data science and artificial
+intelligence, founded in 2015 and largely funded by the UK government. It is
+named after [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing), the
+British mathematician and computing pioneer.
 
-I did my PhD in Applied Machine Learning at the Centre for Data Intensive
-Science at University College London (UCL). My PhD research focused on the
-application of **Deep Learning** and **Model Compression** algorithms for
-real-time classification of Astronomical transient events.
+In my role at the ATI, I work on applied research projects largely relating to
+topics in **Compression** :compression: and **AI Compiler** research to better
+enable low-latency energy efficient inference of machine learning models in
+resource constrained **Embedded Systems** :octicons-cpu-24: -- a.k.a _#tinyML_
+
+In a past-life I did my PhD in Applied Machine Learning at the [**Centre Data
+Intensive Science & Industry** at University College London
+(UCL)](https://www.ucl.ac.uk/data-intensive-science-industry). My PhD research
+focused on the application of **Deep Learning** and **Model Compression**
+algorithms for real-time classification of Astronomical transient events.
 
 My thesis, for which I won the [Perren prize for best CDT thesis
 2022](https://www.linkedin.com/posts/ucl-centre-for-data-intensive-science_cdtdis-phd-dataintensivescience-activity-7074683548539973632-8HPX?utm_source=share&utm_medium=member_desktop),
@@ -41,12 +47,6 @@ nominated by UCL to apply for the Schmidt Science Fellowship. My research
 proposal on ["Efficient Learned Image Reconstruction and Compression Algorithms
 for Real-time Medical Image Analysis"](./assets/ssf-proposal.pdf) is a good
 reflection of some of the areas of research I find most interesting.
-
-Through my role at the ATI, I get to continue my applied research by
-investigating novel **Neural Compression** :compression: techniques combined
-with leveraging cutting-edge **ML Compiler** research to better enable low-latency
-energy efficient inference of machine learning models in resource constrained
-**Embedded Systems** :octicons-cpu-24: -- a.k.a _#tinyML_
 
 I am also a Research Software Engineering Fellow at the [Software Sustainability
 Institute](https://www.software.ac.uk/), where I help academics leverage tools
