@@ -31,25 +31,36 @@ overarching problem statement is: _How can we optimise a solution for a given
 task in terms of latency, power consumption and size (be that RAM usage or space
 on disk)._
 
-Below is a light touch of the 3 main pillars of my current research...
+Below is a light touch of some areas of focus...
 
-### 1. A.I. Compilers for Hardware Agnostic Deployment
+#### 1. A.I. Compilers for Hardware Agnostic Deployment
 
-### 2. Efficient Machine Learning
+This covers a broad range of topics including Model Compression (Quantization,
+Pruning, etc.) Graph Optimisation and Embedded System Design i.e.
+Hardware/Software Co-design.
 
-Model compression, Model Optimisation, Efficient Algorithms.
+<figure markdown>
+![](https://static.designandreuse.com/img20/20230524_1.jpg){ width=75% }
+<figcaption markdown>
+Image credit: Ambuj Nandanwar, Softnautics
+</figcaption>
+</figure>
 
-<center>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQwv7g1smWafRyu9lScSb1d68qsLAkq9b2A&s" alt="" width="400">
-</center>
+#### 2. Efficient Machine Learning and Efficient Data Processing
 
-### 3. Efficient Data Processing
+This looks at efficient algorithms for computer vision tasks, such as
+efficient Image and Video Reconstruction and Image and Video Compression. This
+also includes efficient architectures and the use of spare data representations
+for optimising the full data pipeline. This is complimented by
+research into Query Optimisation and Distributed System Design for Query
+Planning of structured and unstructured data.
 
-Sparse Data Representation, Data Compression, Video Compression.
-
-<center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Event_camera_comparison.jpg" alt="" width="500">
-</center>
+<figure markdown>
+![](https://upload.wikimedia.org/wikipedia/commons/2/26/Event_camera_comparison.jpg){ width=75% }
+<figcaption markdown>
+Image credit: Wikipedia: Event-based Vision
+</figcaption>
+</figure>
 
 ## Publications
 
