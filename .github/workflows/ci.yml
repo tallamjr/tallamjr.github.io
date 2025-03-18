@@ -13,27 +13,37 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-    - uses: actions/checkout@v4
-    - uses: conda-incubator/setup-miniconda@v3
-      with:
-        environment-file: environment.yml
-        miniforge-version: latest
-    - name: Configure Git Credentials
-      run: |
-        git config user.name github-actions[bot]
-        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-    - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-    - uses: actions/cache@v4
-      with:
-        key: mkdocs-material-${{ env.cache_id }}
-        path: .cache
-        restore-keys: |
-          mkdocs-material-
-    - run: |
-        sudo apt install pandoc
-        conda init bash
-        source /home/runner/miniconda3/etc/profile.d/conda.sh
-        conda env create -f environment.yml
-        conda activate web
-    - run: pip install -r requirements.txt
-    - run: mkdocs gh-deploy --force
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Setup Virtual Environment
+        run: uv install
+
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install pandoc
+        run: sudo apt install pandoc
+
+      - name: Install Python requirements
+        run: uv run pip install -r requirements.txt
+
+      - name: Deploy mkdocs
+        run: uv run mkdocs gh-deploy --force
