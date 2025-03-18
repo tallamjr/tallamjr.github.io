@@ -35,6 +35,7 @@ Something else [@rumelhart1986learning]
 Another thing [@riess1998observational]
 
 ### Testing another font
+
 $$
 \vec{\nabla} \times \vec{F} =
             \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i}
@@ -74,7 +75,6 @@ Time-Series Transformer.
 <!-- Finally I showcase some results, and hopefully spark some discussion about how we may extend our -->
 <!-- work and ultimately combining efforts to allow for this work to be a part of FINK, one day. -->
 
-
 ## Motivation: A Deluge of Data
 
 So, without further a-do, what is driving this surge in photometric classification research.
@@ -95,7 +95,6 @@ followup.
 
 But as I said, there shear volume of events can not all be followed up, so we need methods that we
 trust and are robust enough to make accurate classifications on just the photometric data alone.
-
 
 ## Deep Learning to the Rescue!?
 
@@ -134,12 +133,11 @@ follow on.
 
 CNNs were thought to alleviate much of these problems, since we can trivially parallelisable
 operations, but a major draw back is the number of parameters and the computational cost of running
-these networks.  Furthermore, you are limited by the kernel width, or window size, when it comes to
+these networks. Furthermore, you are limited by the kernel width, or window size, when it comes to
 finding relationships between items in the input sequence.
 
 So, is there an alternative deep learning method, that works well for time-series, and easy to
 train, and ideally efficient.
-
 
 ## Attention Is All You Need?
 
@@ -187,7 +185,6 @@ So, first of all, we need to talk about what kind of inputs the encoder actually
 
 <img src="./assets/vaswani-transformer.png" width=300px >
 
-
 ## Input Embedding and Positional Encoding
 
 So this is focused on the section highlighted in red.
@@ -214,7 +211,6 @@ I won't go into too many details here how this is done, since there are many opt
 how one might apply a positional encoding, but suffice to say that after the word2vec algorithm is
 applied, we add extra bits to the vector that allows each vector to have some notion of where it
 originally appeared in the sequence.
-
 
 ## Multi-headed Self Attention
 
@@ -264,6 +260,7 @@ together to form a final self-attention matrix. Perhaps an important thing to no
 shape, which is L by d again, so we can repeat this operation recursively.
 
 <!-- A key thing to take away is the that the final attention matrix when we do --> <!-- things in
+
 this way is of size L by d again, which means we could stack these operations upon one --> <!--
 another for several layers of learning. -->
 
@@ -274,7 +271,6 @@ attention components, what about the other pieces inside the encoder. Well, this
 the input with these operations, and using a LayerNormalisation layer and adding the output to the
 original input. Then we pass this through a feed-forward neural network and repeat. And that's it
 for the encoder.
-
 
 ## The Time-Series Transformer (`t2`)
 
@@ -295,7 +291,6 @@ observed each day to form a light curve.
 <!-- time-series data, which uses a variant of the self-attention mechanism, and that we apply to
 the --> <!-- photometric classification of astronomical transients. -->
 
-
 ## Dealing with Irregularly Sampled Multivariate Time-Series Data
 
 The trouble comes though with how to we deal with the missing data since photometric data is often
@@ -312,7 +307,6 @@ chosen in our case.
 From there, we go from irregular sampling to a well sampled light curve, which can then be used to
 create our vector representation, which I will come on to now.
 
-
 ## Convolutional Embedding
 
 I've jumped a step, but I'll come onto that later, but now that we have uniform set of points to
@@ -326,7 +320,6 @@ representation.
 For this we use 1-dimensional convolutional to project from M to d dimensions at each input in the
 sequence. Recall that when we do this, we are taking away the temporal informations and so to retain
 this we use a positional encoding as mentioned previously.
-
 
 ## Global Average Pooling
 
@@ -348,7 +341,6 @@ This was adapted to work in the time-series setting, but it is perhaps easier to
 class, in this case an Australian terrier, and do an element wise product to give a class activation
 map for that class.
 
-
 ## Inputting Additional Information
 
 And finally, the other additional component we added was the ability to add any number of additional
@@ -364,7 +356,6 @@ Note, we include this component here to preserve our ability to compute CAMs, si
 output of the GAP to go directly into the softmax as mentioned on the previous slide. The benefit of
 doing it in this way is we can directly observe the influence of any additional features with the
 CAMs too by adding here.
-
 
 ## Performance and Results
 
@@ -443,7 +434,7 @@ in this way, so the trade-offs would need to be examined more.
 So, that was simple extensions to the architecture, what concrete work do I have planned, or would
 like to have lined up as followup work. Well, the real test would be to see how t2 fairs up against
 real data. Like I said our analysis was done using the PLASTICC dataset from the Kaggle 2018
-competition.  It is my understanding that the simulations used for the competition are now outdated
+competition. It is my understanding that the simulations used for the competition are now outdated
 in terms of cadence and other things, and so it would be really interesting to see how we do on say
 ZTF data.
 

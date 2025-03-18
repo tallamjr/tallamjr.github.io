@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Life
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Life
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 ---
 
 # ⚡️ **PySpark by Example**
@@ -32,7 +32,7 @@ https://www.linkedin.com/learning/apache-pyspark-by-example
 ## Learning PySpark by Example
 
 Over the past 12 months or so I have been learning and playing with Apache Spark. I went through the
-brilliant book by Bill Chambers and Matei Zaharia, *Spark: The Definitive Guide*, that covers Spark
+brilliant book by Bill Chambers and Matei Zaharia, _Spark: The Definitive Guide_, that covers Spark
 in depth and gives plenty of code snippets one can try out in the `spark-shell`. Whilst the book is
 indeed very detailed and provides great examples, the datasets that are included for you to get your
 hands on are on the order of `Mb`'s (with the exception of the `activity-data` dataset used for the
@@ -94,13 +94,13 @@ $ mv rows.csv\?accessType\=DOWNLOAD data/reported-crimes.csv
 only showing top 5 rows
 
 ```
+
 ```python
 >>> rc.columns
 ['ID', 'Case Number', 'Date', 'Block', 'IUCR', 'Primary Type', 'Description', 'Location Description', 'Arrest', 'Domestic', 'Beat', 'District', 'Ward', 'Community Area', 'FBI Code', 'X Coordinate', 'Y Coordinate', 'Year', 'Updated On', 'Latitude', 'Longitude', 'Location']
 ```
 
 Another dataset is used,
-
 
 ```bash
 $ wget -O data/police-stations.csv https://data.cityofchicago.org/api/views/z8bn-74gv/rows.csv?accessType=DOWNLOAD
@@ -176,6 +176,7 @@ only showing top 4 rows
 +--------------------+-----+
 only showing top 5 rows
 ```
+
 But we want these in order, so:
 
 ```python
@@ -198,7 +199,6 @@ only showing top 10 rows
 ```
 
 #### What percentage of reported crimes resulted in an arrest?
-
 
 ```python
 >>> rc.select('Arrest').distinct().show()
@@ -228,12 +228,14 @@ only showing top 10 rows
 +--------------------+-------+
 only showing top 3 rows
 ```
+
 #### What is the most frequently reported non-criminal activity?
 
 ```python
 >>> rc.select('Primary Type').distinct().count()
 36
 ```
+
 36 types of crime..
 
 ```python
@@ -305,7 +307,6 @@ only showing top 5 rows
 
 #### Using a bar chart, plot which day of the week has the most number of reported crime.
 
-
 ```python
 >>> from pyspark.sql.functions import count, avg
 >>> ss = rc.groupBy(dayofweek(col('Date')), date_format(col('Date'), 'E')).agg(count("*")).show()
@@ -346,6 +347,7 @@ only showing top 5 rows
 >>> fig = px.bar(sbar.toPandas(), x="Day of Week", y="count")
 >>> fig.show()
 ```
+
 <div>                                        <div id="a9afb25f-41c4-4de1-bfcf-5eea8f4200b8" class="plotly-graph-div"                     style="height:100%; width:100%;">                </div>                <script type="text/javascript">                    window.PLOTLYENV=window.PLOTLYENV || {};                if (document.getElementById("a9afb25f-41c4-4de1-bfcf-5eea8f4200b8")) {                    Plotly.newPlot(                        "a9afb25f-41c4-4de1-bfcf-5eea8f4200b8",                        [{"alignmentgroup": "True", "hovertemplate": "Day of Week=%{x}<br>count=%{y}<extra></extra>", "legendgroup": "", "marker": {"color": "#636efa"}, "name": "", "offsetgroup": "", "orientation": "v", "showlegend": false, "textposition": "auto", "type": "bar", "x": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "xaxis": "x", "y": [911174, 952646, 967965, 973801, 964457, 1016882, 965095], "yaxis": "y"}],                        {"barmode": "relative", "legend": {"tracegroupgap": 0}, "margin": {"t": 60}, "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmap"}], "heatmapgl": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmapgl"}], "histogram": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}, "xaxis": {"anchor": "y", "domain": [0.0, 1.0], "title": {"text": "Day of Week"}}, "yaxis": {"anchor": "x", "domain": [0.0, 1.0], "title": {"text": "count"}}},                        {"responsive": true}                    )                };                </script>        </div>
 
 ## Maps
@@ -353,6 +355,7 @@ only showing top 5 rows
 Now let's explore `plotly`'s functionality for plotting data with lat, long co-ordinates...
 
 Below is a figure made from a sub-sample of the data of 100 rows.
+
 <div>                                        <div id="e720990f-9865-47d7-bed9-36dd28074c80" class="plotly-graph-div"                     style="height:600px; width:100%;">                </div>                <script type="text/javascript">                    window.PLOTLYENV=window.PLOTLYENV || {};                if (document.getElementById("e720990f-9865-47d7-bed9-36dd28074c80")) {                    Plotly.newPlot(                        "e720990f-9865-47d7-bed9-36dd28074c80",                        [{"customdata": [[13113], [9432], [6933], [4287], [3120], [3037], [2680], [2545], [2455], [2438], [2380], [2370], [2284], [2257], [2187], [2179], [2169], [2137], [2050], [2004], [1957], [1915], [1896], [1891], [1887], [1878], [1862], [1854], [1850], [1848], [1838], [1832], [1829], [1790], [1695], [1678], [1670], [1655], [1655], [1601], [1591], [1587], [1586], [1586], [1585], [1583], [1560], [1559], [1548], [1537], [1535], [1527], [1523], [1523], [1518], [1511], [1480], [1433], [1429], [1427], [1416], [1416], [1412], [1391], [1374], [1370], [1362], [1353], [1351], [1348], [1346], [1331], [1323], [1308], [1296], [1288], [1286], [1285], [1278], [1272], [1260], [1251], [1248], [1245], [1238], [1234], [1233], [1226], [1210], [1196], [1185], [1182], [1179], [1177], [1176], [1173], [1173], [1170], [1166], [1165]], "hovertemplate": "<b>%{hovertext}</b><br><br>count=%{customdata[0]}<br>Latitude=%{lat}<br>Longitude=%{lon}<extra></extra>", "hovertext": [13113.0, 9432.0, 6933.0, 4287.0, 3120.0, 3037.0, 2680.0, 2545.0, 2455.0, 2438.0, 2380.0, 2370.0, 2284.0, 2257.0, 2187.0, 2179.0, 2169.0, 2137.0, 2050.0, 2004.0, 1957.0, 1915.0, 1896.0, 1891.0, 1887.0, 1878.0, 1862.0, 1854.0, 1850.0, 1848.0, 1838.0, 1832.0, 1829.0, 1790.0, 1695.0, 1678.0, 1670.0, 1655.0, 1655.0, 1601.0, 1591.0, 1587.0, 1586.0, 1586.0, 1585.0, 1583.0, 1560.0, 1559.0, 1548.0, 1537.0, 1535.0, 1527.0, 1523.0, 1523.0, 1518.0, 1511.0, 1480.0, 1433.0, 1429.0, 1427.0, 1416.0, 1416.0, 1412.0, 1391.0, 1374.0, 1370.0, 1362.0, 1353.0, 1351.0, 1348.0, 1346.0, 1331.0, 1323.0, 1308.0, 1296.0, 1288.0, 1286.0, 1285.0, 1278.0, 1272.0, 1260.0, 1251.0, 1248.0, 1245.0, 1238.0, 1234.0, 1233.0, 1226.0, 1210.0, 1196.0, 1185.0, 1182.0, 1179.0, 1177.0, 1176.0, 1173.0, 1173.0, 1170.0, 1166.0, 1165.0], "lat": [41.976290414, 41.754592961, 41.883500187, 41.897895128, 41.896888586, 41.909664252, 41.885487535, 41.904192368, 41.788987036, 41.88233367, 41.721627204, 41.736259984, 41.737094305, 41.68995741, 41.739265865, 41.891990384, 41.868180939, 41.979006297, 41.736148121, 41.706070186, 41.814007401, 42.019399237, 41.868541914, 41.750940757, 41.899410159, 41.766102387, 41.976200173, 41.874363279, 41.929743818, 41.78210152, 41.864493678, 41.876607964, 41.882394062, 41.907153315, 41.908430535, 41.795991039, 41.866810739, 41.88171846, 41.836385231, 41.918711651, 41.903775756, 41.777309867, 41.891694878, 41.707519433, 41.769185486, 41.692833841, 41.73365047, 41.866331725, 41.750832464, 41.878370307, 41.873699424, 41.852216317, 41.742710224, 41.692041778, 41.844112707, 41.71902307, 41.892753031, 41.953436358, 41.946542477, 41.881883933, 41.888165132, 41.902437713, 41.880224549, 41.883210775, 41.839816207, 41.829879483, 41.850330711, 41.749460005, 41.866389063, 41.877585867, 41.867608211, 41.803201891, 41.832329279, 41.884856209, 41.878931004, 41.705677782, 41.93991842, 41.849045571, 41.862011728, 41.735857166, 41.991262667, 41.807650669, 41.850424032, 41.86821682, 41.904370109, 41.688218178, 41.866843668, 41.754168689, 41.96137851, 41.878638996, 41.781954133, 41.976762981, 41.781374962, 41.923672617, 41.880751096, 41.850517353, 41.871025414, 41.757614433, 41.829651528, 41.868165405], "legendgroup": "", "lon": [-87.905227221, -87.741528537, -87.627876698, -87.624096605, -87.628203192, -87.742728815, -87.726422045, -87.647000785, -87.74147999, -87.627841791, -87.624485177, -87.628068782, -87.572998178, -87.637460623, -87.604893749, -87.611461502, -87.709271389, -87.906463155, -87.629070243, -87.653645803, -87.628331665, -87.675049485, -87.639235361, -87.625185222, -87.624131266, -87.573539169, -87.905312411, -87.643013039, -87.684273777, -87.586502002, -87.639158, -87.627644063, -87.627844798, -87.639680572, -87.638509526, -87.630542489, -87.625817031, -87.627760426, -87.66571041, -87.76551063, -87.639324074, -87.640802922, -87.626155832, -87.601839023, -87.625732415, -87.60431945, -87.557845321, -87.666379171, -87.605224746, -87.707248137, -87.704705156, -87.627075368, -87.634088181, -87.665923635, -87.628445336, -87.620528559, -87.624193896, -87.746273229, -87.736084376, -87.640060441, -87.622937212, -87.687011559, -87.688248952, -87.629906972, -87.617516172, -87.612291851, -87.627026373, -87.72089612, -87.707276938, -87.683123746, -87.680298775, -87.72198373, -87.616983146, -87.763346345, -87.639585621, -87.600944364, -87.653288878, -87.708829783, -87.69378445, -87.624152861, -87.660305558, -87.643080489, -87.627029017, -87.6304532, -87.631460067, -87.537357913, -87.625816668, -87.601635756, -87.65474101, -87.627691486, -87.683713146, -87.900983721, -87.617209584, -87.786301606, -87.723855981, -87.627031661, -87.699510379, -87.586115266, -87.614451899, -87.62743954], "marker": {"color": "fuchsia"}, "mode": "markers", "name": "", "showlegend": false, "subplot": "mapbox", "type": "scattermapbox"}],                        {"height": 600, "legend": {"tracegroupgap": 0}, "mapbox": {"center": {"lat": 41.843944627229995, "lon": -87.65970842684999}, "domain": {"x": [0.0, 1.0], "y": [0.0, 1.0]}, "style": "open-street-map", "zoom": 10}, "margin": {"b": 0, "l": 0, "r": 0, "t": 0}, "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmap"}], "heatmapgl": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "heatmapgl"}], "histogram": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]], "sequentialminus": [[0.0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1.0, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}},                        {"responsive": true}                    )                };                </script>        </div>
 
 Let's scale this up! Now we'll try for 50, 000 points:
@@ -371,47 +374,47 @@ and `plotly`
 
 ### Things I Learned Along the Way
 
-1. A few key _things-I-learned_ during this post was how to embed interactive `plotly` figures into
-markdown such that they can be rendered into the blog with ease.
+1.  A few key _things-I-learned_ during this post was how to embed interactive `plotly` figures into
+    markdown such that they can be rendered into the blog with ease.
 
-    This can simply be done using the `to_html(..)` function:
-    ```python
-    import plotly
-    plotly.io.to_html(fig, include_plotlyjs=False, full_html=False)
-    ```
-    This spits out a `<div>` element one can then place into their desired markdown, which will then translate as
-    rendered `HTML`.
+        This can simply be done using the `to_html(..)` function:
+        ```python
+        import plotly
+        plotly.io.to_html(fig, include_plotlyjs=False, full_html=False)
+        ```
+        This spits out a `<div>` element one can then place into their desired markdown, which will then translate as
+        rendered `HTML`.
 
-    To ensure just the `<div>` element is returned, `full_html=False` is required. Another thing to
-    remember is that this will return the element as a string, so the leading and trailing apostophe's
-    that make it a string need to be removed. In the process of discovering this, a potential "bug" was
-    found in this actual function, resulting in excessive `\n` characters being generated. So, the
-    actual function that has been used for this post is:
+        To ensure just the `<div>` element is returned, `full_html=False` is required. Another thing to
+        remember is that this will return the element as a string, so the leading and trailing apostophe's
+        that make it a string need to be removed. In the process of discovering this, a potential "bug" was
+        found in this actual function, resulting in excessive `\n` characters being generated. So, the
+        actual function that has been used for this post is:
 
-    ```python
-    import importlib.util
-    spec = importlib.util.spec_from_file_location("plotly", "/Users/tallamjr/github/forks/plotly.py/packages/python/plotly/plotly/io/_html.py")
-    foo = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(foo)
-    foo.to_html(fig, include_plotlyjs=False, full_html=False)
-    ```
+        ```python
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("plotly", "/Users/tallamjr/github/forks/plotly.py/packages/python/plotly/plotly/io/_html.py")
+        foo = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(foo)
+        foo.to_html(fig, include_plotlyjs=False, full_html=False)
+        ```
 
-    Which points to a forked version of the `plotly` codebase while I have an outstanding
-    [PR](https://github.com/plotly/plotly.py/pull/2469) waiting to be reviewed.
+        Which points to a forked version of the `plotly` codebase while I have an outstanding
+        [PR](https://github.com/plotly/plotly.py/pull/2469) waiting to be reviewed.
 
-    A final thing to mention, is that in order for all of the plots above to show up at all, even with
-    the `<div>` elements, one needs to make sure to include the necessary Javascript tags. Therefore, in
-    the `head.html` file for this blog, there exists:
+        A final thing to mention, is that in order for all of the plots above to show up at all, even with
+        the `<div>` elements, one needs to make sure to include the necessary Javascript tags. Therefore, in
+        the `head.html` file for this blog, there exists:
 
-    ```less
-    $ sed -n 14,17p layouts/partials/head.html
-    <!-- Plotly embeddings
-    REF: http://www.kellieottoboni.com/posts/2017/08/plotly-markup/
-    ================================================== -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    ```
+        ```less
+        $ sed -n 14,17p layouts/partials/head.html
+        <!-- Plotly embeddings
+        REF: http://www.kellieottoboni.com/posts/2017/08/plotly-markup/
+        ================================================== -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        ```
 
-2. Another *thing* I discovered was how to allow for better formatting of the `.show()` command on Spark DataFrames. My approach is explained in this StackOverflow post for [pyspark show dataframe as table with horizontal scroll in ipython notebook](https://stackoverflow.com/a/61867701/4521950) and [Improve PySpark DataFrame.show output to fit Jupyter notebook](https://stackoverflow.com/a/61867761/4521950):
+2.  Another _thing_ I discovered was how to allow for better formatting of the `.show()` command on Spark DataFrames. My approach is explained in this StackOverflow post for [pyspark show dataframe as table with horizontal scroll in ipython notebook](https://stackoverflow.com/a/61867701/4521950) and [Improve PySpark DataFrame.show output to fit Jupyter notebook](https://stackoverflow.com/a/61867761/4521950):
 
         Adding to the answers given above by @karan-singla and @vijay-jangir, a handy one-liner to comment
         out the `white-space: pre-wrap` styling can be done like so:
@@ -426,21 +429,21 @@ markdown such that they can be rendered into the blog with ease.
         - https://stackoverflow.com/a/24884616/4521950
         - https://stackoverflow.com/questions/16529716/save-modifications-in-place-with-awk
 
-3. Finally, this is not necessarily something I learned during this post, but it opened my eyes to
-   the possibilities that are available when using `nbconvert` The notebook for this post has been
-   rendered [here](/blog/notebooks/PySpark-by-Example.html) using the following command:
+3.  Finally, this is not necessarily something I learned during this post, but it opened my eyes to
+    the possibilities that are available when using `nbconvert` The notebook for this post has been
+    rendered [here](/blog/notebooks/PySpark-by-Example.html) using the following command:
 
-   ```bash
-    $ jupyter nbconvert --ExecutePreprocessor.kernel_name=python --ExecutePreprocessor.timeout=600 --to html --execute PySpark-by-Example.ipynb --output-dir /Users/tallamjr/www/blog/static/notebooks
-   ```
+    ```bash
+     $ jupyter nbconvert --ExecutePreprocessor.kernel_name=python --ExecutePreprocessor.timeout=600 --to html --execute PySpark-by-Example.ipynb --output-dir /Users/tallamjr/www/blog/static/notebooks
+    ```
 
-   After look for ways to link point number 1. above and how one can add custom `css`, I discovered
-   the numerous customisations one can do. Some example can be found at
-   https://github.com/jupyter/nbconvert-examples
+    After look for ways to link point number 1. above and how one can add custom `css`, I discovered
+    the numerous customisations one can do. Some example can be found at
+    https://github.com/jupyter/nbconvert-examples
 
 ## References and Resources
 
-* The notebooks for this post can be found at [here](/blog/notebooks/PySpark-by-Example.html)
-* [SO:Calling Java/Scala function from a task](https://stackoverflow.com/questions/31684842/calling-java-scala-function-from-a-task)
-* [SO:Spark performance for Scala vs Python](https://stackoverflow.com/questions/32464122/spark-performance-for-scala-vs-python?noredirect=1&lq=1)
-* [PySpark Internals](https://cwiki.apache.org/confluence/display/SPARK/PySpark+Internals)
+- The notebooks for this post can be found at [here](/blog/notebooks/PySpark-by-Example.html)
+- [SO:Calling Java/Scala function from a task](https://stackoverflow.com/questions/31684842/calling-java-scala-function-from-a-task)
+- [SO:Spark performance for Scala vs Python](https://stackoverflow.com/questions/32464122/spark-performance-for-scala-vs-python?noredirect=1&lq=1)
+- [PySpark Internals](https://cwiki.apache.org/confluence/display/SPARK/PySpark+Internals)

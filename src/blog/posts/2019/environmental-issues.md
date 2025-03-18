@@ -5,10 +5,10 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - RSW Engineering
-    - Tooling
+  - RSW Engineering
+  - Tooling
 tags:
-    - python
+  - python
 ---
 
 # 📦 **Data Science Environments with Anaconda**

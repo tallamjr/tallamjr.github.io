@@ -1,3 +1,0 @@
-# Embedded Systems
-
-### Hardware Emulation

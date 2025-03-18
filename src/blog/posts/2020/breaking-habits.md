@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Life
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Life
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 ---
 
 # 🌊 **Git in the Habit**
@@ -56,6 +56,7 @@ allows me to grow.
 "Right, OK, yeah yeah" I hear you cry; "what was this _one_ habit" you were on about!?"
 
 <a name="dropping-m"></a>
+
 # 1. Dropping `-m`
 
 Going from ~~`git commit -m`~~ to just `git commit`
@@ -63,6 +64,7 @@ Going from ~~`git commit -m`~~ to just `git commit`
 ## <a name="git-intro"></a>Commit Templates
 
 <a name="rebase"></a>
+
 # 2. Embrace `rebase`
 
 <center>
@@ -70,11 +72,12 @@ Going from ~~`git commit -m`~~ to just `git commit`
 </center>
 
 <a name="withpurpose"></a>
+
 # 3. Branching with Purpose
 
-* `issue/123/desc`
-* `feature/456/desc`
-* `feature/456/issue/789/desc`
+- `issue/123/desc`
+- `feature/456/desc`
+- `feature/456/issue/789/desc`
 
 Helping to remember, might be considered cosmetic like the rebase. But doing this has changed how I
 think about, plan ahead for code changes or updates.
@@ -121,15 +124,14 @@ Rule of thumb
 
 {{< gist tallamjr 325b62b697fb39a3f1e96503a5070488 >}}
 
-
-
 <!-- <embed src="/blog/img/posts/2020-06-12-Breaking-Habits/gitflow-model-tk.pdf" width="800px" height="2100px" /> -->
 
 # References and Resources
 
 <a name="ref1"></a>
+
 1. [Why Linus Torvalds doesn't use Github](https://github.com/torvalds/linux/pull/17#issuecomment-5659933)
-<a name="ref2"></a>
+   <a name="ref2"></a>
 2. [Linus Torvalds on writing good git commit log messages](https://github.com/torvalds/subsurface/blob/a48494d2fbed58c751e9b7e8fbff88582f9b2d02/README#L88)
 <!-- {{< figure src="/blog/img/posts/2016-11-12-Matlab-R-Julia-Notebooks/newprojectlist.png" class="alignright">}} -->
 
@@ -153,4 +155,3 @@ Rule of thumb
 
 <!-- val mate = Int 5 -->
 <!-- ``` -->
-

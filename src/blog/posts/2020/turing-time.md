@@ -5,10 +5,10 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Life
-    - RSW Engineering
+  - Life
+  - RSW Engineering
 tags:
-    - personal
+  - personal
 ---
 
 # 🚸 **The Alan Turing Institute: Episode I**

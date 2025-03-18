@@ -5,13 +5,13 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Opinionated
-    - RSW Engineering
-    - Tooling
+  - Opinionated
+  - RSW Engineering
+  - Tooling
 tags:
-    - git
-    - unix
-    - vim
+  - git
+  - unix
+  - vim
 ---
 
 # 🌲 **Branching Models**
@@ -29,6 +29,7 @@ Other forms of software engineering branching models such as ["trunk based devel
 # References and Resources
 
 <a name="ref1"></a>
+
 1. [Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)
 2. [Contributing to SPARK](
 3. [ARROW: `dev/merge_arrow_pr.py`](A)
