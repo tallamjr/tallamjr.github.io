@@ -14,16 +14,11 @@ jobs:
       fail-fast: false
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-
-      - name: Install uv
-        run: pip install uv
-
-      - name: Setup Virtual Environment
-        run: uv install
+      - name: Install uv and Python deps
+        run: |
+          uv venv --python "3.11"
+          source .venv/bin/activate
+          uv pip install -r requirements.txt
 
       - name: Configure Git Credentials
         run: |
@@ -41,9 +36,6 @@ jobs:
 
       - name: Install pandoc
         run: sudo apt install pandoc
-
-      - name: Install Python requirements
-        run: uv run pip install -r requirements.txt
 
       - name: Deploy mkdocs
         run: uv run mkdocs gh-deploy --force
