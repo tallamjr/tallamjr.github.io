@@ -78,7 +78,7 @@ plugins:
       cite_inline: true
       csl_file: "bin/sage-harvard.csl"
       # csl_file: "https://raw.githubusercontent.com/citation-style-language/styles/master/sage-harvard.csl"
-      footnote_format: "ref{number}"
+      footnote_format: "ref{key}"
   - tags
   - glightbox
 
@@ -122,6 +122,7 @@ markdown_extensions:
         #     use_pygments: true
         #     noclasses: true
         #     pygments_style: "github-dark"
+
 
   - pymdownx.inlinehilite
   - pymdownx.keys
