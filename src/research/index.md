@@ -40,9 +40,9 @@ Pruning, etc.) Graph Optimisation and Embedded System Design i.e.
 Hardware/Software Co-design.
 
 <figure markdown>
-![](https://static.designandreuse.com/img20/20230524_1.jpg){ width=75% }
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*SAm_8TDPP2EiIyOM){ width=75% }
 <figcaption markdown>
-Image credit: Ambuj Nandanwar, Softnautics
+Image credit: Sahib Dhanjal, Medium
 </figcaption>
 </figure>
 
