@@ -5,15 +5,15 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 ---
 
 # 🔭 **Big telescope, tinyML**

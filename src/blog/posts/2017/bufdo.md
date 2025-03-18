@@ -18,7 +18,6 @@ could then upload to Github where my supervisor could take a look. Here are the 
 
 <!-- more -->
 
-
 <!-- Place images inside folder with same name as post -->
 <figure markdown>
 ![](https://imgs.xkcd.com/comics/real_programmers.png){ width=100% }
@@ -29,7 +28,7 @@ could then upload to Github where my supervisor could take a look. Here are the 
 
 In true vim-fan-boy fashion, I write my development logs in `vim` and then
 like to have them render from within `vim`. To do this I use a plugin called
-*InstantMarkdownPreview*. However, the syntax used to render images using this
+_InstantMarkdownPreview_. However, the syntax used to render images using this
 plugin is different from the syntax generally required and used by Github.
 Therefore, a workaround has been developed such that I write the logs locally on
 a `local` branch, and then checkout to master and upon a `git push` some
@@ -42,10 +41,10 @@ brief overview on the workflow required to be able to achieve this.
 
 First, one needs a workflow where we have one `master` branch which will be used
 to push Github markdown flavoured files to a remote repo, and `local` which will
-have *InstantMarkdownPreview* type of markdown files that can be viewed locally
+have _InstantMarkdownPreview_ type of markdown files that can be viewed locally
 from within `vim` with the command `:InstantMarkdownPreview`
 
-The *InstantMarkdown* file has the following syntax for displaying images:
+The _InstantMarkdown_ file has the following syntax for displaying images:
 
 ```bash
 ![](a/raw/b/inc/screenshots/repo-clone-and-sync.png)
@@ -57,19 +56,25 @@ that combines the efforts of `:bufdo` and git hooks to achieve a seamlessly flow
 Github markdown rendering.
 
 `pre-push` looks like:
+
 ```bash
 #!/bin/bash
 vim -E -s *.md < cmds.vim && git commit -am "Changes made for Github rendering"
 ```
+
 Where the contents of `cmds.vim` just contain the commands to be executed in `vim`
+
 ```bash
 :bufdo %s/a\/raw\/b\///ge | update
 ```
+
 Now this is all set up, one can do the following, create a local branch which be
 used write the development logs and to view them in `vim`
+
 ```bash
 git co -b local
 ```
+
 Then when the respective files have been written, which paths to images looking
 like so:
 
@@ -84,10 +89,11 @@ master.
 git co master
 git merge local -X theirs
 ```
+
 The `git merge local -X theirs` basically forces the merge even though we will
 have conflicts relating to the different syntax.
 A commit message will appear in `vim` asking to confirm the merge. Saving this,
-and then doing a `git push` now does the job! The *new* syntax that `bufdo`
+and then doing a `git push` now does the job! The _new_ syntax that `bufdo`
 changes images to looks like the following:
 
 ```bash
@@ -96,6 +102,6 @@ changes images to looks like the following:
 
 Ready for Github :-)
 
-*Note: A `git push --no-verify` may be required if changes are made to the repo
+_Note: A `git push --no-verify` may be required if changes are made to the repo
 that don't invole the workflow described above. `--no-verify` allows one to skip
-the git hook file `pre-push`*
+the git hook file `pre-push`_

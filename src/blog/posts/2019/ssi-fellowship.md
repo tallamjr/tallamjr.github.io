@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Life
-    - Embedded Systems
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Life
+  - Embedded Systems
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - personal
-    - phd
+  - personal
+  - phd
 ---
 
 # 🤓 **Becoming a Research Software Engineering Fellow!**

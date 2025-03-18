@@ -62,14 +62,15 @@
   border-radius: 4px;
 }
 
-/* Always apply dark mode styles for code blocks (multiline) */
-.md-typeset pre code {
-  color: #0ff1ce !important; /* Neon blue text */
-  background-color: #36464e !important; /* Dark background */
-  border-radius: 6px;
-  padding: 1em;
-  overflow-x: auto;
-}
+/* /* Always apply dark mode styles for code blocks (multiline) */
+*/
+/* .md-typeset pre code { */
+/*   color: #0ff1ce !important; /* Neon blue text */ */
+/*   background-color: #36464e !important; /* Dark background */ */
+/*   border-radius: 6px; */
+/*   padding: 1em; */
+/*   overflow-x: auto; */
+/* } */
 
 .medium {
   color: #00ab6c;

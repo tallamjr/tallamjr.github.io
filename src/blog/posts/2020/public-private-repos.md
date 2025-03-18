@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Life
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Life
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 slug: public-private-repos
 ---
 
@@ -90,7 +90,7 @@ upstream        git@github.com:tallamjr/public.git (fetch)
 upstream        git@github.com:tallamjr/public.git (push)
 ```
 
-*NOTE* Completing steps 1..5 should give you everything you need. Steps 6..10 go further with some
+_NOTE_ Completing steps 1..5 should give you everything you need. Steps 6..10 go further with some
 sanity checks to ensure everything has indeed worked, having said that, step 9 is recommended.
 
 6. Clone public repository alongside private to test set-up by editing the public README.md (OPTIONAL)
@@ -166,7 +166,7 @@ Date:   Tue Feb 25 14:03:20 2020 +0000
 9. Bring in changes made from public repository into private repository i.e. sync private with the
    public repository (RECOMMENDED)
 
-*NOTE* `git update` is an alias for:
+_NOTE_ `git update` is an alias for:
 
 ```console
 git pull --rebase upstream master --ff-only && git fetch --all
@@ -259,9 +259,8 @@ private -->
 - pv/feature/<number>/issue/<number>/short-token-description
 ```
 
-* Finally we can rebase a commit on the public repository and ensure this is reflected in the
-    private repository. Again, this is just a system sanity check.
-
+- Finally we can rebase a commit on the public repository and ensure this is reflected in the
+  private repository. Again, this is just a system sanity check.
 
 ```console
 14:50:51 ✔ ~/Github/origin/public (master) :: git rebase -i HEAD~3
@@ -345,4 +344,3 @@ To github.com:tallamjr/private.git
  + 848079d...d1293c2 master -> master (forced update)
 14:51:30 ✔ ~/Github/origin/private (master) ::
 ```
-

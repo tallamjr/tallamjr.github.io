@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Life
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Life
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 ---
 
 # 🎁 **Packaging Scala Applications**
@@ -80,6 +80,7 @@ $ sbt clean compile run
 Hello, world!
 [success] Total time: 0 s, completed 21-May-2020 11:16:54
 ```
+
 Alternativly:
 
 ```bash
@@ -259,7 +260,6 @@ addition to standard scripts like the one above, one can also [create other form
     rpm:packageBin - Generates an rpm
     universal:packageOsxDmg - Generates a DMG file with the same contents as the universal zip/tgz.
     windows:packageBin - Generates an MSI
-
 
 For more check out the great documentation [here](https://www.scala-sbt.org/sbt-native-packager/index.html)
 

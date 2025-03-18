@@ -301,7 +301,7 @@ of python code.
 The awesome thing about pre-commit is you can also create custom hooks to
 enforce specific project requirements.
 
-```yaml
+```
 # .pre-commit-config.yaml
 repos:
   - repo: local

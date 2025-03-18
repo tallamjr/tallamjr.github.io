@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Life
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Life
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 ---
 
 # 🤿 **Databases and Distributed Systems Deep Dive**
@@ -26,7 +26,7 @@ tags:
 During my Master in Computer Science a few years ago, my favourite courses were Systems Architecture
 (Operating Systems, Compilers etc) and Architecture and Hardware. Another course I took was Database
 Theory. I was full of excitement for this course but, sadly, it put me off learning Databases. It
-hammered down on *Boyce–Codd normal forms*, *normalisations* for weeks, and ignored implementation
+hammered down on _Boyce–Codd normal forms_, _normalisations_ for weeks, and ignored implementation
 details. I really wanted to know "how things work".
 
 I blissfully ignored my lack of understanding of how, whichever database I was using, worked, and just
@@ -55,7 +55,6 @@ completed the coursework.
 
 2. [MIT -- Distributed Systems](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
 
-
 ## Databasss
 
 <img src="/blog/img/posts/2020-05-21-DB-DS-Deep-Dive/databasss-book.jpg" class="alignright" height="300" style="float: left;margin: 10px 15px 5px 0px;">
@@ -69,13 +68,13 @@ elementum varius purus, non tincidunt eros ultricies nec. Phasellus euismod inte
 cursus erat porta et. Aliquam at ultrices tortor. Aenean fringilla iaculis sagittis. Vestibulum
 imperdiet nisl non elit congue congue. Donec placerat, ipsum id placerat sodales, augue felis
 ultricies quam, id vehicula felis neque nec neque. Suspendisse eu pretium purus. Cras consequat eu
-mauris et ultrices.  Praesent non est ac massa mattis aliquam. Vestibulum luctus justo fringilla
+mauris et ultrices. Praesent non est ac massa mattis aliquam. Vestibulum luctus justo fringilla
 varius accumsan. Nulla in est in quam interdum tincidunt. Pellentesque vitae tempus quam. Donec sed
 lectus sed felis semper fermentum id vel odio. Integer eget feugiat sapien. Vivamus sed auctor nisi,
 sed mattis leo. Vivamus tempus, sapien ac laoreet congue, tortor eros condimentum purus, eu mattis
 lacus lacus quis metus. Ut vehicula non eros in accumsan. Etiam volutpat massa vel sagittis
 dignissim. Donec ullamcorper elit et leo laoreet, quis dignissim enim mollis. In vel dignissim
-tellus, quis auctor quam.  Integer mattis pharetra justo sit amet molestie. Duis et rutrum lectus.
+tellus, quis auctor quam. Integer mattis pharetra justo sit amet molestie. Duis et rutrum lectus.
 In efficitur diam felis, vel venenatis elit finibus quis. Duis et maximus risus. Proin dapibus enim
 ut nisl elementum, ut vestibulum nulla gravida. Sed nisl tortor, consectetur sed hendrerit ut,
 maximus ac mi. Nullam semper mauris eros, vitae mattis ipsum commodo ut. Donec facilisis dui arcu,
@@ -95,7 +94,6 @@ following post: "Learning Rust, the practical way"
 - Github repo, DIS.
 - Link to Slack
 - Link to Andy's course
-
 
 <!-- {{< figure src="/blog/img/posts/2016-11-12-Matlab-R-Julia-Notebooks/newprojectlist.png" class="alignright">}} -->
 
@@ -119,4 +117,5 @@ def somefunction(col: String)
 
 val mate = Int 5
 ```
+
 # <a name="matlab"></a>MATLAB

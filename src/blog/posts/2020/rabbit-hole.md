@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Life
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Life
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 ---
 
 # 🐇 **2020: The Year of the Rabbit.. _hole_**
@@ -31,14 +31,14 @@ I'm a figure caption...
 </figcaption>
 </figure>
 
-* Apache Arrow
-* Databases
-* Spark 3.0, Horovod, Plotly
-* Embedded Systems
-* Rust
-* TensorFlow 2.x
-* Compression
-* Codecs
+- Apache Arrow
+- Databases
+- Spark 3.0, Horovod, Plotly
+- Embedded Systems
+- Rust
+- TensorFlow 2.x
+- Compression
+- Codecs
 
 {{< figure src="/blog/img/posts/2016-11-12-Matlab-R-Julia-Notebooks/newprojectlist.png" class="alignright">}}
 
@@ -62,4 +62,5 @@ def somefunction(col: String)
 
 val mate = Int 5
 ```
+
 # <a name="matlab"></a>MATLAB

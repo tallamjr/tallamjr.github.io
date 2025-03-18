@@ -5,16 +5,16 @@ date:
   updated: 2024-01-02
 authors: [tallamjr]
 categories:
-    - Conferences
-    - Embedded Systems
-    - Life
-    - Opinionated
-    - RSW Engineering
-    - Tooling
-    - tinyML + Edge A.I.
+  - Conferences
+  - Embedded Systems
+  - Life
+  - Opinionated
+  - RSW Engineering
+  - Tooling
+  - tinyML + Edge A.I.
 tags:
-    - unix
-    - vim
+  - unix
+  - vim
 ---
 
 # 🐍 **Calling Compiled Scala Code from Python using PySpark**
@@ -33,7 +33,6 @@ The code used in this post builds upon the code used in a previous post and has 
 directory layout. To have a closer look, it can be found under `code/posts/2020-05-20-Scala-Python-JVM`
 
 We will be calling `simple.SimpleApp.hello()` function to print `"Hello, World!"`.
-
 
 The simple Scala we will use is the following:
 
