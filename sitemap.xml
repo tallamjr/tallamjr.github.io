@@ -1,251 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://www.tarekallamjr.com/</loc>
+         <loc>https://www.tallamjr.github.io/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/allamlabs/</loc>
+         <loc>https://www.tallamjr.github.io/allamlabs/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/</loc>
+         <loc>https://www.tallamjr.github.io/blog/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2016/11/14/-multilingual-notebooks-a-polyglots-playground/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2016/matlab-r-julia-notebooks/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2017/11/06/-ah-bufdo-thatll-do/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2017/bufdo/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2018/11/06/-git-branching-models/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2020/awesome-blogs/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/11/06/-awesome-engineering-blogs/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2020/public-private-repos/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/11/06/-git-in-the-habit/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2020/pyspark-by-example/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/11/06/-databases-and-distributed-systems-deep-dive/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2020/sbt-native-packaging/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/02/25/public-private-repos/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2020/scala-python-jvm/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/11/06/-pyspark-by-example/</loc>
+         <loc>https://www.tallamjr.github.io/blog/2024/pre-commit/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/11/06/-2020-the-year-of-the-rabbit-_hole_/</loc>
+         <loc>https://www.tallamjr.github.io/blog/templates/template/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/11/06/-packaging-scala-applications/</loc>
+         <loc>https://www.tallamjr.github.io/projects/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2020/11/06/-calling-compiled-scala-code-from-python-using-pyspark/</loc>
+         <loc>https://www.tallamjr.github.io/research/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/2024/06/17/-maintaining-code-quality-with-pre-commit/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/templates/template/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compilers/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/projects/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compilers/ai-compilers/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/research/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compilers/cross-compiling/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compilers/ml-compilers/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compilers/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compilers/traditional-compilers/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compilers/ai-compilers/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compression/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compilers/cross-compiling/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compression/data-compression/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compilers/ml-compilers/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compression/model-compression/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compilers/traditional-compilers/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/compression/lossy/lossy/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compression/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/data-engineering/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compression/data-compression/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/data-engineering/database-internals/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compression/model-compression/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/data-engineering/dataframes/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/compression/lossy/lossy/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/data-engineering/distributed-systems/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/data-engineering/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/data-engineering/pds/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/data-engineering/database-internals/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/data-engineering/query-optimisation/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/data-engineering/dataframes/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/digital-signal-processing/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/data-engineering/distributed-systems/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/digital-signal-processing/image/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/data-engineering/pds/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/digital-signal-processing/video/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/data-engineering/query-optimisation/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/eb-vision/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/digital-signal-processing/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/eb-vision/data-representation/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/digital-signal-processing/image/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/eb-vision/e2v/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/digital-signal-processing/video/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/eb-vision/v2e/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/eb-vision/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/embedded-systems/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/eb-vision/data-representation/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/embedded-systems/embedded-linux/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/eb-vision/e2v/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/embedded-systems/embedded-rust/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/eb-vision/v2e/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/embedded-systems/fpgas/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/embedded-systems/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/embedded-systems/mcus/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/embedded-systems/embedded-linux/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/embedded-systems/mpus/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/embedded-systems/embedded-rust/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/radio/ham/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/embedded-systems/fpgas/</loc>
+         <loc>https://www.tallamjr.github.io/wiki/radio/sdr/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/embedded-systems/mcus/</loc>
+         <loc>https://www.tallamjr.github.io/blog/archive/2024/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/embedded-systems/mpus/</loc>
+         <loc>https://www.tallamjr.github.io/blog/archive/2020/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/radio/ham/</loc>
+         <loc>https://www.tallamjr.github.io/blog/archive/2017/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/wiki/radio/sdr/</loc>
+         <loc>https://www.tallamjr.github.io/blog/archive/2016/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/archive/2024/</loc>
+         <loc>https://www.tallamjr.github.io/blog/category/opinionated/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/archive/2020/</loc>
+         <loc>https://www.tallamjr.github.io/blog/category/rsw-engineering/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/archive/2018/</loc>
+         <loc>https://www.tallamjr.github.io/blog/category/tooling/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/archive/2017/</loc>
+         <loc>https://www.tallamjr.github.io/blog/category/conferences/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/archive/2016/</loc>
+         <loc>https://www.tallamjr.github.io/blog/category/embedded-systems/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/category/opinionated/</loc>
+         <loc>https://www.tallamjr.github.io/blog/category/life/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
     <url>
-         <loc>https://www.tarekallamjr.com/blog/category/rsw-engineering/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/tooling/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/conferences/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/embedded-systems/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/life/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/tinyml--edge-ai/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/page/2/</loc>
+         <loc>https://www.tallamjr.github.io/blog/category/tinyml--edge-ai/</loc>
          <lastmod>2025-12-16</lastmod>
     </url>
 </urlset>

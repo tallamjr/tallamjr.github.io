@@ -98,3 +98,52 @@
   height: auto;
   background: transparent !important;
 }
+
+/* Reorder blog sidebar: move Archive below Categories */
+.md-nav[data-md-level="1"] > .md-nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Archive section - move to end (detected by link to archive/) */
+.md-nav[data-md-level="1"] > .md-nav__list > .md-nav__item--section:has(a[href*="archive/"]) {
+  order: 10;
+}
+
+/* Reduce whitespace between blog posts on the listing page */
+article.md-post--excerpt {
+  margin-bottom: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+/* Reduce space after "Continue reading" link */
+.md-post__action {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0 !important;
+}
+
+/* Reduce space in post content */
+.md-post--excerpt .md-post__content {
+  margin-bottom: 0 !important;
+}
+
+/* Apply left border indicator to all sidebar navigation including TOC */
+/* This brings the Research page's blockquote-style border to the blog */
+.md-sidebar .md-nav__link {
+  border-left: 0.1rem solid transparent;
+  padding-left: 0.6rem;
+  margin-left: -0.6rem;
+  transition: border-color 0.125s;
+}
+
+/* Active/current link indicator */
+.md-sidebar .md-nav__link--active,
+.md-sidebar .md-nav__link:focus,
+.md-sidebar .md-nav__item--active > .md-nav__link {
+  border-left-color: var(--md-accent-fg-color);
+}
+
+/* Hover state for sidebar links */
+.md-sidebar .md-nav__link:hover {
+  border-left-color: var(--md-accent-fg-color--transparent);
+}
