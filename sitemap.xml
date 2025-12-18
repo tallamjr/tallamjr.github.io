@@ -2,226 +2,234 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.tarekallamjr.com/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/allamlabs/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2016/matlab-r-julia-notebooks/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2017/bufdo/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2020/awesome-blogs/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2020/public-private-repos/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2020/pyspark-by-example/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2020/sbt-native-packaging/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2020/scala-python-jvm/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/2024/pre-commit/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.tarekallamjr.com/blog/2025/open-source-fpga-tools/</loc>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/templates/template/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/projects/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/research/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compilers/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compilers/ai-compilers/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compilers/cross-compiling/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compilers/ml-compilers/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compilers/traditional-compilers/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compression/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compression/data-compression/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compression/model-compression/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/compression/lossy/lossy/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/data-engineering/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/data-engineering/database-internals/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/data-engineering/dataframes/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/data-engineering/distributed-systems/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/data-engineering/pds/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/data-engineering/query-optimisation/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/digital-signal-processing/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/digital-signal-processing/image/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/digital-signal-processing/video/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/eb-vision/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/eb-vision/data-representation/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/eb-vision/e2v/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/eb-vision/v2e/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/embedded-systems/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/embedded-systems/embedded-linux/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/embedded-systems/embedded-rust/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/embedded-systems/fpgas/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/embedded-systems/mcus/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/embedded-systems/mpus/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/radio/ham/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/wiki/radio/sdr/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.tarekallamjr.com/blog/archive/2025/</loc>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/archive/2024/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/archive/2020/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/archive/2017/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/archive/2016/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/opinionated/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/rsw-engineering/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/tooling/</loc>
-         <lastmod>2025-12-16</lastmod>
-    </url>
-    <url>
-         <loc>https://www.tarekallamjr.com/blog/category/conferences/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/category/embedded-systems/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.tarekallamjr.com/blog/category/tooling/</loc>
+         <lastmod>2025-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.tarekallamjr.com/blog/category/rsw-engineering/</loc>
+         <lastmod>2025-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.tarekallamjr.com/blog/category/opinionated/</loc>
+         <lastmod>2025-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.tarekallamjr.com/blog/category/conferences/</loc>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/category/life/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
     <url>
          <loc>https://www.tarekallamjr.com/blog/category/tinyml--edge-ai/</loc>
-         <lastmod>2025-12-16</lastmod>
+         <lastmod>2025-12-18</lastmod>
     </url>
 </urlset>
